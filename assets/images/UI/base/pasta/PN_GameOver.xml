@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PN_GameOver.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pastanight_curtains0000" x="3" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0001" x="3" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0002" x="262" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0003" x="262" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0004" x="521" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0005" x="521" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0006" x="780" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0007" x="780" y="3" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0008" x="3" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0009" x="3" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0010" x="262" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0011" x="262" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0012" x="521" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0013" x="521" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0014" x="780" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0015" x="780" y="230" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0016" x="3" y="457" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0017" x="3" y="457" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0018" x="262" y="457" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0019" x="262" y="457" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0020" x="521" y="457" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains0021" x="521" y="457" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains_retry0000" x="780" y="457" width="256" height="224"/>
+	<SubTexture name="pastanight_curtains_retry0001" x="780" y="457" width="256" height="224"/>
+</TextureAtlas>

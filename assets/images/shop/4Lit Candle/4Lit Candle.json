@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Lit Candle",
+        "price": 200,
+        "animName": "Lit Candle instance 1",
+        "songUnlock": "",
+        "songDescription": "The fire won't go out no matter what you do",
+        "unlockRequirements": [""],
+        "xOffset": 20,
+        "yOffset": -35,
+        "lane": 0,
+        "row": 1,
+        "scale": 1.0
+    }
+}

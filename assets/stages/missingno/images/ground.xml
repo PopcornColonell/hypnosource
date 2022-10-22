@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ground.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ground0000" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0001" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0002" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0003" x="3" y="206" width="387" height="200"/>
+	<SubTexture name="ground0004" x="3" y="206" width="387" height="200"/>
+	<SubTexture name="ground0005" x="3" y="206" width="387" height="200"/>
+	<SubTexture name="ground0006" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0007" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0008" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0009" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0010" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0011" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0012" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0013" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0014" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0015" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0016" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0017" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0018" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0019" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0020" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0021" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0022" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0023" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0024" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0025" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ground0026" x="3" y="3" width="387" height="200"/>
+</TextureAtlas>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BF_Death_Missingno.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf_misngno_death0000" x="3" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0001" x="3" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0002" x="94" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0003" x="94" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0004" x="185" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0005" x="185" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0006" x="276" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0007" x="276" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0008" x="367" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0009" x="367" y="3" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0010" x="3" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0011" x="3" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0012" x="3" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0013" x="3" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0014" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0015" x="185" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0016" x="276" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0017" x="185" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0018" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0019" x="185" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0020" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0021" x="185" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0022" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0023" x="185" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0024" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0025" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0026" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0027" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0028" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0029" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0030" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0031" x="94" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0032" x="367" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0033" x="367" y="95" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0034" x="3" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0035" x="3" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0036" x="94" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0037" x="94" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0038" x="185" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0039" x="185" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0040" x="276" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0041" x="276" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0042" x="276" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0043" x="276" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0044" x="276" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0045" x="276" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0046" x="367" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0047" x="367" y="187" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0048" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0049" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0050" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0051" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0052" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0053" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0054" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0055" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0056" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0057" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0058" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0059" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0060" x="3" y="279" width="88" height="89"/>
+	<SubTexture name="bf_misngno_death0061" x="3" y="279" width="88" height="89"/>
+</TextureAtlas>

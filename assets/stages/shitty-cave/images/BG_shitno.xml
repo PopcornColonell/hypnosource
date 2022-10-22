@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BG_shitno.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG_shitno_010000" x="3" y="3" width="278" height="171"/>
+	<SubTexture name="BG_shitno_020000" x="3" y="177" width="278" height="171"/>
+</TextureAtlas>

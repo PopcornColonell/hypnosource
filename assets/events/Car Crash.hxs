@@ -1,0 +1,32 @@
+var name:String = '';
+var newSprite:FlxSprite;
+
+function returnDescription()
+    return "";
+
+function returnDelay()
+	return 0;
+
+function eventFunction(params) {
+	newSprite.animation.addByPrefix('idle', 'animation', 24, false);
+	newSprite.animation.play('idle');
+	newSprite.scrollFactor.set();
+	PlayState.instance.add(newSprite);
+	newSprite.setGraphicSize(Std.int(newSprite.width * (720 / 144)));
+	newSprite.cameras = [PlayState.dialogueHUD];
+	newSprite.screenCenter();
+
+	FlxG.sound.play(Paths.sound(name, 'shitpost'));
+}
+
+function initFunction(params) {	
+	switch (Std.parseInt(params[0])) {
+		default:
+			name = 'car';
+		case 1:
+			name = 'plane';
+	}
+
+	newSprite = new FlxSprite();
+	newSprite.frames = Paths.getSparrowAtlas(name, false, 'shitpost');
+}

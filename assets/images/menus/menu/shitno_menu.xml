@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shitno_menu.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shitno menu instance 10000" x="0" y="0" width="825" height="720"/>
+	<SubTexture name="shitno menu instance 10001" x="825" y="0" width="818" height="718" frameX="0" frameY="-1" frameWidth="825" frameHeight="720"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Retry.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Retry instance 10000" x="0" y="0" width="732" height="285" frameX="-5" frameY="-5" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10001" x="0" y="0" width="732" height="285" frameX="-5" frameY="-5" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10002" x="0" y="0" width="732" height="285" frameX="-5" frameY="-5" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10003" x="732" y="0" width="748" height="293"/>
+	<SubTexture name="Retry instance 10004" x="732" y="0" width="748" height="293"/>
+	<SubTexture name="Retry instance 10005" x="732" y="0" width="748" height="293"/>
+	<SubTexture name="Retry instance 10006" x="0" y="293" width="734" height="285" frameX="-4" frameY="-5" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10007" x="0" y="293" width="734" height="285" frameX="-4" frameY="-5" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10008" x="0" y="293" width="734" height="285" frameX="-4" frameY="-5" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10009" x="734" y="293" width="719" height="290" frameX="-8" frameY="-3" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10010" x="734" y="293" width="719" height="290" frameX="-8" frameY="-3" frameWidth="748" frameHeight="293"/>
+	<SubTexture name="Retry instance 10011" x="734" y="293" width="719" height="290" frameX="-8" frameY="-3" frameWidth="748" frameHeight="293"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Feraligatr",
+        "dex": 9,
+        "height": "7'07”",
+        "weight": "195.8 lbs",
+        "offset": {"x": 245, "y": 150},
+	  "scale": 2.5,
+        "tagline": "The Big Jaw Pokemon",
+        "desc": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
+    }
+}

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="enter gengar.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gengar entrance0000" x="10" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0001" x="10" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0002" x="236" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0003" x="236" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0004" x="462" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0005" x="462" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0006" x="688" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0007" x="688" y="10" width="216" height="184"/>
+	<SubTexture name="gengar entrance0008" x="10" y="204" width="216" height="184"/>
+	<SubTexture name="gengar entrance0009" x="10" y="204" width="216" height="184"/>
+	<SubTexture name="gengar entrance0010" x="236" y="204" width="216" height="184"/>
+	<SubTexture name="gengar entrance0011" x="462" y="204" width="216" height="184"/>
+	<SubTexture name="gengar entrance0012" x="688" y="204" width="216" height="184"/>
+	<SubTexture name="gengar entrance0013" x="688" y="204" width="216" height="184"/>
+	<SubTexture name="gengar entrance0014" x="10" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0015" x="10" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0016" x="236" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0017" x="236" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0018" x="462" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0019" x="462" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0020" x="688" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0021" x="688" y="398" width="216" height="184"/>
+	<SubTexture name="gengar entrance0022" x="10" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0023" x="10" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0024" x="236" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0025" x="236" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0026" x="462" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0027" x="462" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0028" x="688" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0029" x="688" y="592" width="216" height="184"/>
+	<SubTexture name="gengar entrance0030" x="10" y="786" width="216" height="184"/>
+	<SubTexture name="gengar entrance0031" x="10" y="786" width="216" height="184"/>
+	<SubTexture name="gengar entrance0032" x="236" y="786" width="216" height="184"/>
+	<SubTexture name="gengar entrance0033" x="236" y="786" width="216" height="184"/>
+	<SubTexture name="gengar entrance0034" x="462" y="786" width="216" height="184"/>
+	<SubTexture name="gengar entrance0035" x="688" y="786" width="216" height="184"/>
+	<SubTexture name="gengar entrance0036" x="688" y="786" width="216" height="184"/>
+	<SubTexture name="gengar entrance0037" x="10" y="980" width="216" height="184"/>
+	<SubTexture name="gengar entrance0038" x="236" y="980" width="216" height="184"/>
+	<SubTexture name="gengar entrance0039" x="236" y="980" width="216" height="184"/>
+	<SubTexture name="gengar entrance0040" x="462" y="980" width="216" height="184"/>
+	<SubTexture name="gengar entrance0041" x="688" y="980" width="216" height="184"/>
+	<SubTexture name="gengar entrance0042" x="10" y="1174" width="216" height="184"/>
+	<SubTexture name="gengar entrance0043" x="236" y="1174" width="216" height="184"/>
+	<SubTexture name="gengar entrance0044" x="236" y="1174" width="216" height="184"/>
+	<SubTexture name="gengar entrance0045" x="462" y="1174" width="216" height="184"/>
+	<SubTexture name="gengar entrance0046" x="688" y="1174" width="216" height="184"/>
+	<SubTexture name="gengar entrance0047" x="688" y="1174" width="216" height="184"/>
+	<SubTexture name="gengar entrance0048" x="10" y="1368" width="216" height="184"/>
+	<SubTexture name="gengar entrance0049" x="236" y="1368" width="216" height="184"/>
+	<SubTexture name="gengar entrance0050" x="462" y="1368" width="216" height="184"/>
+	<SubTexture name="gengar entrance0051" x="10" y="1368" width="216" height="184"/>
+	<SubTexture name="gengar entrance0052" x="688" y="1368" width="216" height="184"/>
+	<SubTexture name="gengar entrance0053" x="688" y="1368" width="216" height="184"/>
+	<SubTexture name="gengar entrance0054" x="10" y="1562" width="216" height="184"/>
+	<SubTexture name="gengar entrance0055" x="10" y="1562" width="216" height="184"/>
+	<SubTexture name="gengar entrance0056" x="10" y="1562" width="216" height="184"/>
+</TextureAtlas>

@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Switch the Singing Character to Buried and Apparition";
+
+function returnDelay()
+	return 0;

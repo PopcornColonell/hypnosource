@@ -1,0 +1,33 @@
+function returnDescription()
+    return 'Changes the filter effect.';
+
+function eventFunction(params) {
+	var newZoom = Std.parseFloat(params[0]);
+	if (Math.isNaN(newZoom))
+		newZoom = 0;
+	var timestep = Std.parseFloat(params[1]);
+	if (Math.isNaN(timestep))
+		timestep = 0;
+	
+	if (PlayState.instance.riserTween != null && PlayState.instance.riserTween.active && !PlayState.instance.riserTween.finished) {
+		PlayState.instance.riserTween.active = false;
+		PlayState.instance.riserTween = null;
+	}
+
+	var onCompleteRiser:FlxTween->Void = function(tween:FlxTween) {
+		PlayState.instance.canRise = false;
+	};
+				
+	PlayState.instance.canRise = true;
+	if (newZoom > PlayState.instance.brimstoneDistortion) {
+		PlayState.instance.riserTween = FlxTween.tween(PlayState.instance, {brimstoneDistortion: newZoom}, (timestep * Conductor.stepCrochet) / 1000,
+			{ease: FlxEase.cubeIn, onComplete: onCompleteRiser});
+	} else {
+		PlayState.instance.riserTween = FlxTween.tween(PlayState.instance, {brimstoneDistortion: newZoom}, (timestep * Conductor.stepCrochet) / 1000,
+			{ease: FlxEase.cubeOut, onComplete: onCompleteRiser});
+	}
+}
+
+function initFunction(params) {
+	PlayState.instance.setupBrimstoneShaders();
+}

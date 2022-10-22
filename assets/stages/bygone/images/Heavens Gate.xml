@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Heavens Gate.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Heavens Gate0000" x="0" y="0" width="343" height="314" frameX="-37" frameY="-136" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0001" x="343" y="0" width="344" height="421" frameX="-38" frameY="-87" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0002" x="687" y="0" width="344" height="421" frameX="-38" frameY="-87" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0003" x="1031" y="0" width="343" height="509" frameX="-40" frameY="-42" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0004" x="1031" y="0" width="343" height="509" frameX="-40" frameY="-42" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0005" x="1374" y="0" width="343" height="585" frameX="-41" frameY="0" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0006" x="1374" y="0" width="343" height="585" frameX="-41" frameY="0" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0007" x="0" y="585" width="361" height="551" frameX="-32" frameY="-25" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0008" x="361" y="585" width="392" height="551" frameX="-16" frameY="-22" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0009" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0010" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0011" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0012" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0013" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0014" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0015" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0016" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0017" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0018" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0019" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0020" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0021" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0022" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0023" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0024" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0025" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0026" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0027" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0028" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0029" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0030" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0031" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0032" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0033" x="753" y="585" width="425" height="551" frameX="0" frameY="-21" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0034" x="1178" y="585" width="343" height="585" frameX="-41" frameY="0" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0035" x="1178" y="585" width="343" height="585" frameX="-41" frameY="0" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0036" x="1521" y="585" width="343" height="509" frameX="-40" frameY="-42" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0037" x="1521" y="585" width="343" height="509" frameX="-40" frameY="-42" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0038" x="0" y="1170" width="344" height="421" frameX="-38" frameY="-87" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0039" x="0" y="0" width="343" height="314" frameX="-37" frameY="-136" frameWidth="425" frameHeight="585"/>
+	<SubTexture name="Heavens Gate0040" x="344" y="1170" width="0" height="0" frameX="995" frameY="-207" frameWidth="425" frameHeight="585"/>
+</TextureAtlas>

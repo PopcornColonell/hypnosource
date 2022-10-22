@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Pikachu (Freakachu)",
+        "dex": 7,
+        "height": "1'04”",
+        "weight": "13.2 lbs",
+        "offset": {"x": 300, "y": 225},
+	  "scale": 4,
+        "tagline": "The Mouse Pokemon",
+        "desc": "It keeps its tail raised to monitor its surroundings. If you yank its tail, it will try to bite you."
+    }
+}

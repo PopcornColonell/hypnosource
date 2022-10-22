@@ -1,0 +1,117 @@
+var groundNoShadow:FlxSprite;
+var startGlitching:Bool = false;
+var endGlitching:Bool = false;
+
+var backgroundShader:FlxGraphicsShader;
+var missingnoShader:FlxGraphicsShader;
+var boyfrebShader:FlxGraphicsShader;
+
+var background:FlxSprite;
+var ground:FlxSprite;
+var glitchAmount:Float = 0;
+
+var randomShitTimer:FlxTimer;
+
+function onCreate() {
+    PlayState.defaultCamZoom = 0.6;
+	PlayState.assetModifier = 'pixel';
+	PlayState.cameraCentered = true;
+	PlayState.ratingPosition.set(250, 100);
+	PlayState.instance.camZooming = false;
+	
+	var resizeBG:Float = 6;
+	var consistentPosition:Array<Float> = [-670, -240];
+	background = new FlxSprite(consistentPosition[0] + 30, consistentPosition[1] - 2);
+	background.frames = Paths.getSparrowAtlas('bg');
+	background.animation.addByPrefix('idle', 'sky', 24, true);
+	background.animation.play('idle');
+	background.scale.set(resizeBG, resizeBG);
+	background.updateHitbox();
+	background.scrollFactor.set(0.3, 0.3);
+	add(background);
+    
+	var missingnoOcean = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+	missingnoOcean.frames = Paths.getSparrowAtlas('BG_Assets');
+	missingnoOcean.animation.addByPrefix('idle', 'Bg Ocean', 24, true);
+	missingnoOcean.animation.play('idle');
+	missingnoOcean.scale.set(resizeBG, resizeBG);
+	missingnoOcean.updateHitbox();
+	missingnoOcean.scrollFactor.set(0.4, 0.4);
+	add(missingnoOcean);
+
+	ground = new FlxSprite(consistentPosition[0], consistentPosition[1] + 10);
+	ground.frames = Paths.getSparrowAtlas('BG_Assets');
+	ground.animation.addByPrefix('idle', 'Bg Wave', 24, true);
+	ground.animation.play('idle');
+	ground.scale.set(resizeBG, resizeBG);
+	ground.updateHitbox();
+	add(ground);
+
+	groundNoShadow = new FlxSprite(consistentPosition[0], consistentPosition[1] + 10);
+	groundNoShadow.frames = Paths.getSparrowAtlas('noshadow');
+	groundNoShadow.animation.addByPrefix('idle', 'Bg Wave', 24, true);
+	groundNoShadow.animation.play('idle');
+	groundNoShadow.scale.set(resizeBG, resizeBG);
+	groundNoShadow.updateHitbox();
+	add(groundNoShadow);
+}
+
+function onCreatePost() {
+	PlayState.instance.camPos.y += 80;
+	PlayState.dadOpponent.x += 66;
+
+	boyfrebShader = new FlxGraphicsShader("", Paths.shader('missingno/individualGlitches'));
+	boyfrebShader.data.binaryIntensity.value = [1000];
+	PlayState.boyfriend.shader = boyfrebShader;
+}
+
+function onEvent(event) {
+	switch (event) {
+		case 'Missingno Tempo Change':
+			startGlitching = true;
+
+			backgroundShader = new FlxGraphicsShader("", Paths.shader('glitch'));
+			backgroundShader.data.prob.value = [0];
+			background.shader = backgroundShader;
+
+			missingnoShader = new FlxGraphicsShader("", Paths.shader('missingno/individualGlitches'));
+			missingnoShader.data.binaryIntensity.value = [0];
+			
+			PlayState.dadOpponent.shader = missingnoShader;
+			ground.shader = missingnoShader;
+			PlayState.staticValues.set('cantGlitch', true);
+
+			FlxTween.num(0, 1, (Conductor.stepCrochet * 56) / 1000, {ease: FlxEase.cubeInOut, onUpdate: function(tween:FlxTween){
+				glitchAmount = tween.value;
+			}, onComplete: function(tween:FlxTween){
+				endGlitching = true;
+			}});
+		case 'Missingno':
+			if (endGlitching)
+				backgroundShader.data.time.value = [Conductor.songPosition / 1000];
+		case 'Missingno Play Random Shit':
+			if (randomShitTimer == null || randomShitTimer.active == false || randomShitTimer.finished) {
+				randomShitTimer = new FlxTimer().start(Conductor.crochet / 1000, function(timer:FlxTimer){
+					boyfrebShader.data.binaryIntensity.value = [1000];
+				});
+			} else
+				randomShitTimer.reset();
+			boyfrebShader.data.binaryIntensity.value = [1 / FlxG.random.int(1, 4)];
+	}
+}
+
+function onUpdate(elapsed) {
+    groundNoShadow.visible = !PlayState.dadOpponent.visible;
+
+	if (startGlitching) {
+		backgroundShader.data.prob.value = [glitchAmount / 4];
+		if (!endGlitching)
+			backgroundShader.data.time.value = [(Math.floor((Conductor.songPosition / Conductor.crochet)) * Conductor.crochet) / 1000];
+		//
+		var newShader:ShaderFilter = PlayState.instance.shaderCatalog[0];
+    	newShader.shader.data.prob.value = [0.25 - (glitchAmount / 8)];
+		if (!endGlitching)
+			newShader.shader.data.time.value = [(Math.floor((Conductor.songPosition / Conductor.crochet)) * Conductor.crochet) / 1000];
+		missingnoShader.data.binaryIntensity.value = [(10 - ((Math.floor(glitchAmount / 20) * 20) * 9)) / 8];
+	}
+}

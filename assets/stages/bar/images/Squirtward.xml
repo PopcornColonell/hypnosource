@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Squirtward.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Squidward_idleBody0000" x="3" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0001" x="3" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0002" x="278" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0003" x="278" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0004" x="553" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0005" x="553" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0006" x="828" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0007" x="828" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0008" x="1103" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0009" x="1103" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0010" x="1103" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0011" x="1103" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0012" x="1103" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0013" x="1103" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleBody0014" x="1103" y="3" width="272" height="438"/>
+	<SubTexture name="Squidward_idleHead0000" x="3" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0001" x="3" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0002" x="279" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0003" x="279" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0004" x="555" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0005" x="555" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0006" x="831" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0007" x="831" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0008" x="1107" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0009" x="1107" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0010" x="1107" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0011" x="1107" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0012" x="1107" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0013" x="1107" y="444" width="273" height="239"/>
+	<SubTexture name="Squidward_idleHead0014" x="1107" y="444" width="273" height="239"/>
+</TextureAtlas>

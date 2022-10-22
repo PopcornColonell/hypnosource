@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="missingno menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="missingno menu instance 10000" x="0" y="0" width="756" height="729" frameX="-1" frameY="0" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10001" x="0" y="0" width="756" height="729" frameX="-1" frameY="0" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10002" x="0" y="0" width="756" height="729" frameX="-1" frameY="0" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10003" x="806" y="0" width="753" height="676" frameX="-2" frameY="-2" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10004" x="806" y="0" width="753" height="676" frameX="-2" frameY="-2" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10005" x="806" y="0" width="753" height="676" frameX="-2" frameY="-2" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10006" x="0" y="779" width="746" height="681" frameX="0" frameY="-4" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10007" x="0" y="779" width="746" height="681" frameX="0" frameY="-4" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10008" x="0" y="779" width="746" height="681" frameX="0" frameY="-4" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10009" x="796" y="779" width="750" height="690" frameX="0" frameY="-2" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10010" x="796" y="779" width="750" height="690" frameX="0" frameY="-2" frameWidth="757" frameHeight="729"/>
+	<SubTexture name="missingno menu instance 10011" x="796" y="779" width="750" height="690" frameX="0" frameY="-2" frameWidth="757" frameHeight="729"/>
+</TextureAtlas>

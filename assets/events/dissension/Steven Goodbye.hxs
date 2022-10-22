@@ -1,0 +1,6 @@
+function returnDescription()
+    return "'Goodbye.'";
+
+function eventFunction(params) {
+	
+}

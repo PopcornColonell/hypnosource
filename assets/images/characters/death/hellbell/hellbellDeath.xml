@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hellbellDeath.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="deathConfirm0000" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0001" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0002" x="1517" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0003" x="1517" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0004" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0005" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0006" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0007" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0008" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0009" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0010" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0011" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0012" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0013" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0014" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0015" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0016" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0017" x="0" y="0" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathConfirm0018" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathConfirm0019" x="3034" y="0" width="1517" height="913"/>
+	<SubTexture name="deathIdle0000" x="4551" y="0" width="1517" height="913"/>
+	<SubTexture name="deathIdle0001" x="4551" y="0" width="1517" height="913"/>
+	<SubTexture name="deathIdle0002" x="1517" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathIdle0003" x="1517" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0000" x="6068" y="0" width="1517" height="910" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0001" x="6068" y="0" width="1517" height="910" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0002" x="0" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0003" x="1517" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0004" x="3034" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0005" x="4551" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0006" x="6068" y="913" width="1517" height="913"/>
+	<SubTexture name="deathLol0007" x="6068" y="913" width="1517" height="913"/>
+	<SubTexture name="deathLol0008" x="1517" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0009" x="1517" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0010" x="6068" y="913" width="1517" height="913"/>
+	<SubTexture name="deathLol0011" x="6068" y="913" width="1517" height="913"/>
+	<SubTexture name="deathLol0012" x="1517" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+	<SubTexture name="deathLol0013" x="1517" y="913" width="1517" height="911" frameX="0" frameY="0" frameWidth="1517" frameHeight="913"/>
+</TextureAtlas>

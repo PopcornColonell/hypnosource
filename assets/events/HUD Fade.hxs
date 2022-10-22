@@ -1,0 +1,25 @@
+function returnDescription()
+    return "Fades the HUD";
+
+function eventFunction(params) {
+	var val1 = params[0];
+	if (Math.isNaN(val1) || val1 <= 0 || val1 == '')
+		val1 = 1;
+    //
+    trace('this thing fades the hud why doesnt it work');
+	FlxTween.tween(PlayState.camHUD, {alpha: 1}, 
+	    val1 * (Conductor.stepCrochet / 1000), {ease: FlxEase.linear});
+	FlxTween.tween(PlayState.uiHUD, {alpha: 0.6}, 
+		val1 * (Conductor.stepCrochet / 1000), {ease: FlxEase.linear});
+    //
+	for (i in PlayState.strumHUD) {
+		FlxTween.tween(i, {alpha: 0.8}, 
+			val1 * (Conductor.stepCrochet / 1000), {ease: FlxEase.linear});
+    }
+}
+
+function initFunction(params) {
+    PlayState.camHUD.alpha = 0;
+	for (i in PlayState.strumHUD)
+		i.alpha = 0;
+}

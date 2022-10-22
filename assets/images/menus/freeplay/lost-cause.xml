@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lost-cause_ Portrait.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lost-cause0000" x="5" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0001" x="5" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0002" x="485" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0003" x="485" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0004" x="965" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0005" x="1445" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0006" x="1925" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0007" x="1925" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0008" x="2405" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0009" x="2405" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0010" x="2885" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0011" x="3365" y="5" width="475" height="536"/>
+	<SubTexture name="lost-cause0012" x="5" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0013" x="485" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0014" x="965" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0015" x="1445" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0016" x="1925" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0017" x="2405" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0018" x="2885" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0019" x="3365" y="546" width="475" height="536"/>
+	<SubTexture name="lost-cause0020" x="5" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0021" x="485" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0022" x="965" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0023" x="1445" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0024" x="1925" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0025" x="2405" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0026" x="2885" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0027" x="3365" y="1087" width="475" height="536"/>
+	<SubTexture name="lost-cause0028" x="5" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0029" x="485" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0030" x="965" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0031" x="1445" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0032" x="1925" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0033" x="2405" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0034" x="2885" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0035" x="3365" y="1628" width="475" height="536"/>
+	<SubTexture name="lost-cause0036" x="5" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0037" x="485" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0038" x="965" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0039" x="1445" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0040" x="1925" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0041" x="2405" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0042" x="2885" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0043" x="3365" y="2169" width="475" height="536"/>
+	<SubTexture name="lost-cause0044" x="5" y="2710" width="475" height="536"/>
+	<SubTexture name="lost-cause0045" x="485" y="2710" width="475" height="536"/>
+	<SubTexture name="lost-cause0046" x="965" y="2710" width="475" height="536"/>
+	<SubTexture name="lost-cause0047" x="1445" y="2710" width="475" height="536"/>
+	<SubTexture name="lost-cause0048" x="1445" y="2710" width="475" height="536"/>
+</TextureAtlas>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HellBell.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BellIdle0000" x="0" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0001" x="0" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0002" x="904" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0003" x="904" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0004" x="1808" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0005" x="1808" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0006" x="2712" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0007" x="2712" y="0" width="894" height="728"/>
+	<SubTexture name="BellIdle0008" x="0" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0009" x="0" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0010" x="904" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0011" x="904" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0012" x="1808" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0013" x="1808" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0014" x="2712" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0015" x="2712" y="738" width="894" height="728"/>
+	<SubTexture name="BellIdle0016" x="0" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0017" x="0" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0018" x="904" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0019" x="904" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0020" x="1808" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0021" x="1808" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0022" x="2712" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0023" x="2712" y="1476" width="894" height="728"/>
+	<SubTexture name="BellIdle0024" x="0" y="2214" width="894" height="728"/>
+	<SubTexture name="BellIdle0025" x="0" y="2214" width="894" height="728"/>
+	<SubTexture name="BellIdle0026" x="904" y="2214" width="894" height="728"/>
+	<SubTexture name="BellIdle0027" x="904" y="2214" width="894" height="728"/>
+	<SubTexture name="BongLmao0000" x="1808" y="2214" width="761" height="628"/>
+	<SubTexture name="BongLmao0001" x="2579" y="2214" width="761" height="628"/>
+	<SubTexture name="BongLmao0002" x="0" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0003" x="0" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0004" x="771" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0005" x="771" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0006" x="1542" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0007" x="1542" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0008" x="1542" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0009" x="2313" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0010" x="2313" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0011" x="2313" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0012" x="3084" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0013" x="3084" y="2952" width="761" height="628"/>
+	<SubTexture name="BongLmao0014" x="3084" y="2952" width="761" height="628"/>
+</TextureAtlas>

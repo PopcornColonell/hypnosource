@@ -1,0 +1,96 @@
+var nursejoy;
+var nurseangle:Float;
+var darkoverlay:Character;
+var jigf:Character;
+function onCreate() {
+    PlayState.defaultCamZoom = 0.75;
+	var consistentPosition:Array<Float> = [-735, -500];
+    
+	var floor:FlxSprite = new FlxSprite(0, 0);
+	floor.loadGraphic(Paths.image('8floor'));
+	floor.setPosition(consistentPosition[0], consistentPosition[1]);
+	floor.antialiasing = true;
+	add(floor);
+
+	var backlayer:FlxSprite = new FlxSprite(0, 0);
+	backlayer.loadGraphic(Paths.image('7backlayer'));
+	backlayer.setPosition(consistentPosition[0], consistentPosition[1]);
+	backlayer.scrollFactor.set(0.98, 0.98);
+	backlayer.antialiasing = true;
+	add(backlayer);
+
+	nursejoy = new FlxSprite(0, 0);
+	nursejoy.loadGraphic(Paths.image('6nursejoy'));
+	nursejoy.setPosition(consistentPosition[0] + 1260, consistentPosition[1] + 674);
+	nursejoy.scrollFactor.set(0.98, 0.98);
+	nursejoy.antialiasing = true;
+	add(nursejoy);				
+
+	var table:FlxSprite = new FlxSprite(0, 0);
+	table.loadGraphic(Paths.image('5table'));
+	table.setPosition(consistentPosition[0], consistentPosition[1]);
+	table.scrollFactor.set(0.98, 0.98);
+	table.antialiasing = true;
+	add(table);
+
+	var toplayer:FlxSprite = new FlxSprite(0, 0);
+	toplayer.loadGraphic(Paths.image('4toplayer'));
+	toplayer.setPosition(consistentPosition[0], consistentPosition[1]);
+	toplayer.scrollFactor.set(1, 1);
+	toplayer.antialiasing = true;
+	add(toplayer);
+
+	var window:FlxSprite = new FlxSprite(0, 0);
+	window.loadGraphic(Paths.image('3window'));
+	window.setPosition(consistentPosition[0], consistentPosition[1]);
+	window.antialiasing = true;
+	add(window);
+    
+	var painting:FlxSprite = new FlxSprite(0, 0);
+	painting.loadGraphic(Paths.image('2painting'));
+	painting.setPosition(consistentPosition[0], consistentPosition[1]);
+	painting.antialiasing = true;
+	add(painting);	
+
+	darkoverlay = new FlxSprite().loadGraphic(Paths.image('1darknessoverlay'));
+	darkoverlay.setPosition(consistentPosition[0], consistentPosition[1]);
+	darkoverlay.antialiasing = true;
+	darkoverlay.updateHitbox();
+}
+
+function onCreatePost() {
+	nurseangle = nursejoy.angle;
+	nursejoy.origin.set(75, 0);
+	PlayState.instance.camPos.set(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 150);	
+
+	jigf = new Character().setCharacter(0, 0, 'jigglyfront');
+	jigf.setPosition(dadOpponent.x, dadOpponent.y);
+	//jigf.flipLeftRight();
+	jigf.visible = false;
+	jigf.x -= 26;
+	jigf.y += 16;
+	PlayState.instance.dadStrums.character.push(jigf);
+	add(jigf);
+	add(darkoverlay);
+}
+
+function onUpdate(elapsed) {
+	nursejoy.angle = nurseangle + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / 36)) * 3;
+}
+
+function onEvent(eventName) {
+    switch (eventName) {
+        default:
+            trace('an event was called in death toll. woohoo');
+		case 'purinturn':
+			PlayState.dadOpponent.playAnim('turn');
+			PlayState.dadOpponent.animation.finishCallback = function(name:String){
+                if (name == 'turn') {										
+					PlayState.dadOpponent.visible = false;												
+					jigf.visible = true;
+					PlayState.instance.dadStrums.singingCharacters = [jigf];	
+					PlayState.defaultCamZoom += 0.55;										
+                }
+        }
+	}
+}

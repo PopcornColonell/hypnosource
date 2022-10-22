@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Pokemon Red",
+        "price": 288,
+        "animName": "Pokemon Red instance 1",
+        "songUnlock": "Dissension",
+        "songDescription": "Looks ordinary, no?",
+        "unlockRequirements": [""],
+        "xOffset": 0,
+        "yOffset": 15,
+        "lane": 2,
+        "row": 0,
+        "scale": 1.0
+    }
+}

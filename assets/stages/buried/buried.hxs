@@ -1,0 +1,411 @@
+var missingnoBA:Boyfriend;
+var gengar:Character;
+var hudGengar:Character;
+var muk:Character;
+var whiteHand:Character;
+var handShadow:FlxSprite;
+var apparition:Character;
+
+var handY:Float;
+var realGengar:Bool = false;
+var gengarDisplacement:Array<Float> = [-50, -100];
+
+var gengarInvis:Float = 0.0;
+var gameboyFilter:GraphicsShader;
+
+var pukeCooldown:Int = 80;
+var currentGB:Float = 0.0;
+var targetGBvalue:Float = 0.0;
+
+function onCreate() {
+    var consistentPosition:Array<Float> = [-1130, -350];
+    var resizeBG:Float = PlayState.daPixelZoom;
+    PlayState.defaultCamZoom = 0.55;
+    brimstoneBackground = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+    brimstoneBackground.loadGraphic(Paths.image('brimstoneBack'));
+    brimstoneBackground.setGraphicSize(Std.int(brimstoneBackground.width * resizeBG));
+    brimstoneBackground.updateHitbox();
+    // background.scrollFactor.set(0.9, 0.9);
+    brimstoneBackground.active = false;
+    add(brimstoneBackground);
+
+    var floor:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+    floor.loadGraphic(Paths.image('floor'));
+    floor.setGraphicSize(Std.int(floor.width * resizeBG));
+    floor.updateHitbox();
+    // floor.scrollFactor.set(0.9, 0.9);
+    floor.active = false;
+    add(floor);
+
+    var graves:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+    graves.loadGraphic(Paths.image('graves'));
+    graves.setGraphicSize(Std.int(graves.width * resizeBG));
+    graves.updateHitbox();
+    // graves.scrollFactor.set(0.9, 0.9);
+    graves.active = false;
+    add(graves);
+}
+
+function onCreatePost() {
+    PlayState.instance.pausePortraitRevealed[1] = false;
+
+    /* 
+    try pushing it to the main thing, if this works that work I did like 6 months ago will actually be useful
+    im hoping it does because of how stupid shadercatalog was, I don't know why I implemented that, so giving it some use is good I guess
+    */
+    gameboyFilter = new GraphicsShader("", Paths.shader('brimstone/brimstoneCamEffects'));
+    var filterFilter:ShaderFilter = new ShaderFilter(gameboyFilter);
+    PlayState.instance.shaderCatalog.insert(0, filterFilter);
+    PlayState.camGame.setFilters(PlayState.instance.shaderCatalog);
+    for (hud in PlayState.instance.allUIs)
+        hud.setFilters([filterFilter]);
+    PlayState.dialogueHUD.setFilters([filterFilter]);
+    gameboyFilter.data.intensity.value = [0.0];
+
+    // IT FUCKING WOOOOORKSSSS
+
+    trace('yoshub');
+    missingnoBA = new Boyfriend();
+	missingnoBA.setCharacter(dadOpponent.x, boyfriend.y, 'ba-missingno');
+	missingnoBA.flipLeftRight();
+	missingnoBA.x -= 700;
+	missingnoBA.y += 475;
+			
+	missingnoBA.visible = false;
+	var preloadMissingno:Character = new Character().setCharacter(0, 0, 'missingno-summon');
+	add(preloadMissingno);
+
+	preloadMissingno.visible = false;
+	PlayState.instance.boyfriendStrums.character.push(missingnoBA);
+	
+    // boyfriendStrums.singingCharacters.push(missingnoBA);
+	gengar = new Character().setCharacter(0, 0, 'gengar');
+	gengar.setPosition(dadOpponent.x, dadOpponent.y);
+	gengar.flipLeftRight();
+	gengar.visible = false;
+	gengar.x += 345 + gengarDisplacement[0];
+	gengar.y += 425 + gengarDisplacement[1];
+
+    hudGengar = new Character().setCharacter(0, 0, 'enter-gengar');
+	hudGengar.cameras = [PlayState.dialogueHUD];
+
+	muk = new Character().setCharacter(0, 0, 'muk');
+	muk.setPosition(dadOpponent.x, dadOpponent.y);
+	muk.flipLeftRight();
+	muk.visible = false;
+	muk.x += 600;
+	muk.y += 400;
+
+	whiteHand = new Character().setCharacter(0, 0, 'white-hand');
+	whiteHand.setPosition(dadOpponent.x, dadOpponent.y);
+	whiteHand.flipLeftRight();
+	whiteHand.visible = false;
+	whiteHand.x += 300;
+	whiteHand.y += 200;
+
+	handShadow = new FlxSprite().loadGraphic(Paths.image('characters/buried/shadow'));
+	handShadow.setGraphicSize(Std.int(handShadow.width * 6));
+	handShadow.updateHitbox();
+	handShadow.visible = false;
+
+	apparition = new Character().setCharacter(0, 0, 'the-apparition');
+	apparition.setPosition(dadOpponent.x, dadOpponent.y);
+	apparition.flipLeftRight();
+	apparition.visible = false;
+
+	PlayState.instance.dadStrums.character.push(gengar);
+	PlayState.instance.dadStrums.character.push(muk);
+	PlayState.instance.dadStrums.character.push(whiteHand);
+	PlayState.instance.dadStrums.character.push(apparition);
+
+	var mukSplat:FlxSprite = new FlxSprite().loadGraphic(Paths.image('characters/buried/muksludge'));
+	add(mukSplat);
+
+	mukSplat.visible = false;
+	FlxG.sound.play(Paths.sound('MukCums'), 0);
+
+	// layering
+	add(gengar);
+	add(handShadow);
+	add(whiteHand);
+	
+    //
+	add(muk);
+	add(apparition);
+	add(missingnoBA);
+
+    trace('the garba');
+	PlayState.instance.flipCharacters();
+	boyfriend.x -= 700;
+	boyfriend.y += 200;
+
+    trace('njo');
+	PlayState.instance.staticCamera = true;
+	PlayState.instance.manualCameraPosition.set(dadOpponent.getMidpoint().x + dadOpponent.characterData.camOffsetX,
+		dadOpponent.getMidpoint().y + 50 + dadOpponent.characterData.camOffsetY);
+	dadOpponent.x -= 250;
+	dadOpponent.y += 100;
+
+    trace('charcoal');
+	PlayState.instance.firstPerson = true;
+	PlayState.instance.displayRating('sick', 'early', true);
+	PlayState.instance.popUpCombo(true);
+	dadOpponent.playAnim('ground');
+	PlayState.instance.startBrimstone();
+}
+
+var haventdone = true;
+function onUpdate(elapsed) {
+
+	if (whiteHand != null && whiteHand.visible) {
+		whiteHand.y = handY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / 48)) * 32;
+		handShadow.x = whiteHand.x - (whiteHand.width / 2) + (whiteHand.width / 12);
+	}
+    //
+	if ((whiteHand != null && whiteHand.animation.curAnim.name == 'transform') || (apparition != null && apparition.visible)) {
+		apparition.y = apparitionY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / 48)) * 32;
+	    apparition.x = apparitionX + Math.cos((180 / Math.PI) * ((Conductor.songPosition / 1000) / 48)) * 32;
+		handShadow.x = apparition.x - (handShadow.width / 2) + (handShadow.width / 9);
+		handShadow.y = FlxMath.lerp(handShadow.y, apparitionY - 48, elapsed * 0.4);
+	} else {
+		if (whiteHand != null && whiteHand.visible)
+			handShadow.y = handY - whiteHand.height / 2;
+	}
+
+    PlayState.strumLines.members[PlayState.playerLane].allNotes.forEachAlive(function(daNote:Note)
+        {
+            daNote.alpha = 1.0 - PlayState.instance.gengarNoteInvis;
+        });
+
+    if (PlayState.instance.gengarNoteInvis > 0.0001) 
+    {
+        PlayState.instance.gengarNoteInvis -= 0.00020 * ((elapsed) * 120);
+    }
+
+    if (gameboyFilter != null)
+        {
+            currentGB = FlxMath.lerp(currentGB, targetGBvalue, 0.025);
+            gameboyFilter.data.intensity.value = [currentGB];
+            trace(lurp);
+        }
+}
+
+function onEvent(eventName) {
+    switch (eventName) {
+        default:
+            trace('an event was called in brimstone. woohoo');
+        case 'Apparition Summon':
+            apparitionX = whiteHand.x - 15;
+            apparitionY = handY - 48;
+            whiteHand.playAnim('transform');
+            whiteHand.animation.finishCallback = function(name:String) {
+                if (name == 'transform') {
+                    whiteHand.visible = false;
+                    apparition.visible = true;
+                }
+            }
+        case 'Brimstone Background Desaturate':
+            // get muk outta here
+            if (muk != null) {
+                muk.playAnim('outro', true);
+                muk.animation.finishCallback = function(name:String)
+                {
+                    muk.visible = false;
+                }
+            }
+        case 'White Hand Summon':
+        	// summon whitehand
+            whiteHand.visible = true;
+            handShadow.visible = true;
+            whiteHand.playAnim('intro');
+            handY = whiteHand.y;
+            whiteHand.animation.finishCallback = function(name:String) {
+                if (name == 'intro')
+                    whiteHand.dance();
+            }
+        case 'Gengar Sings':
+            PlayState.instance.dadStrums.singingCharacters = [gengar];
+            PlayState.instance.pausePortraitPrefix[1] = '-gengar';
+        case 'Buried Sings':
+            PlayState.instance.dadStrums.singingCharacters = [PlayState.dadOpponent];
+            PlayState.instance.pausePortraitPrefix[1] = '';
+        case 'Muk Sings':
+            PlayState.instance.dadStrums.singingCharacters = [muk];
+            PlayState.instance.pausePortraitPrefix[1] = '-muk';
+        case 'Apparition Sings':
+            PlayState.instance.dadStrums.singingCharacters = [apparition];
+            PlayState.instance.pausePortraitPrefix[1] = '-gf';
+        case 'Buried Apparition Sing':
+            PlayState.instance.dadStrums.singingCharacters = [PlayState.dadOpponent, apparition];
+            PlayState.instance.pausePortraitPrefix[1] = '-gf';
+        case 'Summon Missingno':  
+            var phase:Int = 0;
+            PlayState.boyfriend.playAnim('throw', true);
+            PlayState.boyfriend.animation.finishCallback = function(name:String) {
+                if (name == 'throw') {
+                    PlayState.boyfriend.playAnim('throw2');
+                    var summonMissingno:Character = new Character().setCharacter(-150, 1575 , 'missingno-summon');
+                    summonMissingno.flipLeftRight();
+                    add(summonMissingno);
+                    summonMissingno.playAnim('throw', true);
+                    summonMissingno.animation.finishCallback = function(name:String)
+                    {
+                        if (name == 'throw')
+                            summonMissingno.playAnim('break1', true);
+                        else
+                        {
+                            switch (phase)
+                            {
+                                case 0:
+                                    summonMissingno.playAnim('break1', true);
+                                case 1:
+                                    summonMissingno.playAnim('break1', true);
+                                case 2:
+                                    summonMissingno.playAnim('full-break1', true);
+                                case 3:
+                                    summonMissingno.playAnim('break1', true);
+                                case 4:
+                                    summonMissingno.playAnim('break1', true);
+                                case 5:
+                                    summonMissingno.playAnim('break1', true);
+                                case 6:
+                                    summonMissingno.playAnim('full-break2', true);
+                                case 7:
+                                    summonMissingno.playAnim('break2', true);
+                                case 8:
+                                    summonMissingno.playAnim('break2', true);
+                                case 9:
+                                    summonMissingno.playAnim('burst1', true);
+                                case 10:
+                                    missingnoBA.visible = true;
+                                    summonMissingno.playAnim('burst2', true);
+                                case 11:
+                                    summonMissingno.visible = false;
+                            }
+                            phase++;
+                        }
+                    };
+                }
+                if (name == 'throw2')
+                    PlayState.boyfriend.playAnim('idle');
+            };
+        case 'Missingno Switch':
+            if (PlayState.instance.boyfriendStrums.singingCharacters.contains(PlayState.boyfriend))
+                {
+                    PlayState.instance.boyfriendStrums.singingCharacters = [missingnoBA];
+                    PlayState.instance.pausePortraitPrefix[0] = '-missingno';
+                }
+			else if (PlayState.instance.boyfriendStrums.singingCharacters.contains(missingnoBA))
+                {
+                    PlayState.instance.boyfriendStrums.singingCharacters = [boyfriend];
+                    PlayState.instance.pausePortraitPrefix[0] = '';
+                }
+        case 'Missingno Leave':
+            FlxTween.tween(missingnoBA, {y: missingnoBA.y + missingnoBA.height * 2}, (Conductor.stepCrochet * 24) / 1000, {ease: FlxEase.circInOut, onComplete: function(epic:FlxTween){missingnoBA.visible = false;}});
+            //
+            gengar.visible = false;
+            hudGengar.visible = true;
+            hudGengar.playAnim('leave', true);
+            hudGengar.y += 150;
+            hudGengar.x += 225;
+            hudGengar.animation.finishCallback = function(name:String){
+                if (name == 'leave')
+                    hudGengar.visible = false;
+            };
+        case 'Muk Summon':
+            muk.visible = true;
+            muk.playAnim('intro');
+            muk.animation.finishCallback = function(name:String) {
+                if (name == 'intro')
+                    muk.dance();
+            }
+        case 'Summon Gengar':
+            if (!realGengar) {
+                add(hudGengar);
+                hudGengar.setGraphicSize(Std.int(hudGengar.width * 0.6));
+                hudGengar.updateHitbox();
+                hudGengar.setPosition(FlxG.width * 0.5, FlxG.height * 0.5);
+                hudGengar.x -= 25 - (gengarDisplacement[0] * 0.6);
+                hudGengar.y -= 70 - (gengarDisplacement[1] * 0.6);
+                hudGengar.flipLeftRight();
+                hudGengar.playAnim('entrance', true);
+                // enableMovement = false;
+                hudGengar.animation.finishCallback = function(name:String){
+                    if (name == 'entrance') {
+                        hudGengar.playAnim('exit', true);
+                        hudGengar.setGraphicSize(Std.int((hudGengar.width / 0.6) * 0.55));
+                        hudGengar.updateHitbox();
+                        hudGengar.x -= 263;
+                        hudGengar.y -= 227;
+                        //
+                        PlayState.instance.remove(hudGengar);
+                        hudGengar.cameras = [PlayState.camHUD];
+                        PlayState.instance.backgroundGroup.add(hudGengar);
+                    } else {
+                        hudGengar.visible = false;
+                        gengar.visible = true;
+                        // enableMovement = true;
+                    }
+                }
+                realGengar = true;
+            }
+        case 'Brimstone Key Change':
+            {
+                targetGBvalue = 1.0;
+
+                if (currentGB >= 0.99) targetGBvalue = 0.0;
+            }
+    }
+}
+
+function mukSplatter() {
+    PlayState.instance.brimstoneShaking = true;
+    PlayState.instance.myShake = PlayState.instance.shakeProgress;
+
+    //
+    var mukSplatSprite:FlxSprite = new FlxSprite();
+    mukSplatSprite.frames = Paths.getSparrowAtlas('characters/buried/muksludge');
+    mukSplatSprite.animation.addByPrefix('0', 'Sludge_01', 24, false);
+    mukSplatSprite.animation.addByPrefix('1', 'Sludge_02', 24, false);
+    mukSplatSprite.animation.addByPrefix('2', 'Sludge_03', 24, false);
+    mukSplatSprite.animation.play(Std.string(FlxG.random.int(0, 2)));
+    PlayState.instance.add(mukSplatSprite);
+    mukSplatSprite.setGraphicSize(Std.int(mukSplatSprite.width * 4));
+    mukSplatSprite.updateHitbox();
+    mukSplatSprite.cameras = [PlayState.dialogueHUD];
+    mukSplatSprite.screenCenter();
+    FlxG.sound.play(Paths.sound('MukCums'));
+    //
+    mukSplatSprite.animation.finishCallback = function(name:String) {
+		if (muk.animation.curAnim.name != 'outro')
+			muk.dance(true);
+		FlxTween.tween(mukSplatSprite, {alpha: 0}, (Conductor.stepCrochet * 4) / 1000, {onComplete: 
+            function(tween:FlxTween) {
+                mukSplatSprite.destroy();
+            }
+        });
+    }
+}
+
+function onStep(beat)
+    {
+        if (muk != null && muk.visible && muk.animation.curAnim.name == 'idle')
+            {
+                pukeCooldown--;
+                var possibleNoteList:Array<Note> = [];
+                PlayState.strumLines.members[PlayState.playerLane].allNotes.forEachAlive(function(daNote:Note) {
+                    if (daNote.canBeHit && !daNote.isSustainNote && !daNote.tooLate && !daNote.wasGoodHit)
+                        possibleNoteList.push(daNote);
+                });
+                // if there is a list of notes that exists for that control
+                if (pukeCooldown <= 0 && possibleNoteList.length > 0)
+                {
+                    if (muk.animation.curAnim.name != 'outro')
+                        muk.playAnim('puke', true);
+                    new FlxTimer().start((Conductor.stepCrochet * 4) / 1000, function(tmr:FlxTimer){
+                        mukSplatter();
+                    });
+                    pukeCooldown = 80;
+                }
+            }
+    }

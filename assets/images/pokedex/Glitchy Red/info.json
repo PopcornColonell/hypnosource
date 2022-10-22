@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Glitchy Red",
+        "dex": 13,
+        "height": "???",
+        "weight": "???",
+        "offset": {"x": 335, "y": 160},
+	  "scale": 4,
+        "tagline": "The Sentient Glitch",
+        "desc": "A misfortunate trainer designed to be wronged by his creator, forever trapped in a box, to be forgotten and replaced by the next generation."
+    }
+}

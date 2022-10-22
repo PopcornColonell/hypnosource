@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Glitchy_Red_Assets_angrybitch.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RedDownMad0000" x="0" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0001" x="483" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0002" x="483" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0003" x="966" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0004" x="966" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0005" x="1449" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0006" x="1449" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0007" x="1932" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0008" x="1932" y="0" width="473" height="713"/>
+	<SubTexture name="RedDownMad0009" x="1932" y="0" width="473" height="713"/>
+	<SubTexture name="RedIdleMad0000" x="2415" y="0" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0001" x="2921" y="0" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0002" x="3427" y="0" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0003" x="0" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0004" x="506" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0005" x="1012" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0006" x="1518" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0007" x="2024" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0008" x="2530" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0009" x="3036" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0010" x="3542" y="742" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0011" x="0" y="1484" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0012" x="506" y="1484" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0013" x="1012" y="1484" width="496" height="732"/>
+	<SubTexture name="RedIdleMad0014" x="1012" y="1484" width="496" height="732"/>
+	<SubTexture name="RedLeftMad0000" x="1518" y="1484" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0001" x="2133" y="1484" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0002" x="2133" y="1484" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0003" x="2748" y="1484" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0004" x="2748" y="1484" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0005" x="3363" y="1484" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0006" x="3363" y="1484" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0007" x="0" y="2245" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0008" x="0" y="2245" width="605" height="751"/>
+	<SubTexture name="RedLeftMad0009" x="0" y="2245" width="605" height="751"/>
+	<SubTexture name="RedRightMad0000" x="615" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0001" x="1067" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0002" x="1067" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0003" x="1519" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0004" x="1519" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0005" x="1971" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0006" x="1971" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0007" x="2423" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0008" x="2423" y="2245" width="442" height="741"/>
+	<SubTexture name="RedRightMad0009" x="2423" y="2245" width="442" height="741"/>
+	<SubTexture name="RedUpMad0000" x="2875" y="2245" width="529" height="789"/>
+	<SubTexture name="RedUpMad0001" x="3414" y="2245" width="529" height="789"/>
+	<SubTexture name="RedUpMad0002" x="3414" y="2245" width="529" height="789"/>
+	<SubTexture name="RedUpMad0003" x="0" y="3044" width="529" height="789"/>
+	<SubTexture name="RedUpMad0004" x="0" y="3044" width="529" height="789"/>
+	<SubTexture name="RedUpMad0005" x="539" y="3044" width="529" height="789"/>
+	<SubTexture name="RedUpMad0006" x="539" y="3044" width="529" height="789"/>
+	<SubTexture name="RedUpMad0007" x="1078" y="3044" width="529" height="789"/>
+	<SubTexture name="RedUpMad0008" x="1078" y="3044" width="529" height="789"/>
+	<SubTexture name="RedUpMad0009" x="1078" y="3044" width="529" height="789"/>
+	<SubTexture name="RedUpMad0010" x="1078" y="3044" width="529" height="789"/>
+</TextureAtlas>

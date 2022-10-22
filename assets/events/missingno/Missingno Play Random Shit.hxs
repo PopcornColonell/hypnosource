@@ -1,0 +1,13 @@
+function returnDescription()
+    return 'idk anymore';
+
+function eventFunction(params) {
+    var lastGlitch:Int = 0;
+    if (PlayState.staticValues.get('glitch') != null) 
+        lastGlitch = PlayState.staticValues.get('glitch');
+	var glitch:Int = FlxG.random.int(0, 3, [lastGlitch]);
+	PlayState.staticValues.set('glitch', glitch);
+	var baseString = 'sing' + UIStaticArrow.getArrowFromNumber(glitch).toUpperCase();
+	PlayState.boyfriend.playAnim(baseString, true);
+	PlayState.boyfriend.holdTimer = 0;
+}

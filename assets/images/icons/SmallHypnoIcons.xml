@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SmallHypnoIcons.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SmallHypnoIcons instance 10000" x="0" y="0" width="120" height="82" frameX="-15" frameY="-1" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10001" x="120" y="0" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10002" x="120" y="0" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10003" x="251" y="0" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10004" x="251" y="0" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10005" x="0" y="83" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10006" x="0" y="83" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10007" x="131" y="83" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+	<SubTexture name="SmallHypnoIcons instance 10008" x="131" y="83" width="131" height="83" frameX="0" frameY="0" frameWidth="135" frameHeight="83"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Red (Dead Red)",
+        "dex": 6,
+        "height": "???",
+        "weight": "???",
+        "offset": {"x": 335, "y": 165},
+	  "scale": 4,
+        "tagline": "The Frozen Trainer",
+        "desc": "The Kanto Regions Greatest Champion, residing in isolation with his Pokemon at the freezing top of Mt. Silver. What a fool he was. "
+    }
+}

@@ -1,0 +1,11 @@
+function returnDescription()
+    return "Summons Freakachu in Frostbite.";
+
+function eventFunction(params) {
+	
+}
+
+function initFunction(params) {
+	var freakachu = new Character().setCharacter(0,0, 'freakachu');
+	var reddeadd = new Character().setCharacter(0,0, 'red-dead');
+}

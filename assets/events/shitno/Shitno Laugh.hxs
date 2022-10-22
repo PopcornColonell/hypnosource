@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Shitno Laughing";
+
+function returnDelay()
+	return 0;

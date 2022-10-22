@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="frostbite_ Portrait.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="frostbite0000" x="5" y="5" width="502" height="503" frameX="-1" frameY="0" frameWidth="503" frameHeight="503"/>
+	<SubTexture name="frostbite0001" x="512" y="5" width="503" height="503"/>
+	<SubTexture name="frostbite0002" x="1020" y="5" width="502" height="503" frameX="-1" frameY="0" frameWidth="503" frameHeight="503"/>
+	<SubTexture name="frostbite0003" x="1527" y="5" width="503" height="503"/>
+	<SubTexture name="frostbite0004" x="5" y="513" width="502" height="503" frameX="-1" frameY="0" frameWidth="503" frameHeight="503"/>
+	<SubTexture name="frostbite0005" x="512" y="513" width="503" height="503"/>
+	<SubTexture name="frostbite0006" x="1020" y="513" width="502" height="503" frameX="-1" frameY="0" frameWidth="503" frameHeight="503"/>
+	<SubTexture name="frostbite0007" x="1527" y="513" width="503" height="503"/>
+</TextureAtlas>

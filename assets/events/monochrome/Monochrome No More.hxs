@@ -1,0 +1,50 @@
+var curFrame:Int = 0;
+
+function returnDescription()
+    return 'hes dead I guess';
+
+function returnDelay()
+	return 4;
+
+function eventFunction(params) {
+	PlayState.dadOpponent.setCharacter(PlayState.dadOpponent.x - 5, PlayState.dadOpponent.y + 125, 'gold-no-more');
+
+	if (PlayState.staticValues.get('jumpscareSize') != 1.2)
+		PlayState.staticValues.set('jumpscareSize', 1.2);
+
+	new FlxTimer().start(Conductor.stepCrochet * 28 / 1000, function (timer:FlxTimer) {
+		PlayState.dadOpponent.setCharacter(PlayState.dadOpponent.x - 65, PlayState.dadOpponent.y + 400, 'gold-head-rip');
+		if (PlayState.instance.botplaySubtext != null) {
+			PlayState.instance.botplaySubtext.text = 'owie';
+			PlayState.instance.botplaySubtext.x = (FlxG.width / 2) - (PlayState.instance.botplaySubtext.width / 2);
+		}
+		new FlxTimer().start(Conductor.stepCrochet * 31 / 1000, function (timer:FlxTimer) {
+			PlayState.dadOpponent.setCharacter(PlayState.dadOpponent.x + 60, PlayState.dadOpponent.y + 215, 'gold-headless');
+			PlayState.instance.pausePortraitPrefix = ['-nomore', '-nomore'];
+		});
+	});
+
+	FlxTween.tween(FlxG.camera, {zoom: 0.625}, ((Conductor.stepCrochet * 48) / 1000),
+		{ease: FlxEase.cubeInOut, startDelay: ((Conductor.stepCrochet * 48) / 1000)});
+}
+
+function onUpdate(elapsed) {
+	// did I do this right idk
+	if (curFrame % Math.floor(6 * (FlxG.drawFramerate / 120)) == 0) {
+		var newName = '';
+		var cipherInterval:Array<String> = [];
+		for (i in 0...PlayState.songDisplayName.length) {
+			var selectedCharacter:Int = FlxG.random.int(0, PlayState.songDisplayName.length - 1, cipherInterval);
+			newName += PlayState.songDisplayName.charAt(selectedCharacter);
+			cipherInterval.push(selectedCharacter);
+		}
+		PlayState.songDisplayName = newName;
+	}
+	curFrame++;
+}
+
+function initFunction(params) {
+	var one = new Character().setCharacter(0,0,'gold-headless');
+	var two = new Character().setCharacter(0,0,'gold-no-more');
+	var three = new Character().setCharacter(0,0,'gold-head-rip');
+}

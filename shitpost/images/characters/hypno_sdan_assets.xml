@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hypno sdan assets.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hypno sdan dance left0000" x="10" y="10" width="159" height="152"/>
+	<SubTexture name="hypno sdan dance left0001" x="10" y="10" width="159" height="152"/>
+	<SubTexture name="hypno sdan dance right0000" x="179" y="10" width="159" height="152"/>
+	<SubTexture name="hypno sdan dance right0001" x="179" y="10" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0000" x="10" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0001" x="10" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0002" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0003" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0004" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0005" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0006" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0007" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0008" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0009" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0010" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0011" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0012" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan down0013" x="179" y="172" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0000" x="10" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0001" x="10" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0002" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0003" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0004" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0005" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0006" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0007" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0008" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0009" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0010" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0011" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0012" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan left0013" x="179" y="334" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0000" x="10" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0001" x="10" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0002" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0003" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0004" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0005" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0006" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0007" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0008" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0009" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0010" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0011" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0012" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan right0013" x="179" y="496" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0000" x="10" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0001" x="10" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0002" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0003" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0004" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0005" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0006" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0007" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0008" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0009" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0010" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0011" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0012" x="179" y="658" width="159" height="152"/>
+	<SubTexture name="hypno sdan up0013" x="179" y="658" width="159" height="152"/>
+</TextureAtlas>

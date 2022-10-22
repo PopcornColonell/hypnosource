@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Plays the ending animation for Shinto.";
+
+function returnDelay()
+	return 0;

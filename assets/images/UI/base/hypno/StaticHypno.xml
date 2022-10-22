@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="StaticHypno.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="StaticHypno0000" x="20" y="20" width="2291" height="1476" frameX="-9" frameY="-4" frameWidth="2300" frameHeight="1480"/>
+	<SubTexture name="StaticHypno0001" x="2331" y="20" width="2296" height="1474" frameX="-2" frameY="-3" frameWidth="2300" frameHeight="1480"/>
+	<SubTexture name="StaticHypno0002" x="4647" y="20" width="2300" height="1480"/>
+</TextureAtlas>

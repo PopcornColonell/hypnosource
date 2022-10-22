@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Bronzong_Gong_mechanic.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spacebar hold piece0000" x="5" y="5" width="98" height="45"/>
+	<SubTexture name="spacebar hold piece0001" x="5" y="5" width="98" height="45"/>
+	<SubTexture name="spacebar hold piece0002" x="5" y="5" width="98" height="45"/>
+	<SubTexture name="spacebar hold piece0003" x="5" y="5" width="98" height="45"/>
+	<SubTexture name="spacebar hold piece0004" x="5" y="5" width="98" height="45"/>
+	<SubTexture name="spacebar0000" x="108" y="5" width="357" height="83" frameX="-75" frameY="-26" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar0001" x="470" y="5" width="361" height="109" frameX="-75" frameY="0" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar0002" x="470" y="5" width="361" height="109" frameX="-75" frameY="0" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar0003" x="5" y="119" width="360" height="98" frameX="-72" frameY="-11" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar0004" x="5" y="119" width="360" height="98" frameX="-72" frameY="-11" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar confirm0000" x="370" y="119" width="497" height="64" frameX="0" frameY="-51" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar confirm0001" x="5" y="222" width="476" height="64" frameX="-13" frameY="-51" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar confirm0002" x="486" y="222" width="417" height="68" frameX="-41" frameY="-47" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar confirm0003" x="5" y="295" width="391" height="73" frameX="-55" frameY="-42" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar confirm0004" x="401" y="295" width="353" height="88" frameX="-77" frameY="-23" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0000" x="5" y="388" width="398" height="52" frameX="-56" frameY="-60" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0001" x="5" y="388" width="398" height="52" frameX="-56" frameY="-60" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0002" x="408" y="388" width="380" height="55" frameX="-64" frameY="-57" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0003" x="5" y="448" width="345" height="72" frameX="-79" frameY="-40" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0004" x="355" y="448" width="354" height="58" frameX="-74" frameY="-54" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0005" x="355" y="448" width="354" height="58" frameX="-74" frameY="-54" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0006" x="355" y="448" width="354" height="58" frameX="-74" frameY="-54" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar press0007" x="355" y="448" width="354" height="58" frameX="-74" frameY="-54" frameWidth="497" frameHeight="115"/>
+	<SubTexture name="spacebar hold end0000" x="714" y="448" width="98" height="82"/>
+	<SubTexture name="spacebar hold end0001" x="714" y="448" width="98" height="82"/>
+	<SubTexture name="spacebar hold end0002" x="714" y="448" width="98" height="82"/>
+	<SubTexture name="spacebar hold end0003" x="714" y="448" width="98" height="82"/>
+	<SubTexture name="spacebar hold end0004" x="714" y="448" width="98" height="82"/>
+</TextureAtlas>

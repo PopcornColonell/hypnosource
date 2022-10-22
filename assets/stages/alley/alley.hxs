@@ -1,0 +1,165 @@
+var purinHitbox:FlxSprite;
+
+var hypnoGuide:FlxSprite;
+var brimstoneHand:FlxSprite;
+var brimStoneHandOccured:Bool = false;
+
+function onCreate() {
+	trace('heepnooo');
+	if (PlayState.old) {
+		var consistentPosition:Array<Float> = [-800, -300];
+		var resizeBG:Float = 0.7;
+		PlayState.defaultCamZoom = 0.7;
+		var background:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+		background.loadGraphic(Paths.image('old/Hypno bg background'));
+		background.setGraphicSize(Std.int(background.width * resizeBG));
+		background.updateHitbox();
+		background.antialiasing = true;
+		background.scrollFactor.set(0.6, 0.6);
+		background.active = false;
+		add(background);
+		var midGround:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+		midGround.loadGraphic(Paths.image('old/Hypno bg midground'));
+		midGround.setGraphicSize(Std.int(midGround.width * resizeBG));
+		midGround.updateHitbox();
+		midGround.antialiasing = true;
+		// midGround.scrollFactor.set(0.9, 0.9);
+		midGround.active = false;
+		add(midGround);
+		var stageForeground = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+		stageForeground.loadGraphic(Paths.image('old/Hypno bg foreground'));
+		stageForeground.setGraphicSize(Std.int(stageForeground.width * resizeBG));
+		stageForeground.updateHitbox();
+		stageForeground.antialiasing = true;
+		stageForeground.scrollFactor.set(1.2, 1.2);
+		stageForeground.active = false;
+		foreground.add(stageForeground);
+	} else {
+		var consistentPosition:Array<Float> = [-800, -300];
+		var resizeBG:Float = 0.7;
+		PlayState.defaultCamZoom = 0.65;
+		var background:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+		background.loadGraphic(Paths.image('BACKGROUND'));
+		background.setGraphicSize(Std.int(background.width * resizeBG));
+		background.updateHitbox();
+		background.antialiasing = true;
+		background.scrollFactor.set(0.6, 0.6);
+		background.active = false;
+		add(background);
+
+		var grass:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+		grass.loadGraphic(Paths.image('Behind the clouds and fence'));
+		grass.setGraphicSize(Std.int(grass.width * resizeBG));
+		grass.updateHitbox();
+		grass.antialiasing = true;
+		grass.scrollFactor.set(0.7, 0.7);
+		grass.active = false;
+		add(grass);
+
+		var fog:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+		fog.loadGraphic(Paths.image('Behind the Fence'));
+		fog.setGraphicSize(Std.int(fog.width * resizeBG));
+		fog.updateHitbox();
+		fog.scrollFactor.set(0.8, 0.8);
+		fog.antialiasing = true;
+		fog.active = false;
+		add(fog);
+
+		var midground = new FlxSprite(consistentPosition[0], consistentPosition[1]);
+		var name:String = 'MIDGROUND';
+		if (PlayState.SONG.song == 'Left-Unchecked')
+			name = name + ' BLOOD';
+		midground.loadGraphic(Paths.image(name));
+		midground.setGraphicSize(Std.int(midground.width * resizeBG));
+		midground.updateHitbox();
+		midground.antialiasing = true;
+		// midground.scrollFactor.set(0.9, 0.9);
+		midground.active = false;
+		add(midground);
+
+		var stageForeground = new FlxSprite(consistentPosition[0] - 100, consistentPosition[1]);
+		stageForeground.loadGraphic(Paths.image('FOREGROUND TREE'));
+		stageForeground.setGraphicSize(Std.int(stageForeground.width * resizeBG));
+		stageForeground.updateHitbox();
+		stageForeground.antialiasing = true;
+		stageForeground.scrollFactor.set(1.2, 1.2);
+		stageForeground.active = false;
+		foreground.add(stageForeground);
+
+		purinHitbox = new FlxSprite(consistentPosition[0] + 100, consistentPosition[1] + 300);
+		purinHitbox.makeGraphic(1000, 700, FlxColor.fromRGB(255, 255, 255));
+		purinHitbox.visible = false;
+		add(purinHitbox);
+		
+		trace(boyfriend.x);
+		boyfriend.x += 200;
+	}
+
+	dad.x -= 200;
+
+	brimstoneHand = new FlxSprite(760, 100);
+	brimstoneHand.frames = Paths.getSparrowAtlas('White_Hand');
+	brimstoneHand.animation.addByPrefix('idle', 'White Hand FInished', 24, false);
+	brimstoneHand.animation.play('idle');
+	brimstoneHand.updateHitbox();
+	brimstoneHand.antialiasing = true;
+	brimstoneHand.setGraphicSize(Std.int(brimstoneHand.width * 0.65));
+	add(brimstoneHand);
+	brimstoneHand.visible = false;
+}
+
+function onCreatePost() {
+	PlayState.instance.disableCountdown = false;
+	PlayState.instance.dadStrums.visible = false;
+
+	if (FlxG.save.data.itemsPurchased.contains('Lit Candle') && !FlxG.save.data.activatedPurin)
+		{
+			FlxG.mouse.visible = true;
+			FlxG.mouse.useSystemCursor = true;
+		}
+
+	hypnoGuide = new FlxSprite(530, 370);
+	hypnoGuide.frames = Paths.getSparrowAtlas('UI/base/hypno/Extras');
+	hypnoGuide.animation.addByPrefix('press', 'Spacebar', 24, false);
+	hypnoGuide.animation.play('press');
+	hypnoGuide.updateHitbox();
+	hypnoGuide.antialiasing = true;
+	add(hypnoGuide);
+	hypnoGuide.cameras = [PlayState.camHUD];
+	hypnoGuide.alpha = 0.0001;
+}
+
+function onUpdate(elapsed) {
+    if (FlxG.mouse.overlaps(purinHitbox))
+		{
+			if (FlxG.mouse.pressed && FlxG.save.data.itemsPurchased.contains('Lit Candle'))
+				{
+					PlayState.instance.purinActivate();
+				}
+		}
+}
+
+function onBeat(beat) {
+	if (hypnoGuide != null && PlayState.instance.curSong == 'Safety Lullaby')
+		{
+			if (beat == 2) FlxTween.tween(hypnoGuide, {alpha: 1.0}, 0.5, {ease: FlxEase.cubeInOut});
+			if (beat == 14) FlxTween.tween(hypnoGuide, {alpha: 0.0}, 0.5, {ease: FlxEase.cubeInOut});
+			if (beat % 2 == 0) hypnoGuide.animation.play('press');
+		}
+
+	if (brimStoneHandOccured == false && FlxG.random.bool(1))
+		{
+			brimStoneHand();
+		}
+}
+
+function brimStoneHand()
+	{
+		brimStoneHandOccured = true;
+		brimstoneHand.visible = true;
+		brimstoneHand.animation.play('idle');
+		brimstoneHand.animation.finishCallback = function(name:String) 
+			{
+				brimstoneHand.alpha = 0.0001;
+			}
+	}

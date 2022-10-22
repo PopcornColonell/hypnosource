@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GGirl Alexis Passing Spritesheet.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GGirl Passing0000" x="0" y="0" width="276" height="246" frameX="-15" frameY="-331" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0001" x="276" y="0" width="283" height="270" frameX="-12" frameY="-323" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0002" x="276" y="0" width="283" height="270" frameX="-12" frameY="-323" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0003" x="559" y="0" width="288" height="233" frameX="-10" frameY="-318" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0004" x="559" y="0" width="288" height="233" frameX="-10" frameY="-318" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0005" x="847" y="0" width="297" height="236" frameX="-8" frameY="-306" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0006" x="847" y="0" width="297" height="236" frameX="-8" frameY="-306" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0007" x="1144" y="0" width="298" height="253" frameX="-5" frameY="-273" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0008" x="1144" y="0" width="298" height="253" frameX="-5" frameY="-273" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0009" x="1442" y="0" width="300" height="269" frameX="-6" frameY="-247" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0010" x="1442" y="0" width="300" height="269" frameX="-6" frameY="-247" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0011" x="0" y="270" width="310" height="276" frameX="-1" frameY="-216" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0012" x="0" y="270" width="310" height="276" frameX="-1" frameY="-216" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0013" x="310" y="270" width="303" height="311" frameX="-8" frameY="-168" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0014" x="613" y="270" width="298" height="312" frameX="-10" frameY="-154" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0015" x="911" y="270" width="310" height="340" frameX="-2" frameY="-111" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0016" x="1221" y="270" width="289" height="364" frameX="-12" frameY="-74" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0017" x="1510" y="270" width="305" height="378" frameX="-3" frameY="-55" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0018" x="0" y="648" width="292" height="379" frameX="-9" frameY="-40" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0019" x="292" y="648" width="308" height="390" frameX="0" frameY="-19" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0020" x="600" y="648" width="284" height="390" frameX="-12" frameY="0" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0021" x="884" y="648" width="267" height="315" frameX="-22" frameY="-63" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0022" x="1151" y="648" width="262" height="317" frameX="-35" frameY="-71" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0023" x="1151" y="648" width="262" height="317" frameX="-35" frameY="-71" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0024" x="1413" y="648" width="0" height="0" frameX="1056" frameY="-128" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0025" x="1413" y="648" width="0" height="0" frameX="1056" frameY="-128" frameWidth="312" frameHeight="593"/>
+	<SubTexture name="GGirl Passing0026" x="1413" y="648" width="0" height="0" frameX="1056" frameY="-128" frameWidth="312" frameHeight="593"/>
+</TextureAtlas>

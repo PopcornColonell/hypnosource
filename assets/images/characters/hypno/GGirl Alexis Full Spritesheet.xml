@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GGirl Alexis Full Spritesheet.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GGirl Down0000" x="0" y="0" width="329" height="260"/>
+	<SubTexture name="GGirl Down0001" x="329" y="0" width="307" height="251" frameX="-12" frameY="0" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0002" x="329" y="0" width="307" height="251" frameX="-12" frameY="0" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0003" x="636" y="0" width="280" height="232" frameX="-29" frameY="-6" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0004" x="636" y="0" width="280" height="232" frameX="-29" frameY="-6" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0005" x="916" y="0" width="276" height="228" frameX="-33" frameY="-2" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0006" x="916" y="0" width="276" height="228" frameX="-33" frameY="-2" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0007" x="1192" y="0" width="273" height="234" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0008" x="1192" y="0" width="273" height="234" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0009" x="1465" y="0" width="273" height="235" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0010" x="1465" y="0" width="273" height="235" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0011" x="1738" y="0" width="273" height="239" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0012" x="1738" y="0" width="273" height="239" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0013" x="2011" y="0" width="273" height="241" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0014" x="2011" y="0" width="273" height="241" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0015" x="2284" y="0" width="275" height="254" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down0016" x="2559" y="0" width="273" height="224" frameX="-35" frameY="-1" frameWidth="329" frameHeight="260"/>
+	<SubTexture name="GGirl Down Miss0000" x="2832" y="0" width="325" height="264" frameX="-3" frameY="-21" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0001" x="3157" y="0" width="275" height="275" frameX="-34" frameY="-1" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0002" x="3432" y="0" width="291" height="298" frameX="-34" frameY="-1" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0003" x="3723" y="0" width="258" height="275" frameX="-25" frameY="-1" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0004" x="0" y="298" width="279" height="256" frameX="-7" frameY="-25" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0005" x="279" y="298" width="284" height="254" frameX="-2" frameY="-27" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0006" x="563" y="298" width="276" height="281" frameX="0" frameY="0" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0007" x="563" y="298" width="276" height="281" frameX="0" frameY="0" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0008" x="839" y="298" width="260" height="251" frameX="0" frameY="-30" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0009" x="1099" y="298" width="260" height="251" frameX="0" frameY="-30" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0010" x="1099" y="298" width="260" height="251" frameX="0" frameY="-30" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Down Miss0011" x="1099" y="298" width="260" height="251" frameX="0" frameY="-30" frameWidth="328" frameHeight="299"/>
+	<SubTexture name="GGirl Idle0000" x="1359" y="298" width="278" height="250" frameX="0" frameY="-6" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0001" x="1637" y="298" width="278" height="232" frameX="0" frameY="-5" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0002" x="1637" y="298" width="278" height="232" frameX="0" frameY="-5" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0003" x="1915" y="298" width="278" height="233" frameX="0" frameY="-5" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0004" x="1915" y="298" width="278" height="233" frameX="0" frameY="-5" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0005" x="2193" y="298" width="278" height="233" frameX="0" frameY="-4" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0006" x="2193" y="298" width="278" height="233" frameX="0" frameY="-4" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0007" x="2471" y="298" width="278" height="241" frameX="0" frameY="-2" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0008" x="2471" y="298" width="278" height="241" frameX="0" frameY="-2" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0009" x="2749" y="298" width="278" height="244" frameX="0" frameY="0" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0010" x="3027" y="298" width="278" height="244" frameX="0" frameY="0" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0011" x="3305" y="298" width="278" height="245" frameX="0" frameY="0" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0012" x="3583" y="298" width="278" height="245" frameX="0" frameY="-1" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0013" x="0" y="579" width="276" height="247" frameX="-1" frameY="-2" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Idle0014" x="276" y="579" width="276" height="246" frameX="-1" frameY="-3" frameWidth="278" frameHeight="256"/>
+	<SubTexture name="GGirl Left0000" x="552" y="579" width="308" height="239" frameX="0" frameY="0" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0001" x="860" y="579" width="288" height="233" frameX="-18" frameY="-10" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0002" x="860" y="579" width="288" height="233" frameX="-18" frameY="-10" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0003" x="1148" y="579" width="262" height="218" frameX="-34" frameY="-21" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0004" x="1148" y="579" width="262" height="218" frameX="-34" frameY="-21" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0005" x="1410" y="579" width="262" height="220" frameX="-37" frameY="-24" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0006" x="1410" y="579" width="262" height="220" frameX="-37" frameY="-24" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0007" x="1672" y="579" width="264" height="220" frameX="-39" frameY="-27" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0008" x="1936" y="579" width="264" height="220" frameX="-41" frameY="-27" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0009" x="2200" y="579" width="263" height="214" frameX="-42" frameY="-28" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0010" x="2463" y="579" width="263" height="215" frameX="-43" frameY="-28" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0011" x="2463" y="579" width="263" height="215" frameX="-43" frameY="-28" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0012" x="2463" y="579" width="263" height="215" frameX="-43" frameY="-28" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0013" x="2463" y="579" width="263" height="215" frameX="-43" frameY="-28" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0014" x="2463" y="579" width="263" height="215" frameX="-43" frameY="-28" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Left0015" x="2463" y="579" width="263" height="215" frameX="-43" frameY="-28" frameWidth="308" frameHeight="247"/>
+	<SubTexture name="GGirl Right0000" x="2726" y="579" width="290" height="283" frameX="-53" frameY="0" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0001" x="3016" y="579" width="288" height="265" frameX="-44" frameY="-13" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0002" x="3016" y="579" width="288" height="265" frameX="-44" frameY="-13" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0003" x="3304" y="579" width="288" height="258" frameX="-34" frameY="-16" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0004" x="3304" y="579" width="288" height="258" frameX="-34" frameY="-16" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0005" x="3592" y="579" width="293" height="260" frameX="-22" frameY="-18" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0006" x="3592" y="579" width="293" height="260" frameX="-22" frameY="-18" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0007" x="0" y="862" width="301" height="264" frameX="-11" frameY="-21" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0008" x="301" y="862" width="301" height="264" frameX="-11" frameY="-21" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0009" x="602" y="862" width="311" height="273" frameX="0" frameY="-22" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0010" x="913" y="862" width="240" height="252" frameX="-70" frameY="-22" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0011" x="913" y="862" width="240" height="252" frameX="-70" frameY="-22" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0012" x="913" y="862" width="240" height="252" frameX="-70" frameY="-22" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0013" x="913" y="862" width="240" height="252" frameX="-70" frameY="-22" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0014" x="913" y="862" width="240" height="252" frameX="-70" frameY="-22" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right0015" x="913" y="862" width="240" height="252" frameX="-70" frameY="-22" frameWidth="343" frameHeight="295"/>
+	<SubTexture name="GGirl Right Miss0000" x="1153" y="862" width="286" height="281" frameX="0" frameY="-27" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0001" x="1439" y="862" width="289" height="299" frameX="-33" frameY="-32" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0002" x="1728" y="862" width="313" height="289" frameX="-33" frameY="-42" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0003" x="2041" y="862" width="282" height="277" frameX="-26" frameY="0" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0004" x="2323" y="862" width="292" height="276" frameX="-31" frameY="-2" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0005" x="2615" y="862" width="296" height="274" frameX="-31" frameY="-4" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0006" x="2911" y="862" width="296" height="277" frameX="-31" frameY="-4" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0007" x="2911" y="862" width="296" height="277" frameX="-31" frameY="-4" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0008" x="3207" y="862" width="296" height="274" frameX="-31" frameY="-4" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0009" x="3503" y="862" width="296" height="274" frameX="-31" frameY="-4" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0010" x="3503" y="862" width="296" height="274" frameX="-31" frameY="-4" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0011" x="3503" y="862" width="296" height="274" frameX="-31" frameY="-4" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0012" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0013" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0014" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0015" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0016" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0017" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0018" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0019" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0020" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0021" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0022" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0023" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0024" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0025" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0026" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0027" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0028" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0029" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0030" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0031" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0032" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0033" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0034" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0035" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0036" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0037" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0038" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0039" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Right Miss0040" x="3799" y="862" width="0" height="0" frameX="1134" frameY="140" frameWidth="346" frameHeight="331"/>
+	<SubTexture name="GGirl Up0000" x="3799" y="862" width="240" height="282" frameX="0" frameY="0" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0001" x="0" y="1161" width="224" height="283" frameX="-9" frameY="-13" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0002" x="0" y="1161" width="224" height="283" frameX="-9" frameY="-13" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0003" x="224" y="1161" width="214" height="271" frameX="-17" frameY="-30" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0004" x="224" y="1161" width="214" height="271" frameX="-17" frameY="-30" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0005" x="438" y="1161" width="217" height="273" frameX="-17" frameY="-34" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0006" x="655" y="1161" width="218" height="273" frameX="-17" frameY="-34" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0007" x="873" y="1161" width="218" height="293" frameX="-17" frameY="-36" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0008" x="1091" y="1161" width="218" height="211" frameX="-17" frameY="-36" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0009" x="1309" y="1161" width="218" height="212" frameX="-17" frameY="-39" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0010" x="1527" y="1161" width="218" height="212" frameX="-17" frameY="-39" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0011" x="1745" y="1161" width="218" height="206" frameX="-17" frameY="-43" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0012" x="1963" y="1161" width="218" height="206" frameX="-17" frameY="-44" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0013" x="2181" y="1161" width="218" height="212" frameX="-17" frameY="-45" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0014" x="2399" y="1161" width="218" height="212" frameX="-17" frameY="-45" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up0015" x="2617" y="1161" width="218" height="212" frameX="-17" frameY="-45" frameWidth="240" frameHeight="329"/>
+	<SubTexture name="GGirl Up Miss0000" x="2835" y="1161" width="239" height="282" frameX="-153" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0001" x="3074" y="1161" width="357" height="357" frameX="-11" frameY="0" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0002" x="3431" y="1161" width="371" height="348" frameX="0" frameY="-17" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0003" x="0" y="1518" width="297" height="269" frameX="-129" frameY="-102" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0004" x="297" y="1518" width="296" height="266" frameX="-123" frameY="-105" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0005" x="593" y="1518" width="295" height="266" frameX="-122" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0006" x="888" y="1518" width="295" height="266" frameX="-122" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0007" x="888" y="1518" width="295" height="266" frameX="-122" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0008" x="888" y="1518" width="295" height="266" frameX="-122" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0009" x="888" y="1518" width="295" height="266" frameX="-122" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0010" x="888" y="1518" width="295" height="266" frameX="-122" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl Up Miss0011" x="888" y="1518" width="295" height="266" frameX="-122" frameY="-106" frameWidth="426" frameHeight="388"/>
+	<SubTexture name="GGirl left Miss0000" x="1183" y="1518" width="306" height="239" frameX="-69" frameY="-29" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0001" x="1489" y="1518" width="286" height="279" frameX="-26" frameY="-2" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0002" x="1775" y="1518" width="312" height="240" frameX="0" frameY="-33" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0003" x="2087" y="1518" width="301" height="258" frameX="-13" frameY="0" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0004" x="2388" y="1518" width="289" height="265" frameX="-41" frameY="-5" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0005" x="2677" y="1518" width="290" height="262" frameX="-32" frameY="-8" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0006" x="2967" y="1518" width="290" height="262" frameX="-32" frameY="-8" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0007" x="2967" y="1518" width="290" height="262" frameX="-32" frameY="-8" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0008" x="2967" y="1518" width="290" height="262" frameX="-32" frameY="-8" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0009" x="2967" y="1518" width="290" height="262" frameX="-32" frameY="-8" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0010" x="2967" y="1518" width="290" height="262" frameX="-32" frameY="-8" frameWidth="375" frameHeight="281"/>
+	<SubTexture name="GGirl left Miss0011" x="2967" y="1518" width="290" height="262" frameX="-32" frameY="-8" frameWidth="375" frameHeight="281"/>
+</TextureAtlas>

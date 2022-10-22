@@ -1,0 +1,13 @@
+function returnDescription()
+    return "Basically just does what the name says\nvalue 1: intensity\nvalue 2: speed";
+
+function eventFunction(params) {
+	var intensity = Std.parseFloat(params[0]);
+	if (Math.isNaN(intensity))
+		intensity = 0;
+	var speed = Std.parseFloat(params[1]);
+	if (Math.isNaN(speed)) 
+		speed = 0;
+	PlayState.instance.bopIntensity = intensity;
+	PlayState.instance.bopFrequency = speed;
+}

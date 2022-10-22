@@ -1,0 +1,43 @@
+function returnDescription()
+    return 'Desaturate the Brimstone background.';
+
+function eventFunction(params) {
+	PlayState.instance.stageBuild.forEach(function(sprite:FlxSprite){
+		var desaturateShader = new FlxGraphicsShader("", Paths.shader('desaturation'));
+		sprite.shader = desaturateShader;
+	});
+
+	var originalCameraPlacement:FlxPoint = new FlxPoint().copyFrom(PlayState.instance.manualCameraPosition);
+	PlayState.instance.camZooming = false;
+	PlayState.instance.brimstoneDesaturate = true;
+		
+	PlayState.instance.desaturateAmount = 1;
+	PlayState.instance.desaturateAmplitude = 0;
+
+	FlxTween.tween(PlayState.instance.manualCameraPosition, {
+		x: PlayState.instance.manualCameraPosition.x + 175,
+		y: PlayState.instance.manualCameraPosition.y - 150,
+	}, (Conductor.stepCrochet * 32) / 1000, {ease: FlxEase.sineIn});
+	FlxTween.tween(PlayState.instance, {
+		desaturateAmount: 0.0,
+		desaturateAmplitude: 0.1,
+	}, (Conductor.stepCrochet * 32) / 1000, {
+		ease: FlxEase.sineIn,
+		onComplete: function(tween:FlxTween)
+		{
+			PlayState.instance.vignette = new ShaderFilter(new GraphicsShader("", Paths.shader('brimstone/vignetteApparition')));
+			PlayState.vignetteCam.setFilters([PlayState.instance.vignette]);
+			FlxTween.tween(PlayState.camGame, {zoom: PlayState.defaultCamZoom}, (Conductor.stepCrochet * 32) / 1000,
+				{ease: FlxEase.sineOut, startDelay: (Conductor.stepCrochet * 16) / 1000});
+			FlxTween.tween(PlayState.instance.manualCameraPosition, {
+				x: originalCameraPlacement.x,
+				y: originalCameraPlacement.y,
+			}, (Conductor.stepCrochet * 32) / 1000, 
+				{ease: FlxEase.sineOut, startDelay: (Conductor.stepCrochet * 16) / 1000, onComplete: function(tween:FlxTween){
+					PlayState.instance.camZooming = true;
+				}});
+		}
+	});
+	FlxTween.tween(PlayState.camGame, {zoom: 0.9}, (Conductor.stepCrochet * 32) / 1000, {ease: FlxEase.sineIn});
+}
+

@@ -1,0 +1,34 @@
+function returnDescription()
+    return '';
+
+var arrayOfMarios:Array<FlxSprite> = [];
+var amountOfMarios:Int = 128;
+
+function initFunction(params) {
+	for (i in 0...amountOfMarios)
+		summonMario();
+}
+
+function eventFunction(params) {
+	PlayState.dadOpponent.visible = false;
+	for (i in arrayOfMarios)
+		PlayState.instance.add(i);
+}
+
+function summonMario() {
+	var newSprite:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mario', 'shitpost'));
+	newSprite.screenCenter();
+	arrayOfMarios.push(newSprite);
+}
+
+var angle:Float = 0.0125;
+function onUpdate(elapsed) {
+	var i:Int = 0;
+	for (mario in arrayOfMarios) {
+		mario.screenCenter();
+		mario.x += Math.sin(((Conductor.songPosition/1000 + i)) * 2) * 256 * angle;
+		mario.y += Math.cos(((Conductor.songPosition/1000 + i)) * 2) * 256 * angle;
+		i++;
+	}
+	angle = angle * 1.006125;
+}

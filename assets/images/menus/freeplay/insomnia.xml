@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Insomnia_ Portrait.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="insomnia0000" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0001" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0002" x="485" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0003" x="485" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0004" x="965" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0005" x="965" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0006" x="1445" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0007" x="1445" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0008" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0009" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0010" x="485" y="5" width="475" height="503"/>
+	<SubTexture name="insomnia0011" x="5" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0012" x="485" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0013" x="485" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0014" x="965" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0015" x="965" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0016" x="1445" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0017" x="1445" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0018" x="5" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0019" x="5" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0020" x="485" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0021" x="485" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0022" x="965" y="513" width="475" height="503"/>
+	<SubTexture name="insomnia0023" x="965" y="513" width="475" height="503"/>
+</TextureAtlas>

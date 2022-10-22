@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pikachu menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pikachu menu instance 10000" x="0" y="0" width="723" height="785" frameX="-6" frameY="-18" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10001" x="0" y="0" width="723" height="785" frameX="-6" frameY="-18" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10002" x="0" y="0" width="723" height="785" frameX="-6" frameY="-18" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10003" x="773" y="0" width="734" height="800" frameX="-1" frameY="-3" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10004" x="773" y="0" width="734" height="800" frameX="-1" frameY="-3" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10005" x="773" y="0" width="734" height="800" frameX="-1" frameY="-3" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10006" x="0" y="850" width="727" height="769" frameX="-12" frameY="-34" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10007" x="0" y="850" width="727" height="769" frameX="-12" frameY="-34" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10008" x="0" y="850" width="727" height="769" frameX="-12" frameY="-34" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10009" x="777" y="850" width="736" height="801" frameX="0" frameY="0" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10010" x="777" y="850" width="736" height="801" frameX="0" frameY="0" frameWidth="739" frameHeight="803"/>
+	<SubTexture name="pikachu menu instance 10011" x="777" y="850" width="736" height="801" frameX="0" frameY="0" frameWidth="739" frameHeight="803"/>
+</TextureAtlas>

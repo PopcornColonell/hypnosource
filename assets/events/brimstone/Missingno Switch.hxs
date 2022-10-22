@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Switch the Singing Character between Boyfriend and Missingno (Player Side)";
+
+function returnDelay()
+	return 0;

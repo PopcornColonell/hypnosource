@@ -1,0 +1,32 @@
+{
+    "lyrics": [
+        {
+            "steps": [88, 94],
+            "curString": "So /cold..."
+        },
+        {
+            "steps": [108, 112, 114, 116, 120, 128],
+            "curString": "Why/ is/ it/ so/ cold?"
+        },
+        {
+            "steps": [568, 572, 576, 578, 580, 582, 586, 594],
+            "curString": "Get/ away/ from/ me/ you/ freak!"
+        },
+        {
+            "steps": [2064, 2068, 2072, 2078],
+            "curString": "Leave/ me/ ALONE!"
+        },
+        {
+            "steps": [2976, 2980, 2988],
+            "curString": "What/ the?!"
+        },
+        {
+            "steps": [2991, 2998],
+            "curString": "AHH!"
+        },
+        {
+            "steps": [3008, 3088],
+            "curString": "*Grey Screaming*"
+        }
+    ]
+}

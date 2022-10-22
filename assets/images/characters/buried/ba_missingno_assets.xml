@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ba_missingno_assets.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BA_Missingno_Down0000" x="3" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down0001" x="3" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down0002" x="233" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down0003" x="233" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down0004" x="463" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down0005" x="463" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down0006" x="463" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down0007" x="463" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down Miss0000" x="693" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down Miss0001" x="693" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down Miss0002" x="923" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down Miss0003" x="923" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down Miss0004" x="923" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Down Miss0005" x="923" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0000" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0001" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0002" x="1383" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0003" x="1383" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0004" x="1613" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0005" x="1613" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0006" x="3" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0007" x="3" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0008" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0009" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0010" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0011" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0012" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0013" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0014" x="233" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0015" x="233" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0016" x="463" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0017" x="463" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0018" x="693" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0019" x="693" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0020" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0021" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0022" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Idle0023" x="1153" y="3" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0000" x="923" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0001" x="923" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0002" x="1153" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0003" x="1153" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0004" x="1383" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0005" x="1383" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0006" x="1383" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left0007" x="1383" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left Miss0000" x="1613" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left Miss0001" x="1613" y="195" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left Miss0002" x="3" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left Miss0003" x="3" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left Miss0004" x="3" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Left Miss0005" x="3" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0000" x="233" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0001" x="233" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0002" x="463" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0003" x="463" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0004" x="693" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0005" x="693" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0006" x="693" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right0007" x="693" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right Miss0000" x="923" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right Miss0001" x="923" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right Miss0002" x="1153" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right Miss0003" x="1153" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right Miss0004" x="1153" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Right Miss0005" x="1153" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0000" x="1383" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0001" x="1383" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0002" x="1613" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0003" x="1613" y="387" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0004" x="3" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0005" x="3" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0006" x="3" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up0007" x="3" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up Miss0000" x="233" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up Miss0001" x="233" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up Miss0002" x="463" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up Miss0003" x="463" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up Miss0004" x="463" y="579" width="227" height="189"/>
+	<SubTexture name="BA_Missingno_Up Miss0005" x="463" y="579" width="227" height="189"/>
+</TextureAtlas>

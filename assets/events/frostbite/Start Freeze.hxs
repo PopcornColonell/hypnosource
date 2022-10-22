@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Starts freezing in Frostbite.";
+
+function returnDelay()
+	return 0;

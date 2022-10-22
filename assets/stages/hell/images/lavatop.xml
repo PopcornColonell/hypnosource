@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lavatop.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lavatop0000" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0001" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0002" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0003" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0004" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0005" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0006" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0007" x="20" y="20" width="4166" height="900"/>
+	<SubTexture name="lavatop0008" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0009" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0010" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0011" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0012" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0013" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0014" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0015" x="20" y="940" width="4166" height="900"/>
+	<SubTexture name="lavatop0016" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0017" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0018" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0019" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0020" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0021" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0022" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0023" x="20" y="1860" width="4166" height="900"/>
+	<SubTexture name="lavatop0024" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0025" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0026" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0027" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0028" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0029" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0030" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0031" x="20" y="2780" width="4166" height="900"/>
+	<SubTexture name="lavatop0032" x="20" y="3700" width="4166" height="900"/>
+	<SubTexture name="lavatop0033" x="20" y="3700" width="4166" height="900"/>
+	<SubTexture name="lavatop0034" x="20" y="3700" width="4166" height="900"/>
+	<SubTexture name="lavatop0035" x="20" y="3700" width="4166" height="900"/>
+	<SubTexture name="lavatop0036" x="20" y="3700" width="4166" height="900"/>
+	<SubTexture name="lavatop0037" x="20" y="3700" width="4166" height="900"/>
+	<SubTexture name="lavatop0038" x="20" y="3700" width="4166" height="900"/>
+	<SubTexture name="lavatop0039" x="20" y="3700" width="4166" height="900"/>
+</TextureAtlas>

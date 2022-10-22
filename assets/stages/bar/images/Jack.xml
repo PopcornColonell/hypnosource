@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Jack with no brim.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Body with tar instance 10000" x="0" y="0" width="322" height="538" frameX="0" frameY="-4" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10001" x="322" y="0" width="316" height="539" frameX="-2" frameY="-3" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10002" x="322" y="0" width="316" height="539" frameX="-2" frameY="-3" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10003" x="638" y="0" width="314" height="540" frameX="-3" frameY="-2" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10004" x="638" y="0" width="314" height="540" frameX="-3" frameY="-2" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10005" x="952" y="0" width="314" height="542" frameX="-3" frameY="0" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10006" x="952" y="0" width="314" height="542" frameX="-3" frameY="0" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10007" x="952" y="0" width="314" height="542" frameX="-3" frameY="0" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10008" x="952" y="0" width="314" height="542" frameX="-3" frameY="0" frameWidth="322" frameHeight="542"/>
+	<SubTexture name="Body with tar instance 10009" x="952" y="0" width="314" height="542" frameX="-3" frameY="0" frameWidth="322" frameHeight="542"/>
+</TextureAtlas>

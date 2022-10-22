@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ShintoPastaNight.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Shitno0000" x="3" y="3" width="148" height="128"/>
+	<SubTexture name="Shitno0001" x="3" y="3" width="148" height="128"/>
+	<SubTexture name="Shitno0002" x="154" y="3" width="148" height="128"/>
+	<SubTexture name="Shitno0003" x="154" y="3" width="148" height="128"/>
+	<SubTexture name="Shitno0004" x="305" y="3" width="148" height="128"/>
+	<SubTexture name="Shitno0005" x="305" y="3" width="148" height="128"/>
+	<SubTexture name="Shitno0006" x="3" y="134" width="148" height="128"/>
+	<SubTexture name="Shitno0007" x="3" y="134" width="148" height="128"/>
+	<SubTexture name="Shitno0008" x="154" y="134" width="148" height="128"/>
+	<SubTexture name="Shitno0009" x="154" y="134" width="148" height="128"/>
+</TextureAtlas>

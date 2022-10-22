@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Switch the Singing Character to Gengar (Opponent Side)";
+
+function returnDelay()
+	return 0;

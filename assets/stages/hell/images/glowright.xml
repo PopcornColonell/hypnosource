@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="glowright.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="glowright0000" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0001" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0002" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0003" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0004" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0005" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0006" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0007" x="20" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0008" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0009" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0010" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0011" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0012" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0013" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0014" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0015" x="2169" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0016" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0017" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0018" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0019" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0020" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0021" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0022" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0023" x="4318" y="20" width="2129" height="1762"/>
+	<SubTexture name="glowright0024" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0025" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0026" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0027" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0028" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0029" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0030" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0031" x="20" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0032" x="2169" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0033" x="2169" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0034" x="2169" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0035" x="2169" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0036" x="2169" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0037" x="2169" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0038" x="2169" y="1802" width="2129" height="1762"/>
+	<SubTexture name="glowright0039" x="2169" y="1802" width="2129" height="1762"/>
+</TextureAtlas>

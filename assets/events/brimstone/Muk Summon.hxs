@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Buried Alive Muk";
+
+function returnDelay()
+	return 0;

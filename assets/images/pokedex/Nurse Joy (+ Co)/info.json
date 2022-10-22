@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Nurse Joy (+ Co)",
+        "dex": 18,
+        "height": "5'05”",
+        "weight": "120 lbs",
+        "offset": {"x": 330, "y": 200},
+	  "scale": 3,
+        "tagline": "",
+        "desc": "This kind-hearted Nurse Joy is a Pokemon caretaker found in an abandoned Pokecenter. She'd do anything for her precious little Pokemon... Anything at all."
+    }
+}

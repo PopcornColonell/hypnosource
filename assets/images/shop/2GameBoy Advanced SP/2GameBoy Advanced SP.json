@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "GameBoy Advanced SP",
+        "price": 300,
+        "animName": "Death Toll Item instance 1",
+        "songUnlock": "Isotope",
+        "songDescription": "Stupid thing does nothing but make annoying noises. Fuckin' take it.",
+        "unlockRequirements": [""],
+        "xOffset": 20,
+        "yOffset": 10,
+        "lane": 1,
+        "row": 0,
+        "scale": 1.25
+    }
+}

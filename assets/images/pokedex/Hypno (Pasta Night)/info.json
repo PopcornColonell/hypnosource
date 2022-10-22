@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Hypno (Pasta Night)",
+        "dex": 22,
+        "height": "6'05”",
+        "weight": "26.5 lbs",
+        "offset": {"x": 225, "y": 140},
+	  "scale": 2.5,
+        "tagline": "The Hypnosis Pokemon",
+        "desc": "Hypno holds a pendulum in its hand. It refuses to let go or put anything else in its hands, so it uses to psychic abilities to lift other objects"
+    }
+}

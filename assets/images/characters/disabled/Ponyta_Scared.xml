@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Ponyta_Scared.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PONYTA SCARED DOWN0000" x="239" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0001" x="239" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0002" x="487" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0003" x="487" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0004" x="735" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0005" x="735" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0006" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0007" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0008" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0009" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0010" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0011" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0012" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0013" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN0014" x="983" y="257" width="245" height="207"/>
+	<SubTexture name="PONYTA SCARED DOWN MISS0000" x="3" y="3" width="251" height="206"/>
+	<SubTexture name="PONYTA SCARED DOWN MISS0001" x="3" y="3" width="251" height="206"/>
+	<SubTexture name="PONYTA SCARED DOWN MISS0002" x="257" y="3" width="251" height="206"/>
+	<SubTexture name="PONYTA SCARED DOWN MISS0003" x="257" y="3" width="251" height="206"/>
+	<SubTexture name="PONYTA SCARED IDLE0000" x="1231" y="257" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0001" x="1231" y="257" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0002" x="1508" y="257" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0003" x="1508" y="257" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0004" x="1785" y="257" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0005" x="1785" y="257" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0006" x="3" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0007" x="3" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0008" x="280" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0009" x="280" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0010" x="557" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0011" x="557" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0012" x="834" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0013" x="1111" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED IDLE0014" x="1388" y="511" width="274" height="247"/>
+	<SubTexture name="PONYTA SCARED LEFT0000" x="1665" y="511" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0001" x="1665" y="511" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0002" x="3" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0003" x="3" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0004" x="266" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0005" x="266" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0006" x="529" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0007" x="529" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0008" x="792" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0009" x="792" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0010" x="792" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0011" x="792" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0012" x="792" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0013" x="792" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT0014" x="792" y="761" width="260" height="237"/>
+	<SubTexture name="PONYTA SCARED LEFT MISS0000" x="511" y="3" width="250" height="235"/>
+	<SubTexture name="PONYTA SCARED LEFT MISS0001" x="511" y="3" width="250" height="235"/>
+	<SubTexture name="PONYTA SCARED LEFT MISS0002" x="764" y="3" width="250" height="235"/>
+	<SubTexture name="PONYTA SCARED LEFT MISS0003" x="764" y="3" width="250" height="235"/>
+	<SubTexture name="PONYTA SCARED RIGHT0000" x="1055" y="761" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0001" x="1055" y="761" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0002" x="1372" y="761" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0003" x="1372" y="761" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0004" x="1689" y="761" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0005" x="1689" y="761" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0006" x="3" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0007" x="3" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0008" x="320" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0009" x="320" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0010" x="320" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0011" x="320" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0012" x="320" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0013" x="320" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT0014" x="320" y="1010" width="314" height="246"/>
+	<SubTexture name="PONYTA SCARED RIGHT MISS0000" x="1017" y="3" width="309" height="245"/>
+	<SubTexture name="PONYTA SCARED RIGHT MISS0001" x="1017" y="3" width="309" height="245"/>
+	<SubTexture name="PONYTA SCARED RIGHT MISS0002" x="1329" y="3" width="309" height="245"/>
+	<SubTexture name="PONYTA SCARED RIGHT MISS0003" x="1329" y="3" width="309" height="245"/>
+	<SubTexture name="PONYTA SCARED UP0000" x="637" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0001" x="637" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0002" x="875" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0003" x="875" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0004" x="1113" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0005" x="1113" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0006" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0007" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0008" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0009" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0010" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0011" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0012" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0013" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP0014" x="1351" y="1010" width="235" height="242"/>
+	<SubTexture name="PONYTA SCARED UP MISS0000" x="1641" y="3" width="233" height="251"/>
+	<SubTexture name="PONYTA SCARED UP MISS0001" x="1641" y="3" width="233" height="251"/>
+	<SubTexture name="PONYTA SCARED UP MISS0002" x="3" y="257" width="233" height="251"/>
+	<SubTexture name="PONYTA SCARED UP MISS0003" x="3" y="257" width="233" height="251"/>
+	<SubTexture name="PONYTA ToScared0000" x="1589" y="1010" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0001" x="3" y="1264" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0002" x="281" y="1264" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0003" x="559" y="1264" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0004" x="837" y="1264" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0005" x="1115" y="1264" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0006" x="1393" y="1264" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0007" x="1671" y="1264" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0008" x="3" y="1518" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0009" x="281" y="1518" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0010" x="559" y="1518" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0011" x="837" y="1518" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0012" x="1115" y="1518" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0013" x="1393" y="1518" width="275" height="251"/>
+	<SubTexture name="PONYTA ToScared0014" x="1671" y="1518" width="275" height="251"/>
+</TextureAtlas>

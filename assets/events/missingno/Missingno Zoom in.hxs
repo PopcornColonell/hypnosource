@@ -1,0 +1,40 @@
+function returnDescription()
+    return "control camera zoom in during missingno";
+
+function eventFunction(params) {
+	var newZoom = params[0];
+	if (Math.isNaN(newZoom))
+		newZoom = 0;
+	var timestep = params[1];
+	if (Math.isNaN(timestep) || timestep < 1)
+		timestep = 1;
+	PlayState.instance.missingnoZoomIn = true;
+	PlayState.instance.cameraValueMissingno = PlayState.defaultCamZoom;
+	PlayState.cameraSpeed = 0.01;
+	PlayState.cameraCentered = false;
+	FlxTween.tween(PlayState, {cameraSpeed: newZoom}, ((timestep * (3 / 4)) * Conductor.stepCrochet) / 1000, {
+		ease: FlxEase.expoIn,
+		startDelay: (((timestep / 4) * Conductor.stepCrochet) / 1000)});
+	FlxTween.tween(PlayState.instance, {cameraValueMissingno: newZoom, missingnoZoomIntensity: newZoom, desaturateAmount: newZoom},
+		((timestep * (3 / 4)) * Conductor.stepCrochet) / 1000, {
+		ease: FlxEase.expoIn,
+		startDelay: (((timestep / 4) * Conductor.stepCrochet) / 1000), onComplete: function(tween:FlxTween){
+			PlayState.defaultCamZoom = 0.8;
+			PlayState.cameraSpeed = 1;
+			PlayState.instance.missingnoZoomIntensity = 0;
+	}});
+}
+
+function initFunction(params) {
+	PlayState.instance.setupGlitchShader();
+	PlayState.instance.stageBuild.forEach(function(sprite:FlxSprite)
+	{
+		var desaturateShader = new FlxGraphicsShader("", Paths.shader('desaturation'));
+		sprite.shader = desaturateShader;
+	});
+	PlayState.instance.desaturateAmount = 0;
+	PlayState.instance.desaturateAmplitude = 0;
+}
+
+function returnDelay()
+	return 0;

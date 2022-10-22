@@ -1,0 +1,126 @@
+var girlTits:FNFSprite;
+
+var bg;
+var stageFront;
+var stageCurtains;
+
+var legacyCutscene:FNFSprite;
+
+function onCreate() {
+	PlayState.defaultCamZoom = 0.7;
+	stage.curStage = 'glitchy';
+	var bg:FNFSprite = new FNFSprite(-1400, -725).loadGraphic(Paths.image('glitch_City'));
+	bg.setGraphicSize(Std.int(bg.width * 0.625));
+	bg.antialiasing = true;
+	bg.scrollFactor.set(0.80, 0.80);
+	bg.active = false;
+	add(bg);
+
+	var tiles:FNFSprite = new FNFSprite(-1400, -725).loadGraphic(Paths.image('tiles'));
+	tiles.setGraphicSize(Std.int(tiles.width * 0.625));
+	tiles.antialiasing = true;
+	tiles.scrollFactor.set(0.9, 0.9);
+	tiles.active = false;
+	add(tiles);
+
+	var haze:FNFSprite = new FNFSprite(-1400, -725).loadGraphic(Paths.image('haze'));
+	haze.setGraphicSize(Std.int(haze.width * 0.625));
+	haze.antialiasing = true;
+	haze.scrollFactor.set(0.9, 0.9);
+	haze.active = false;
+	add(haze);
+
+	girlTits = new FNFSprite(600, 576);
+	girlTits.frames = Paths.getSparrowAtlas('FUCKKKKK');
+	girlTits.animation.addByPrefix('idle', 'Lmao', 24, false);
+	girlTits.updateHitbox();
+	girlTits.antialiasing = true;
+	add(girlTits);
+
+	legacyCutscene = new FNFSprite(500, 50);
+	legacyCutscene.frames = Paths.getSparrowAtlas('they_took_everything_from_me');
+	legacyCutscene.animation.addByPrefix('speech', 'GlitchySpeak', 24, false);
+	legacyCutscene.updateHitbox();
+	legacyCutscene.antialiasing = true;
+	legacyCutscene.visible = false;
+	legacyCutscene.alpha = 0.0001;
+	add(legacyCutscene);
+	legacyCutscene.setGraphicSize(Std.int(legacyCutscene.width * 1.25));
+}
+
+function onBeat(beat) {
+	girlTits.animation.play('idle');
+}
+
+function onCreatePost() {
+	PlayState.instance.flipCharacters();
+
+	PlayState.boyfriend.characterData.camOffsetX = -470;
+	PlayState.boyfriend.characterData.camOffsetY = -230;
+	PlayState.boyfriend.x -= 270;
+	PlayState.boyfriend.y += 250;
+
+	PlayState.dadOpponent.characterData.camOffsetX = -100;
+	PlayState.dadOpponent.characterData.camOffsetY = 25;
+	PlayState.dadOpponent.scale.set(0.8, 0.8);
+	PlayState.dadOpponent.resizeOffsets();
+	PlayState.ratingPosition.set(-300, 200);
+	PlayState.instance.dadStrums.visible = false;
+
+	legacyCutscene.cameras = [PlayState.dialogueHUD];
+}
+
+function onEvent(event) {
+	switch (event){
+		case 'Change Character':
+			PlayState.dadOpponent.scale.set(0.8, 0.8);
+			PlayState.dadOpponent.resizeOffsets();
+			PlayState.instance.iconP2.changeIcon(PlayState.dadOpponent.curCharacter);
+			trace(PlayState.strumHUD[1].y);
+
+		case 'Glitchy Red Speech':
+			//snaps the camrea into the correct position
+			PlayState.defaultCamZoom = 1.25;
+			PlayState.camGame.zoom = 1.25;
+			PlayState.camGame.alpha = 0.001;
+			PlayState.camHUD.visible = false;
+			new FlxTimer().start(1.0, function(tmr:FlxTimer)
+				{
+					FlxTween.tween(PlayState.strumHUD[1], {alpha: 0.0}, 3.0, {ease: FlxEase.quadInOut});
+				});
+
+			new FlxTimer().start(0.4, function(tmr:FlxTimer)
+				{
+					FlxTween.tween(PlayState.camGame, {alpha: 0.5}, 1.6, {ease: FlxEase.quadInOut});
+					legacyCutscene.x += 150;
+					FlxTween.tween(legacyCutscene, {x: legacyCutscene.x - 150, alpha: 1.0}, 9.0, {ease: FlxEase.quadInOut});
+				});
+
+			PlayState.boyfriend.visible = false;
+			PlayState.dadOpponent.visible = false;
+			girlTits.visible = false;
+			legacyCutscene.visible = true;
+			legacyCutscene.animation.play('speech');
+			legacyCutscene.animation.finishCallback = function(name:String) 
+			{
+				legacyCutscene.visible = false;
+				PlayState.camGame.visible = false;
+				PlayState.camHUD.visible = false;
+				PlayState.defaultCamZoom = 0.7;
+				PlayState.camGame.zoom = 0.7;
+
+				new FlxTimer().start(0.5, function(tmr:FlxTimer)
+					{
+						PlayState.camGame.zoom = 0.9;
+						PlayState.camGame.alpha = 1.0;
+						PlayState.camGame.visible = true;
+						PlayState.camHUD.visible = true;
+						PlayState.boyfriend.visible = true;
+						PlayState.dadOpponent.visible = true;
+						girlTits.visible = false;
+
+						PlayState.strumHUD[1].alpha = 1.0;
+					});
+			}
+	}
+}

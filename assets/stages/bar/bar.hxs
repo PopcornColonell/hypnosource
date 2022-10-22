@@ -1,0 +1,247 @@
+var pastaBoppers:Array<FNFSprite> = [];
+var saled:FNFSprite;
+var ben:FNFSprite;
+
+var doCrazyShit:Bool = false;
+var goldorgb:Bool = false;
+
+var filmGrain:ShaderFilter;
+
+function onCreate() {
+    pastaBoppers = [];
+    PlayState.defaultCamZoom = 0.7;
+	var consistentPosition:Array<Float> = [-625, -100];
+	var consistentSize:Float = 1.25;
+	var sky:FNFSprite = new FNFSprite(consistentPosition[0] + 914 * consistentSize,
+		consistentPosition[1] + 263 * consistentSize).loadGraphic(Paths.image('sky'));
+	sky.antialiasing = true;
+	sky.scrollFactor.set(0.9, 0.9);
+	sky.setGraphicSize(Std.int(sky.width * (consistentSize + 0.1)));
+	sky.updateHitbox();
+	sky.active = false;
+	add(sky);
+
+	var shine:FNFSprite = new FNFSprite(consistentPosition[0] + 916 * consistentSize,
+		consistentPosition[1] + 265 * consistentSize).loadGraphic(Paths.image('shine'));
+	shine.antialiasing = true;
+	shine.scrollFactor.set(0.9, 0.9);
+	shine.setGraphicSize(Std.int(shine.width * consistentSize));
+	shine.updateHitbox();
+	shine.active = false;
+	add(shine);
+
+	var bg:FNFSprite = new FNFSprite(consistentPosition[0], consistentPosition[1]).loadGraphic(Paths.image('bar'));
+	bg.antialiasing = true;
+	bg.setGraphicSize(Std.int(bg.width * consistentSize));
+	bg.updateHitbox();
+	bg.scrollFactor.set(0.9, 0.9);
+	bg.active = false;
+	add(bg);
+
+	var holder:FNFSprite = new FNFSprite(consistentPosition[0] + 1180 * consistentSize,
+		consistentPosition[1] + 228 * consistentSize).loadGraphic(Paths.image('holder'));
+	holder.antialiasing = true;
+	holder.setGraphicSize(Std.int(holder.width * consistentSize));
+	holder.scrollFactor.set(0.9, 0.9);
+	holder.active = false;
+	add(holder);
+
+	saled = new FNFSprite(consistentPosition[0] + 1050 * consistentSize, Math.floor(consistentPosition[1] + 390 * consistentSize) - 1);
+	saled.frames = Paths.getSparrowAtlas('SFingers');
+	saled.animation.addByPrefix('bop', 'SFingers', 24, false);
+	saled.playAnim('bop');
+	saled.antialiasing = true;
+	saled.setGraphicSize(Std.int(saled.width * consistentSize));
+	saled.scrollFactor.set(0.9, 0.9);
+	saled.x -= saled.width / 2;
+	saled.y -= saled.height - 10;
+	add(saled);
+	pastaBoppers.push(saled);
+
+	var widemouth:FNFSprite = new FNFSprite(consistentPosition[0] + 1150 * consistentSize, consistentPosition[1] + 390 * consistentSize);
+	widemouth.frames = Paths.getSparrowAtlas('MrWidemouth');
+	widemouth.animation.addByPrefix('bop', 'MrWidemouth instance 1', 24, false);
+	widemouth.playAnim('bop');
+	widemouth.antialiasing = true;
+	widemouth.setGraphicSize(Std.int(widemouth.width * consistentSize));
+	widemouth.scrollFactor.set(0.9, 0.9);
+	widemouth.x -= widemouth.width / 2;
+	widemouth.y -= widemouth.height - 8;
+	add(widemouth);
+	pastaBoppers.push(widemouth);
+
+	var machine:FNFSprite = new FNFSprite(200, 70).loadGraphic(Paths.image('Machine'));
+	machine.antialiasing = true;
+	machine.setGraphicSize(Std.int(machine.width * (consistentSize * .35)));
+	machine.scrollFactor.set(0.9, 0.9);
+		
+
+	add(machine);
+
+	var herobrine:FNFSprite = new FNFSprite(315,308);
+	herobrine.frames = Paths.getSparrowAtlas('brian_idle');
+	herobrine.animation.addByPrefix('bop', 'brian idle ', 24, false);
+	herobrine.playAnim('bop');
+	herobrine.antialiasing = true;
+	herobrine.setGraphicSize(Std.int(herobrine.width * consistentSize));
+	herobrine.scrollFactor.set(0.9, 0.9);
+
+	add(herobrine);
+
+
+		// HER NAME IS FUCKING "THE" GET IT RIGHT
+	var peach:FNFSprite = new FNFSprite(490, 279);
+	peach.frames = Paths.getSparrowAtlas('CoronationPeach');
+	peach.animation.addByPrefix('bop', 'CoronationPeach', 24, false);
+	peach.playAnim('bop');
+	peach.antialiasing = true;
+	peach.setGraphicSize(Std.int(peach.width * (consistentSize * 0.5)));
+	peach.scrollFactor.set(0.9, 0.9);
+
+	var shitno:FNFSprite = new FNFSprite(610, 312);
+	shitno.frames = Paths.getSparrowAtlas('ShintoPastaNight');
+	shitno.animation.addByPrefix('bop', 'Shitno', 24, false);
+	shitno.playAnim('bop');
+	shitno.antialiasing = true;
+	shitno.setGraphicSize(Std.int(shitno.width * (consistentSize * 0.5)));
+	shitno.scrollFactor.set(0.9, 0.9);
+	add(shitno);
+
+	add(peach);
+
+
+	var jack:FNFSprite = new FNFSprite(100, 180); // sorry shubs I don't know what the fuck a consistent position is
+	jack.frames = Paths.getSparrowAtlas('Jack');
+	jack.animation.addByPrefix('bop', 'Body with tar instance 1', 24, false);
+	jack.playAnim('bop');
+	jack.antialiasing = true;
+	jack.setGraphicSize(Std.int(jack.width * (consistentSize * .64)));
+	jack.scrollFactor.set(0.9, 0.9);
+
+	add(jack);
+	
+	var otherTable:FNFSprite = new FNFSprite(595,355).loadGraphic(Paths.image('TableMisc'));
+	otherTable.antialiasing = true;
+	otherTable.setGraphicSize(Std.int(otherTable.width * (consistentSize * 0.5)));
+	otherTable.scrollFactor.set(0.9, 0.9);
+
+	var slenderBitch:FNFSprite = new FNFSprite(735,35);
+	slenderBitch.frames = Paths.getSparrowAtlas('Buds_Slender_Effects');
+	slenderBitch.animation.addByPrefix('bop', 'Slenderman Full', 24, true);
+	slenderBitch.playAnim('bop');
+	slenderBitch.antialiasing = true;
+	slenderBitch.setGraphicSize(Std.int(slenderBitch.width * (consistentSize * 0.55)));
+	slenderBitch.scrollFactor.set(0.9, 0.9);
+	add(slenderBitch);
+	
+	ben = new FNFSprite(1145,175);
+	ben.frames = Paths.getSparrowAtlas('Ben_Drowned_BG');
+	ben.animation.addByPrefix('idle', 'ben drowned0', 24, false);
+	ben.animation.addByPrefix('look', 'ben drowned looking', 24, false);
+	ben.playAnim('idle');
+	ben.antialiasing = true;
+	ben.setGraphicSize(Std.int(ben.width * (consistentSize * 0.55)));
+	ben.scrollFactor.set(0.9, 0.9);
+
+	add(ben);
+
+	var squid:FNFSprite = new FNFSprite(750,210);
+	squid.frames = Paths.getSparrowAtlas('Squirtward');
+	squid.animation.addByPrefix('bop', 'Squidward_idleBody', 24, false);
+	squid.playAnim('bop');
+	squid.antialiasing = true;
+	squid.setGraphicSize(Std.int(squid.width * (consistentSize * 0.6)));
+	squid.scrollFactor.set(0.9, 0.9);
+	add(squid);
+	
+	
+	var squidHead:FNFSprite = new FNFSprite(750,210);
+	squidHead.frames = Paths.getSparrowAtlas('Squirtward');
+	squidHead.animation.addByPrefix('bop', 'Squidward_idleHead', 24, false);
+	squidHead.playAnim('bop');
+	squidHead.antialiasing = true;
+	squidHead.setGraphicSize(Std.int(squid.width * (consistentSize * 0.6)));
+	squidHead.scrollFactor.set(0.9, 0.9);
+	add(squidHead);
+	
+	
+
+	add(otherTable);
+
+
+	var jeff:FNFSprite = new FNFSprite(472, 305); // sorry shubs I don't know what the fuck a consistent position is
+	jeff.frames = Paths.getSparrowAtlas('Jeff');
+	jeff.animation.addByPrefix('bop', 'mynamejeff instance 1', 24, false);
+	jeff.playAnim('bop');
+	jeff.antialiasing = true;
+	jeff.setGraphicSize(Std.int(jeff.width * (consistentSize * .78)));
+	jeff.scrollFactor.set(0.9, 0.9);
+
+	add(jeff);
+
+	var tableboppers:FNFSprite = new FNFSprite(consistentPosition[0] + 900 * consistentSize, consistentPosition[1] + 750 * consistentSize);
+	tableboppers.frames = Paths.getSparrowAtlas('Mousetable');
+	tableboppers.animation.addByPrefix('bop', 'Mousetable', 24, false);
+	tableboppers.playAnim('bop');
+	tableboppers.antialiasing = true;
+	tableboppers.setGraphicSize(Std.int(tableboppers.width * (consistentSize * 0.5)));
+	tableboppers.scrollFactor.set(0.9, 0.9);
+	tableboppers.x -= tableboppers.width / 2;
+	tableboppers.y -= tableboppers.height;
+
+	var jeffArm:FNFSprite = new FNFSprite(500, 445); // sorry shubs I don't know what the fuck a consistent position is
+	jeffArm.frames = Paths.getSparrowAtlas('JeffArm');
+	jeffArm.animation.addByPrefix('bop', 'Only the arm shit instance 1', 24, false);
+	jeffArm.playAnim('bop');
+	jeffArm.antialiasing = true;
+	jeffArm.setGraphicSize(Std.int(jeffArm.width * (consistentSize * .78)));
+	jeffArm.scrollFactor.set(0.9, 0.9);
+
+	add(tableboppers);
+	add(jeffArm);
+
+	pastaBoppers.push(tableboppers);			
+	pastaBoppers.push(jack);		
+	pastaBoppers.push(jeff);		
+	pastaBoppers.push(jeffArm);
+	pastaBoppers.push(squid);
+	pastaBoppers.push(herobrine);
+	pastaBoppers.push(squid);
+	pastaBoppers.push(squidHead);
+	pastaBoppers.push(slenderBitch);
+	pastaBoppers.push(peach);
+	pastaBoppers.push(shitno);
+	
+	var chair:FNFSprite = new FNFSprite(tableboppers.x - 535, tableboppers.y + 65).loadGraphic(Paths.image('CHAIRS'));
+	chair.antialiasing = true;
+	chair.setGraphicSize(Std.int(chair.width * (consistentSize * 0.75)));
+	chair.scrollFactor.set(0.9, 0.9);
+	// add(chair);
+
+	//filmGrain = new ShaderFilter(new GraphicsShader("", Paths.shader('filmgrain')));
+	//PlayState.camGame.setFilters([filmGrain]);
+	filmGrain = new ShaderFilter(new GraphicsShader("", Paths.shader('old')));
+	PlayState.camGame.setFilters([filmGrain]);
+}
+
+function onCreatePost() {
+	PlayState.instance.manualCameraPosition.set(PlayState.instance.lordX.getGraphicMidpoint().x - 50, PlayState.instance.lordX.getGraphicMidpoint().y - 200);
+}
+
+// worst function ever.
+function onBeat(beat) {
+    if (beat % 2 == 0) {
+		for (i in pastaBoppers)
+			i.playAnim('bop'); 
+	}
+
+	if (beat >= 84)
+		ben.playAnim("look");
+}
+
+function onUpdate(elapsed) {
+	filmGrain.shader.data.iTime.value = [Conductor.songPosition / 1000];
+	
+	var swagRect = FlxRect.weak(0, 0, saled.width, saled.height - 16);
+	saled.clipRect = swagRect;
+}

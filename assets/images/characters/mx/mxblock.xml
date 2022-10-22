@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mxblock.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BlockIdle0000" x="20" y="20" width="266" height="222" frameX="0" frameY="-9" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0001" x="20" y="20" width="266" height="222" frameX="0" frameY="-9" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0002" x="306" y="20" width="263" height="223" frameX="-1" frameY="-8" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0003" x="306" y="20" width="263" height="223" frameX="-1" frameY="-8" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0004" x="589" y="20" width="252" height="228" frameX="-7" frameY="-2" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0005" x="589" y="20" width="252" height="228" frameX="-7" frameY="-2" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0006" x="589" y="20" width="252" height="228" frameX="-7" frameY="-2" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0007" x="20" y="268" width="251" height="230" frameX="-7" frameY="0" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0008" x="20" y="268" width="251" height="230" frameX="-7" frameY="0" frameWidth="266" frameHeight="231"/>
+	<SubTexture name="BlockIdle0009" x="20" y="268" width="251" height="230" frameX="-7" frameY="0" frameWidth="266" frameHeight="231"/>
+</TextureAtlas>

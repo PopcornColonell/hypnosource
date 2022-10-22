@@ -1,0 +1,68 @@
+var continueShuffling:Bool = true;
+var curFrame:Int = 0;
+var times:Int = 0;
+
+function returnDescription()
+    return "The Missingno Introduction (I'm running out of originality\nfor these descriptions please help me)";
+
+function eventFunction(params) {
+	PlayState.dadOpponent.playAnim('intro', true);
+	PlayState.dadOpponent.visible = true;
+	FlxG.sound.play(Paths.sound('missingnospawn'));
+	PlayState.dadOpponent.animation.finishCallback = function(name:String)
+	{
+		PlayState.dadOpponent.dance();
+		PlayState.dadOpponent.animation.finishCallback = null;
+	};
+	FlxTween.tween(PlayState.instance.iconP2, {alpha: 1}, 1, {ease: FlxEase.linear});
+	if (!Init.trueSettings.get("Centered Notefield"))
+		PlayState.instance.dadStrums.visible = true;
+	
+	if (PlayState.old) {
+		// timer that zooms camera after lol
+		var newTimer:FlxTimer = new FlxTimer().start((Conductor.crochet / 1000) * 6, function(timer:FlxTimer)
+		{
+			PlayState.cameraCentered = false;
+			PlayState.songDisplayName = PlayState.SONG.song;
+		});
+		FlxTween.tween(PlayState, {defaultCamZoom: 0.8}, (Conductor.crochet / 1000), {ease: FlxEase.linear});
+	} else
+		PlayState.instance.camZooming = true;
+	PlayState.songDisplayName = PlayState.SONG.song;
+}
+
+function onUpdate(elapsed) {
+	if (continueShuffling) {
+		if (curFrame % Math.floor(6 * (FlxG.drawFramerate / 120)) == 0) {
+			var newName = '';
+			var cipherInterval:Array<String> = [];
+			for (i in 0...PlayState.songDisplayName.length) {
+				var selectedCharacter:Int = FlxG.random.int(0, PlayState.songDisplayName.length - 1, cipherInterval);
+				newName += PlayState.songDisplayName.charAt(selectedCharacter);
+				cipherInterval.push(selectedCharacter);
+			}
+			PlayState.songDisplayName = newName;
+			times++;
+
+			if (times >= PlayState.songDisplayName.length)
+				continueShuffling = false;
+		}
+		curFrame++;
+	} 
+	if (!continueShuffling) {
+		PlayState.songDisplayName = PlayState.SONG.song;
+		dispose();
+	}
+}
+
+function initFunction(params) {
+	PlayState.dadOpponent.visible = false;
+	PlayState.instance.iconP2.alpha = 0;
+	PlayState.songDisplayName = "";
+	for (i in 0...PlayState.SONG.song.length)
+		PlayState.songDisplayName += "?";
+	PlayState.instance.dadStrums.visible = false;
+}
+
+function returnDelay()
+	return 0;

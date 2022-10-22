@@ -1,0 +1,23 @@
+function returnDescription()
+    return 'Value 1: snowflake intensity (default 0.2)\nValue 2: time in steps until then';
+
+function eventFunction(params) {
+	var newIntensity = params[0];
+	if (Math.isNaN(newIntensity))
+		newIntensity = 0;
+	var timestep = params[1];
+	if (Math.isNaN(timestep) || timestep <= 0)
+		timestep = 1;
+	var myTween:FlxTween = PlayState.instance.snowIntensityTween;
+	if (myTween != null && myTween.active && !myTween.finished) {
+		myTween.active = false;
+		myTween = null;
+	}
+	var onCompleteRiser:FlxTween->Void = function(tween:FlxTween) {
+		PlayState.instance.canChangeIntensity = false;
+	};
+	PlayState.instance.canChangeIntensity = true;
+	myTween = FlxTween.tween(PlayState.instance, {snowIntensity: newIntensity}, (timestep * Conductor.stepCrochet) / 1000,
+		{ease: FlxEase.linear, onComplete: onCompleteRiser});
+}
+

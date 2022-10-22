@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Celebi Assets.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Celebi Idle0000" x="0" y="0" width="222" height="400"/>
+	<SubTexture name="Celebi Idle0001" x="0" y="0" width="222" height="400"/>
+	<SubTexture name="Celebi Idle0002" x="232" y="0" width="222" height="400"/>
+	<SubTexture name="Celebi Idle0003" x="232" y="0" width="222" height="400"/>
+	<SubTexture name="Celebi Spawn Full0000" x="464" y="0" width="238" height="340" frameX="0" frameY="-85" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0001" x="464" y="0" width="238" height="340" frameX="0" frameY="-85" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0002" x="712" y="0" width="229" height="348" frameX="-5" frameY="-74" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0003" x="712" y="0" width="229" height="348" frameX="-5" frameY="-74" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0004" x="712" y="0" width="229" height="348" frameX="-5" frameY="-70" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0005" x="951" y="0" width="229" height="348" frameX="-5" frameY="-70" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0006" x="1190" y="0" width="220" height="359" frameX="-10" frameY="-61" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0007" x="1420" y="0" width="220" height="359" frameX="-10" frameY="-61" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0008" x="1650" y="0" width="234" height="369" frameX="-2" frameY="-50" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0009" x="0" y="410" width="234" height="383" frameX="-2" frameY="-31" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0010" x="244" y="410" width="234" height="393" frameX="-2" frameY="-16" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0011" x="488" y="410" width="225" height="399" frameX="-7" frameY="-3" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0012" x="723" y="410" width="225" height="399" frameX="-7" frameY="-3" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0013" x="958" y="410" width="225" height="399" frameX="-7" frameY="-3" frameWidth="238" frameHeight="425"/>
+	<SubTexture name="Celebi Spawn Full0014" x="1193" y="410" width="222" height="400" frameX="-9" frameY="0" frameWidth="238" frameHeight="425"/>
+</TextureAtlas>

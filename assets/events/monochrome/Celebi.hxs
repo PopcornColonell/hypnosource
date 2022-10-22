@@ -1,0 +1,81 @@
+function returnDescription()
+    return "Perish Song";
+
+function returnDelay()
+	return -4;
+
+function eventFunction(params) {
+	var newMin:Float = Std.parseFloat(params[0]);
+	PlayState.instance.minHealth = newMin;
+	var celebi:FlxSprite = new FlxSprite();
+	//
+	celebi.frames = Paths.getSparrowAtlas('characters/gold/Celebi_Assets');
+	celebi.animation.addByPrefix('spawn', 'Celebi Spawn Full', 24, false);
+	celebi.animation.addByIndices('recede', 'Celebi Spawn Full', [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0], '', 24, false);
+	celebi.animation.addByPrefix('idle', 'Celebi Idle', 24, false);
+	celebi.animation.play('spawn');
+	// pick position
+	var direction:Int = -1;
+	if (FlxG.random.bool(50))
+		direction = -direction;
+	celebi.setPosition(PlayState.dadOpponent.x + ((FlxG.width/2) * PlayState.defaultCamZoom) * direction, 
+		(PlayState.dadOpponent.y));
+	PlayState.instance.behindGroup.add(celebi);
+	// trace('celeber');
+	new FlxTimer().start(Conductor.stepCrochet * 4 / 1000, function(tmr:FlxTimer)
+	{
+		var noteCountCelebi:Int = 3;
+		if (PlayState.gameplayMode == 'HELL_MODE')
+			noteCountCelebi = 6;
+		trace('celeber 2');
+		for (i in 0...noteCountCelebi)
+		{
+			var note:CelebiNote = new CelebiNote(celebi.x + celebi.width / 2, celebi.y);
+			note.frames = Paths.getSparrowAtlas('characters/gold/Note_asset');
+			note.animation.addByPrefix('spawn', 'Note Full', 24, false);
+			note.animation.play('spawn');
+			//
+			note.setGraphicSize(Std.int(note.width * 1.5));
+			note.updateHitbox();
+			//
+			FlxTween.tween(note, {alpha: 0}, Conductor.stepCrochet * 8 / 1000, {
+				ease: FlxEase.linear,
+				startDelay: Conductor.stepCrochet * 8 / 1000,
+				onComplete: function(tween:FlxTween)
+				{
+					PlayState.instance.remove(note);
+					note.destroy();
+				}
+			});
+			PlayState.instance.add(note);
+		}
+		//
+		if (PlayState.gameplayMode != 'PUSSY_MODE') {
+			FlxTween.tween(PlayState.uiHUD.healthBar, {barWidth: (Std.int(PlayState.uiHUD.healthBarBG.width - 8) 
+				- Std.int(PlayState.uiHUD.healthBarBG.width * (PlayState.instance.minHealth / 2)))},
+				Conductor.stepCrochet * 12 / 1000, {ease: FlxEase.linear});
+			FlxTween.tween(PlayState.uiHUD.healthBar, {min: newMin}, Conductor.stepCrochet * 12 / 1000, {ease: FlxEase.linear});
+		}
+	});
+
+	new FlxTimer().start(Conductor.stepCrochet * 16 / 1000, function(tmr:FlxTimer) {
+		celebi.animation.play('recede', true);
+		celebi.animation.finishCallback = function(name:String)
+		PlayState.instance.behindGroup.remove(celebi);
+	});
+}
+
+var perishSongPreloaded = false;
+function initFunction(params) {
+	if (!perishSongPreloaded) {
+		var celebi:FlxSprite = new FlxSprite();
+		celebi.frames = Paths.getSparrowAtlas('characters/gold/Celebi_Assets');
+		add(celebi);
+		celebi.visible = false;
+		//
+		var celebiNote:FlxSprite = new FlxSprite();
+		celebiNote.frames = Paths.getSparrowAtlas('characters/gold/Note_asset');
+		add(celebiNote);
+		celebiNote.visible = false;
+	}
+}

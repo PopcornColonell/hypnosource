@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="selectors.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="continuebox0000" x="20" y="20" width="273" height="113"/>
+	<SubTexture name="pussybox0000" x="313" y="20" width="272" height="113"/>
+	<SubTexture name="warningbox0000" x="20" y="153" width="672" height="208"/>
+</TextureAtlas>

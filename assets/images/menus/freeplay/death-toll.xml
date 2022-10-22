@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="death-toll.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="death-toll0000" x="5" y="5" width="669" height="767" frameX="-161" frameY="-48" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0001" x="679" y="5" width="702" height="797" frameX="-161" frameY="-44" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0002" x="1386" y="5" width="727" height="798" frameX="-161" frameY="-46" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0003" x="2118" y="5" width="713" height="798" frameX="-161" frameY="-30" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0004" x="2836" y="5" width="757" height="827" frameX="-161" frameY="-7" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0005" x="3598" y="5" width="695" height="814" frameX="-161" frameY="0" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0006" x="4298" y="5" width="656" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0007" x="4959" y="5" width="656" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0008" x="5620" y="5" width="658" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0009" x="6283" y="5" width="658" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0010" x="6283" y="5" width="658" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0011" x="6283" y="5" width="658" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0012" x="6946" y="5" width="656" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0013" x="6946" y="5" width="656" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0014" x="6946" y="5" width="656" height="566" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0015" x="5" y="837" width="653" height="567" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0016" x="5" y="837" width="653" height="567" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0017" x="663" y="837" width="644" height="569" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0018" x="1312" y="837" width="632" height="581" frameX="-161" frameY="-156" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0019" x="1312" y="837" width="632" height="581" frameX="-161" frameY="-156" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0020" x="1949" y="837" width="596" height="574" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0021" x="2550" y="837" width="596" height="574" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0022" x="3151" y="837" width="526" height="573" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0023" x="3151" y="837" width="526" height="573" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0024" x="3682" y="837" width="475" height="574" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0025" x="4162" y="837" width="475" height="574" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0026" x="4642" y="837" width="510" height="596" frameX="-126" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0027" x="5157" y="837" width="510" height="596" frameX="-126" frameY="-157" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0028" x="5672" y="837" width="576" height="685" frameX="-60" frameY="-112" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0029" x="6253" y="837" width="601" height="714" frameX="-35" frameY="-86" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0030" x="6859" y="837" width="624" height="745" frameX="-25" frameY="-77" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0031" x="7488" y="837" width="624" height="745" frameX="-30" frameY="-70" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0032" x="5" y="1587" width="645" height="763" frameX="-4" frameY="-71" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0033" x="655" y="1587" width="645" height="763" frameX="0" frameY="-69" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0034" x="1305" y="1587" width="656" height="774" frameX="-2" frameY="-62" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0035" x="1966" y="1587" width="571" height="584" frameX="-65" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0036" x="2542" y="1587" width="574" height="584" frameX="-62" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0037" x="2542" y="1587" width="574" height="584" frameX="-62" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0038" x="2542" y="1587" width="574" height="584" frameX="-62" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0039" x="3121" y="1587" width="574" height="584" frameX="-62" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0040" x="3700" y="1587" width="571" height="584" frameX="-65" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0041" x="3700" y="1587" width="571" height="584" frameX="-65" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0042" x="4276" y="1587" width="571" height="584" frameX="-65" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0043" x="4852" y="1587" width="565" height="584" frameX="-71" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0044" x="4852" y="1587" width="565" height="584" frameX="-71" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0045" x="5422" y="1587" width="557" height="584" frameX="-79" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0046" x="5984" y="1587" width="543" height="584" frameX="-93" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0047" x="5984" y="1587" width="543" height="584" frameX="-93" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0048" x="6532" y="1587" width="500" height="581" frameX="-136" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0049" x="6532" y="1587" width="500" height="581" frameX="-136" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0050" x="7037" y="1587" width="475" height="575" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0051" x="7517" y="1587" width="475" height="575" frameX="-161" frameY="-166" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0052" x="5" y="2366" width="538" height="592" frameX="-161" frameY="-165" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0053" x="548" y="2366" width="540" height="603" frameX="-161" frameY="-145" frameWidth="918" frameHeight="844"/>
+	<SubTexture name="death-toll0054" x="1093" y="2366" width="640" height="740" frameX="-161" frameY="-68" frameWidth="918" frameHeight="844"/>
+</TextureAtlas>

@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Amusia Background Change";
+
+function returnDelay()
+	return -8;

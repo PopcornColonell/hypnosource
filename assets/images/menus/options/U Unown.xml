@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="U Unown.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="U Unown0000" x="20" y="20" width="335" height="244" frameX="-1" frameY="-5" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0001" x="375" y="20" width="334" height="245" frameX="-2" frameY="-2" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0002" x="729" y="20" width="333" height="246" frameX="-3" frameY="-1" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0003" x="1082" y="20" width="332" height="247" frameX="-4" frameY="0" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0004" x="1434" y="20" width="331" height="247" frameX="-5" frameY="-3" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0005" x="20" y="287" width="331" height="247" frameX="-5" frameY="-3" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0006" x="371" y="287" width="330" height="250" frameX="-6" frameY="-5" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0007" x="721" y="287" width="331" height="249" frameX="-5" frameY="-5" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0008" x="1072" y="287" width="331" height="249" frameX="-5" frameY="-6" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0009" x="1423" y="287" width="334" height="245" frameX="-2" frameY="-7" frameWidth="336" frameHeight="255"/>
+	<SubTexture name="U Unown0010" x="20" y="557" width="336" height="244" frameX="0" frameY="-5" frameWidth="336" frameHeight="255"/>
+</TextureAtlas>

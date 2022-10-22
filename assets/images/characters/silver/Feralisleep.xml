@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Feralisleep.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Feralisleep instance 10000" x="5" y="5" width="783" height="771" frameX="-2" frameY="-50" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10001" x="793" y="5" width="788" height="773" frameX="0" frameY="-49" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10002" x="1586" y="5" width="788" height="772" frameX="0" frameY="-49" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10003" x="2379" y="5" width="788" height="779" frameX="0" frameY="-42" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10004" x="3172" y="5" width="788" height="780" frameX="0" frameY="-42" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10005" x="3965" y="5" width="788" height="787" frameX="0" frameY="-35" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10006" x="4758" y="5" width="788" height="786" frameX="0" frameY="-35" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10007" x="5551" y="5" width="788" height="786" frameX="0" frameY="-35" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10008" x="6344" y="5" width="788" height="792" frameX="0" frameY="-30" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10009" x="7137" y="5" width="788" height="792" frameX="0" frameY="-30" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10010" x="5" y="802" width="788" height="791" frameX="0" frameY="-30" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10011" x="798" y="802" width="784" height="797" frameX="-2" frameY="-24" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10012" x="1587" y="802" width="784" height="798" frameX="-2" frameY="-24" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10013" x="2376" y="802" width="784" height="798" frameX="-2" frameY="-24" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10014" x="3165" y="802" width="781" height="799" frameX="-3" frameY="-22" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10015" x="3951" y="802" width="781" height="799" frameX="-3" frameY="-22" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10016" x="4737" y="802" width="782" height="800" frameX="-3" frameY="-22" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10017" x="5524" y="802" width="779" height="803" frameX="-4" frameY="-19" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10018" x="6308" y="802" width="778" height="802" frameX="-5" frameY="-19" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10019" x="7091" y="802" width="778" height="809" frameX="-5" frameY="-12" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10020" x="5" y="1616" width="778" height="810" frameX="-5" frameY="-12" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10021" x="788" y="1616" width="778" height="810" frameX="-5" frameY="-12" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10022" x="1571" y="1616" width="778" height="809" frameX="-5" frameY="-12" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10023" x="2354" y="1616" width="778" height="813" frameX="-5" frameY="-8" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10024" x="3137" y="1616" width="779" height="814" frameX="-4" frameY="-8" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10025" x="3921" y="1616" width="779" height="814" frameX="-4" frameY="-8" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10026" x="4705" y="1616" width="778" height="814" frameX="-5" frameY="-7" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10027" x="5488" y="1616" width="778" height="814" frameX="-5" frameY="-7" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10028" x="6271" y="1616" width="778" height="815" frameX="-5" frameY="-7" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10029" x="7054" y="1616" width="778" height="822" frameX="-5" frameY="0" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10030" x="5" y="2443" width="778" height="821" frameX="-5" frameY="0" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10031" x="788" y="2443" width="778" height="821" frameX="-5" frameY="0" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10032" x="1571" y="2443" width="779" height="822" frameX="-4" frameY="0" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10033" x="2355" y="2443" width="779" height="822" frameX="-4" frameY="0" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10034" x="3139" y="2443" width="778" height="821" frameX="-5" frameY="0" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10035" x="3922" y="2443" width="778" height="816" frameX="-5" frameY="-5" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10036" x="4705" y="2443" width="778" height="817" frameX="-5" frameY="-5" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10037" x="5488" y="2443" width="778" height="815" frameX="-5" frameY="-7" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10038" x="6271" y="2443" width="778" height="814" frameX="-5" frameY="-7" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10039" x="7054" y="2443" width="778" height="815" frameX="-5" frameY="-6" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10040" x="5" y="3270" width="779" height="816" frameX="-4" frameY="-6" frameWidth="788" frameHeight="822"/>
+	<SubTexture name="Feralisleep instance 10041" x="789" y="3270" width="781" height="812" frameX="-3" frameY="-10" frameWidth="788" frameHeight="822"/>
+</TextureAtlas>

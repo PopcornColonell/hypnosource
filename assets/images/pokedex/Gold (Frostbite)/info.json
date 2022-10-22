@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Gold (Frostbite)",
+        "dex": 5,
+        "height": "5'06”",
+        "weight": "114 lbs",
+        "offset": {"x": 356, "y": 150},
+	  "scale": 5,
+        "tagline": "The Tortured Trainer",
+        "desc": "Determined and filled with hope, this trainer's ignorance gets to him and the Pokemon he loved. His Typhlosion's last breath will be Gold's burden of thinking before acting, even in death. "
+    }
+}

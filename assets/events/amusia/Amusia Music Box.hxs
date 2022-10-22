@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Music Box at the end of Amusia";
+
+function returnDelay()
+	return -16;

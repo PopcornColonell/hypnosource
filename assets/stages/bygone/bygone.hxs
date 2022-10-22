@@ -1,0 +1,197 @@
+var bygoneFuck:FlxSprite;
+var bigHypno:FlxSprite;
+
+var alexisGhost:Boyfriend;
+
+function onCreate() {
+	PlayState.defaultCamZoom = 0.8;
+
+	var consistentPosition:Array<Float> = [-300, -300];
+	var background:FlxSprite = new FlxSprite(0, 0);
+	background.loadGraphic(Paths.image('BG1 Clouds'));
+	background.setGraphicSize(Std.int(background.width * 1.25));
+	background.updateHitbox();
+	background.setPosition(consistentPosition[0], consistentPosition[1]);
+	background.antialiasing = true;
+	background.scrollFactor.set(0.6, 0.6);
+	background.active = false;
+	add(background);
+
+	background2 = new FlxSprite(0, 0);
+	background2.loadGraphic(Paths.image('BG2 Sky'));
+	background2.setGraphicSize(Std.int(background2.width * 1.25));
+	background2.updateHitbox();
+	background2.setPosition(consistentPosition[0], consistentPosition[1]);
+	background2.antialiasing = true;
+	background2.scrollFactor.set(0.6, 0.6);
+	background2.active = false;
+	background2.alpha = 0.0001;
+	add(background2);
+
+	var moon:FlxSprite = new FlxSprite(0, 0);
+	moon.loadGraphic(Paths.image('BG1 Moon'));
+	moon.setGraphicSize(Std.int(moon.width * 0.75));
+	moon.setPosition(consistentPosition[0], consistentPosition[1]);
+	moon.updateHitbox();
+	moon.antialiasing = true;
+	moon.scrollFactor.set(0.7, 0.7);
+	moon.active = false;
+	add(moon);
+
+	var buildings:FlxSprite = new FlxSprite(0, 0);
+	buildings.loadGraphic(Paths.image('BG1 Buildings'));
+	buildings.setGraphicSize(Std.int(buildings.width * 1.15));
+	buildings.setPosition(-160, -232);
+	buildings.updateHitbox();
+	buildings.antialiasing = true;
+	buildings.scrollFactor.set(0.75, 0.75);
+	buildings.active = false;
+	add(buildings);
+
+	buildings2 = new FlxSprite(0, 0);
+	buildings2.loadGraphic(Paths.image('BG2 Buildings'));
+	buildings2.setGraphicSize(Std.int(buildings2.width * 1.15));
+	buildings2.setPosition(-160, -280);
+	buildings2.updateHitbox();
+	buildings2.antialiasing = true;
+	buildings2.scrollFactor.set(0.75, 0.75);
+	buildings2.active = false;
+	buildings2.alpha = 0.0001;
+	add(buildings2);
+
+	bygoneFuck = new FlxSprite(0, 0);
+	bygoneFuck.loadGraphic(Paths.image('AlexisTransition'));
+	bygoneFuck.setGraphicSize(Std.int(bygoneFuck.width * 0.95));
+	bygoneFuck.updateHitbox();
+	bygoneFuck.antialiasing = true;
+	bygoneFuck.screenCenter();
+	bygoneFuck.active = false;
+	bygoneFuck.alpha = 0.0001;
+	add(bygoneFuck);
+
+	bigHypno = new FlxSprite(750, 122);
+	bigHypno.loadGraphic(Paths.image('BigHypno'));
+	bigHypno.antialiasing = true;
+	bigHypno.scrollFactor.set(0.9, 0.9);
+	bigHypno.active = false;
+	bigHypno.alpha = 0.0;
+	foreground.add(bigHypno);
+
+	bridgeRope = new FlxSprite(0, 0);
+	bridgeRope.loadGraphic(Paths.image('BridgeRope'));
+	bridgeRope.antialiasing = true;
+	bridgeRope.setPosition(bridgeRope.width / 2.25, -64);
+	bridgeRope.scrollFactor.set(0.9, 0.9);
+	bridgeRope.active = false;
+	add(bridgeRope);
+
+	bridgeRope2 = new FlxSprite(0, 0);
+	bridgeRope2.loadGraphic(Paths.image('BridgeRope2'));
+	bridgeRope2.antialiasing = true;
+	bridgeRope2.setPosition(bridgeRope2.width / 2.25, -64);
+	bridgeRope2.scrollFactor.set(0.9, 0.9);
+	bridgeRope2.active = false;
+	bridgeRope2.alpha = 0.0001;
+	add(bridgeRope2);
+
+	bygoneAlexisPassing = new FlxSprite(1189, -188);
+	bygoneAlexisPassing.frames = Paths.getSparrowAtlas('GGirl Alexis Passing Spritesheet');
+	bygoneAlexisPassing.alpha = 0.0001;
+	bygoneAlexisPassing.animation.addByPrefix('die', 'GGirl Passing', 24, false);
+	bygoneAlexisPassing.antialiasing = true;
+	add(bygoneAlexisPassing);
+
+	bygoneAlexisGate = new FlxSprite(1148, -195);
+	bygoneAlexisGate.frames = Paths.getSparrowAtlas('Heavens Gate');
+	bygoneAlexisGate.alpha = 0.0001;
+	bygoneAlexisGate.animation.addByIndices('open', 'Heavens Gate', [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], "", 24, false);
+	bygoneAlexisGate.animation.addByIndices('close', 'Heavens Gate', [21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40], "", 24, false);
+	bygoneAlexisGate.antialiasing = true;
+	add(bygoneAlexisGate);
+
+	bridge = new FlxSprite(0, 0);
+	bridge.loadGraphic(Paths.image('Bridge'));
+	bridge.antialiasing = true;
+	bridge.scrollFactor.set(0.9, 0.9);
+	bridge.active = false;
+	foreground.add(bridge);
+
+	bridge2 = new FlxSprite(0, 0);
+	bridge2.loadGraphic(Paths.image('Bridge2'));
+	bridge2.antialiasing = true;
+	bridge2.scrollFactor.set(0.9, 0.9);
+	bridge2.active = false;
+	bridge2.alpha = 0.0001;
+	foreground.add(bridge2);
+	bygonStuff.add(background);
+	bygonStuff.add(buildings);
+	bygonStuff.add(bridge);
+}
+
+function onCreatePost() {
+	PlayState.dadOpponent.visible = false;
+	PlayState.instance.camPos.x += 388;
+	PlayState.instance.camPos.y -= 210;
+	PlayState.instance.dadStrums.visible = false;
+
+	bygoneFuck.cameras = [PlayState.dialogueHUD];
+
+	alexisGhost = new Boyfriend().setCharacter(0, 0, 'alexis');
+	alexisGhost.setCharacter(1200, 400, 'alexis');
+	alexisGhost.alpha = 0.0001;
+	add(alexisGhost);
+
+	PlayState.ratingPosition.set(-100, 150);
+}
+
+function onEvent(eventName) {
+	switch (eventName) {
+		case 'Bygone Picture':
+			if (bygoneFuck.alpha <= 0.0001)
+				{
+					FlxTween.tween(bygoneFuck, {alpha: 1}, 6);
+				}
+			else
+				{
+					PlayState.boyfriend.alpha = 0;
+					FlxTween.cancelTweensOf(bygoneFuck);
+					FlxTween.tween(bygoneFuck, {alpha: 0}, 10);
+				}
+
+		case 'Bygone Transition':
+				FlxTween.tween(bigHypno, {alpha: 1}, 10, {ease: FlxEase.linear});
+				FlxTween.tween(buildings2, {alpha: 1}, 10, {ease: FlxEase.linear});
+				FlxTween.tween(bridge2, {alpha: 1}, 10, {ease: FlxEase.linear});
+				FlxTween.tween(background2, {alpha: 1}, 10, {ease: FlxEase.linear});
+				FlxTween.tween(bridgeRope2, {alpha: 1}, 10, {ease: FlxEase.linear});
+				
+				FlxTween.tween(bridge, {alpha: 0.0}, 10, {ease: FlxEase.linear});
+				FlxTween.tween(bridgeRope, {alpha: 0.0}, 10, {ease: FlxEase.linear});
+
+		case 'Summon Alexis': // you removed kade's epic awesome comment and now im SAD >:(
+			PlayState.alexis = true;
+			FlxTween.tween(alexisGhost, {alpha: 1}, 2, {ease: FlxEase.quadOut});
+			PlayState.instance.boyfriendStrums.character.push(alexisGhost);
+			PlayState.instance.boyfriendStrums.singingCharacters = [alexisGhost];
+			PlayState.instance.iconP1.changeIcon('alexis');
+			PlayState.health = 1.0;
+			PlayState.ratingPosition.set(125, -150);
+
+		case 'Alexis Pass':
+			alexisGhost.visible = false;
+			bygoneAlexisPassing.alpha = 1.0;
+			FlxTween.tween(bygoneAlexisGate, {alpha: 1}, 1, {ease: FlxEase.quadOut});
+			bygoneAlexisGate.animation.play('open');
+			bygoneAlexisPassing.animation.play('die');
+			bygoneAlexisPassing.animation.finishCallback = function(name:String) 
+				{
+					bygoneAlexisPassing.visible = false;
+					bygoneAlexisGate.animation.play('close');
+					bygoneAlexisGate.animation.finishCallback = function(name:String) 
+						{
+							FlxTween.tween(bygoneAlexisGate, {alpha: 0.0}, 0.5, {ease: FlxEase.quadOut});
+						}
+				}
+			FlxTween.tween(PlayState.instance.iconP1, {alpha: 0.0}, 1.25, {ease: FlxEase.quadOut});
+	}
+}

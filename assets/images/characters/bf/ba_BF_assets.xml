@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ba_BF_assets.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF_AURGH0000" x="3" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0001" x="3" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0002" x="116" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0003" x="116" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0004" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0005" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0006" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0007" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0008" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0009" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0010" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0011" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0012" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0013" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_AURGH0014" x="229" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0000" x="342" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0001" x="342" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0002" x="455" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0003" x="455" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0004" x="568" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0005" x="568" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0006" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0007" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0008" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0009" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0010" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0011" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0012" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0013" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0014" x="681" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0015" x="794" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0016" x="794" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0017" x="3" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0018" x="116" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0019" x="116" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0020" x="116" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0021" x="116" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0022" x="116" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0023" x="116" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Ball_Throw0024" x="116" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down0000" x="229" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down0001" x="229" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down0002" x="342" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down0003" x="342" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down0004" x="342" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down0005" x="342" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down Miss0000" x="455" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down Miss0001" x="455" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down Miss0002" x="568" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down Miss0003" x="568" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down Miss0004" x="568" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Down Miss0005" x="568" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Idle0000" x="681" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Idle0001" x="681" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Idle0002" x="794" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Idle0003" x="794" y="110" width="110" height="104"/>
+	<SubTexture name="BF_Idle0004" x="3" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Idle0005" x="3" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Idle0006" x="116" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Idle0007" x="116" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Idle0008" x="342" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Idle0009" x="342" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Idle0010" x="342" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Idle0011" x="342" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Idle0012" x="342" y="3" width="110" height="104"/>
+	<SubTexture name="BF_Left0000" x="229" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left0001" x="229" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left0002" x="342" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left0003" x="342" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left0004" x="342" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left0005" x="342" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left Miss0000" x="455" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left Miss0001" x="455" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left Miss0002" x="568" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left Miss0003" x="568" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left Miss0004" x="568" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Left Miss0005" x="568" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Right0000" x="681" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Right0001" x="681" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Right0002" x="794" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Right0003" x="794" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Right0004" x="794" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Right0005" x="794" y="217" width="110" height="104"/>
+	<SubTexture name="BF_Right Miss0000" x="3" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Right Miss0001" x="3" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Right Miss0002" x="116" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Right Miss0003" x="116" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Right Miss0004" x="116" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Right Miss0005" x="116" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up0000" x="229" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up0001" x="229" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up0002" x="342" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up0003" x="342" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up0004" x="342" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up0005" x="342" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up Miss0000" x="455" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up Miss0001" x="455" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up Miss0002" x="568" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up Miss0003" x="568" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up Miss0004" x="568" y="324" width="110" height="104"/>
+	<SubTexture name="BF_Up Miss0005" x="568" y="324" width="110" height="104"/>
+</TextureAtlas>

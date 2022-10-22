@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sky0000" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0001" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0002" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0003" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0004" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0005" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0006" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0007" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0008" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0009" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0010" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0011" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0012" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0013" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0014" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0015" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0016" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0017" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0018" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0019" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0020" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0021" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0022" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0023" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0024" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0025" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="sky0026" x="3" y="3" width="387" height="200"/>
+</TextureAtlas>

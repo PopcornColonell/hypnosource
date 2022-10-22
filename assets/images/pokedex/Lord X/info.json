@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Lord X",
+        "dex": 23,
+        "height": "3'03”",
+        "weight": "77 lbs",
+        "offset": {"x": 290, "y": 175},
+	  "scale": 4,
+        "tagline": "",
+        "desc": "A sinister entity comprised solely of VOID energy, doing whatever it likes so long as it satisfies them. Seems like an innocent game of cards, but things are sure to turn deadly."
+    }
+}

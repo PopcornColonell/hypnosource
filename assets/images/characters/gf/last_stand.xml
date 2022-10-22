@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="last_stand.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lullaby_GF_Idle_20000" x="5" y="5" width="230" height="391" frameX="-1" frameY="-6" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20001" x="5" y="5" width="230" height="391" frameX="-1" frameY="-6" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20002" x="240" y="5" width="225" height="393" frameX="-2" frameY="-4" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20003" x="240" y="5" width="225" height="393" frameX="-2" frameY="-4" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20004" x="470" y="5" width="223" height="395" frameX="-1" frameY="-2" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20005" x="470" y="5" width="223" height="395" frameX="-1" frameY="-2" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20006" x="698" y="5" width="222" height="396" frameX="-1" frameY="-1" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20007" x="698" y="5" width="222" height="396" frameX="-1" frameY="-1" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20008" x="925" y="5" width="222" height="396" frameX="0" frameY="-1" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20009" x="925" y="5" width="222" height="396" frameX="0" frameY="-1" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20010" x="925" y="5" width="222" height="396" frameX="0" frameY="0" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20011" x="925" y="5" width="222" height="396" frameX="0" frameY="0" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20012" x="1152" y="5" width="222" height="397" frameX="0" frameY="0" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_Idle_20013" x="1152" y="5" width="222" height="397" frameX="0" frameY="0" frameWidth="231" frameHeight="397"/>
+	<SubTexture name="Lullaby_GF_down0000" x="1379" y="5" width="237" height="377" frameX="0" frameY="-3" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_down0001" x="1379" y="5" width="237" height="377" frameX="0" frameY="-3" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_down0002" x="1621" y="5" width="236" height="380" frameX="-2" frameY="0" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_down0003" x="1621" y="5" width="236" height="380" frameX="-2" frameY="0" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_down_miss0000" x="5" y="407" width="237" height="377" frameX="0" frameY="-3" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_down_miss0001" x="5" y="407" width="237" height="377" frameX="0" frameY="-3" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_down_miss0002" x="247" y="407" width="236" height="380" frameX="-2" frameY="0" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_down_miss0003" x="247" y="407" width="236" height="380" frameX="-2" frameY="0" frameWidth="238" frameHeight="380"/>
+	<SubTexture name="Lullaby_GF_left0000" x="488" y="407" width="285" height="391" frameX="0" frameY="-1" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_left0001" x="488" y="407" width="285" height="391" frameX="0" frameY="-1" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_left0002" x="778" y="407" width="288" height="392" frameX="-2" frameY="0" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_left0003" x="778" y="407" width="288" height="392" frameX="-2" frameY="0" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_left_miss0000" x="1071" y="407" width="285" height="391" frameX="0" frameY="-1" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_left_miss0001" x="1071" y="407" width="285" height="391" frameX="0" frameY="-1" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_left_miss0002" x="1361" y="407" width="288" height="392" frameX="-2" frameY="0" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_left_miss0003" x="1361" y="407" width="288" height="392" frameX="-2" frameY="0" frameWidth="290" frameHeight="392"/>
+	<SubTexture name="Lullaby_GF_right0000" x="1654" y="407" width="243" height="397" frameX="0" frameY="-1" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_right0001" x="1654" y="407" width="243" height="397" frameX="0" frameY="-1" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_right0002" x="5" y="809" width="220" height="398" frameX="-24" frameY="0" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_right0003" x="5" y="809" width="220" height="398" frameX="-24" frameY="0" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_right_miss0000" x="230" y="809" width="243" height="397" frameX="0" frameY="-1" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_right_miss0001" x="230" y="809" width="243" height="397" frameX="0" frameY="-1" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_right_miss0002" x="478" y="809" width="220" height="398" frameX="-24" frameY="0" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_right_miss0003" x="478" y="809" width="220" height="398" frameX="-24" frameY="0" frameWidth="244" frameHeight="398"/>
+	<SubTexture name="Lullaby_GF_up0000" x="703" y="809" width="334" height="411" frameX="-4" frameY="0" frameWidth="338" frameHeight="411"/>
+	<SubTexture name="Lullaby_GF_up0001" x="703" y="809" width="334" height="411" frameX="-4" frameY="0" frameWidth="338" frameHeight="411"/>
+	<SubTexture name="Lullaby_GF_up0002" x="1042" y="809" width="335" height="407" frameX="0" frameY="-3" frameWidth="338" frameHeight="411"/>
+	<SubTexture name="Lullaby_GF_up0003" x="1042" y="809" width="335" height="407" frameX="0" frameY="-3" frameWidth="338" frameHeight="411"/>
+	<SubTexture name="Lullaby_GF_up_miss0000" x="1382" y="809" width="334" height="411" frameX="-4" frameY="0" frameWidth="338" frameHeight="411"/>
+	<SubTexture name="Lullaby_GF_up_miss0001" x="1382" y="809" width="334" height="411" frameX="-4" frameY="0" frameWidth="338" frameHeight="411"/>
+	<SubTexture name="Lullaby_GF_up_miss0002" x="5" y="1225" width="335" height="407" frameX="0" frameY="-3" frameWidth="338" frameHeight="411"/>
+	<SubTexture name="Lullaby_GF_up_miss0003" x="5" y="1225" width="335" height="407" frameX="0" frameY="-3" frameWidth="338" frameHeight="411"/>
+</TextureAtlas>

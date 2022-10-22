@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Monochrome_ Portrait.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monochrome0000" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="monochrome0001" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="monochrome0002" x="485" y="5" width="475" height="503"/>
+	<SubTexture name="monochrome0003" x="485" y="5" width="475" height="503"/>
+	<SubTexture name="monochrome0004" x="5" y="513" width="475" height="503"/>
+	<SubTexture name="monochrome0005" x="5" y="513" width="475" height="503"/>
+	<SubTexture name="monochrome0006" x="485" y="513" width="475" height="503"/>
+	<SubTexture name="monochrome0007" x="485" y="513" width="475" height="503"/>
+</TextureAtlas>

@@ -1,0 +1,89 @@
+// step outta the way kyoto im about to do this with CODE
+var fogCount:Int = 6;
+var insomniaFog:Array<FlxSprite> = [];
+var startingPosition:Array<FlxPoint> = [];
+
+function onCreate() {
+    PlayState.defaultCamZoom = 0.8;
+	// PlayState.defaultCamZoom = 0.6;
+	var consistentPosition:Array<Float> = [-1000, -350];
+	//fog + 960 
+	// ground + 1360
+	// water + 1306
+	var bg:FlxSprite = new FlxSprite(consistentPosition[0], consistentPosition[1]).loadGraphic(Paths.image('Lost_silver_back'));
+	bg.scrollFactor.set(1.1, 0.9);
+	bg.antialiasing = true;
+	add(bg);
+	var water:FlxSprite = new FlxSprite(consistentPosition[0],
+		consistentPosition[1] + 1306 * (3 / 4)).loadGraphic(Paths.image('Lost_silver_lake'));
+	water.scrollFactor.set(1, 0.9);
+	water.antialiasing = true;
+	add(water);
+	// the fog is coming
+	for (i in 0...fogCount) {
+		var fog:FlxSprite = new FlxSprite(consistentPosition[0],
+			consistentPosition[1] + 960 * (3 / 4)).loadGraphic(Paths.image('Lost_silver_fog'));
+		fog.scrollFactor.set(0.95, 0.9);
+		fog.antialiasing = true;
+		if (i < ((fogCount / 2) - 1))
+			fog.flipX = true;
+		add(fog);
+		startingPosition.push(FlxPoint.weak(fog.x, fog.y));
+        insomniaFog.push(fog);
+	}
+
+	var ground:FlxSprite = new FlxSprite(consistentPosition[0],
+		consistentPosition[1] + 1360 * (3 / 4)).loadGraphic(Paths.image('Lost_silver_ground'));
+	ground.scrollFactor.set(0.9, 0.9);
+	ground.antialiasing = true;
+	add(ground);
+
+	// tree
+	var tree:FlxSprite = new FlxSprite(consistentPosition[0],
+		consistentPosition[1]).loadGraphic(Paths.image('Lost_silver_tree'));
+	tree.scrollFactor.set(0.9, 0.9);
+	tree.antialiasing = true;
+	add(tree);
+}
+
+function onCreatePost() {
+	PlayState.dadOpponent.x += PlayState.dadOpponent.width;
+	PlayState.dadOpponent.y += 50;
+	PlayState.instance.fpSong();
+
+	PlayState.instance.camPos.x += 125;
+	PlayState.instance.camPos.y -= 100;
+
+	PlayState.cameraSpeed = 0.5;
+
+	PlayState.instance.feraligatr = new FlxSprite();
+	PlayState.instance.feraligatr.frames = Paths.getSparrowAtlas('characters/silver/Feralisleep');
+	PlayState.instance.feraligatr.animation.addByPrefix('idle', 'Feralisleep instance 1', 24, false);
+	PlayState.instance.feraligatr.setPosition(PlayState.dadOpponent.x - PlayState.instance.feraligatr.width, PlayState.dadOpponent.y - 250);
+	PlayState.instance.feraligatr.antialiasing = true;
+	PlayState.instance.add(PlayState.instance.feraligatr);
+
+	PlayState.instance.remove(PlayState.dadOpponent);
+	PlayState.instance.add(PlayState.dadOpponent);
+
+	PlayState.instance.accuracyMod = true;
+}
+
+function onUpdate(elapsed) {
+    for (i in 0...insomniaFog.length) {
+		// formula stuff
+		var speedDivider:Float = 128;
+		var swirlSize:Float = 32;
+		var formulaX:Float = Math.cos((180 / Math.PI) * ((Conductor.songPosition - (Conductor.songPosition * i)) / 1000) / speedDivider) * swirlSize;
+		var formulaY:Float = Math.sin((180 / Math.PI) * ((Conductor.songPosition - (Conductor.songPosition * i)) / 1000) / speedDivider) * swirlSize;
+		insomniaFog[i].setPosition(startingPosition[i].x + (i % 2 == 0 ? formulaX : formulaY),
+			startingPosition[i].y + (i % 2 == 0 ? formulaY : formulaX));
+		var speedDivider:Float = 128;
+		var swirlSize:Float = 2;
+		var formulaX:Float = Math.cos((180 / Math.PI) * ((Conductor.songPosition - (Conductor.songPosition * i)) / 1000) / speedDivider);
+		var formulaY:Float = Math.sin((180 / Math.PI) * ((Conductor.songPosition - (Conductor.songPosition * i)) / 1000) / speedDivider);
+		insomniaFog[i].alpha = ((i % 2 == 0 ? formulaY : formulaX) / swirlSize);
+		if (i < ((fogCount / 2) - 1))
+			insomniaFog[i].alpha = (1 - ((i % 2 == 0 ? formulaY : formulaX) / swirlSize));
+	}
+}

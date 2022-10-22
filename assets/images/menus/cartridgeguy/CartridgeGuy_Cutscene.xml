@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CartridgeGuy_Cutscene.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CG_Cutscene_010000" x="3" y="3" width="858" height="691"/>
+	<SubTexture name="CG_Cutscene_020000" x="864" y="3" width="867" height="678"/>
+</TextureAtlas>

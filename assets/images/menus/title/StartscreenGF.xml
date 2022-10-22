@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="StartscreenGF.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Startscreen0000" x="20" y="20" width="628" height="532" frameX="0" frameY="-29" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0001" x="668" y="20" width="622" height="534" frameX="-3" frameY="-25" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0002" x="1310" y="20" width="624" height="538" frameX="-3" frameY="-22" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0003" x="1310" y="20" width="624" height="538" frameX="-3" frameY="-22" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0004" x="20" y="578" width="624" height="539" frameX="-3" frameY="-20" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0005" x="20" y="578" width="624" height="539" frameX="-3" frameY="-20" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0006" x="664" y="578" width="622" height="550" frameX="-5" frameY="-10" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0007" x="664" y="578" width="622" height="550" frameX="-5" frameY="-10" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0008" x="1306" y="578" width="621" height="546" frameX="-5" frameY="-7" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0009" x="20" y="1148" width="621" height="546" frameX="-5" frameY="-6" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0010" x="661" y="1148" width="621" height="546" frameX="-5" frameY="-6" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0011" x="661" y="1148" width="621" height="546" frameX="-5" frameY="-6" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0012" x="661" y="1148" width="621" height="546" frameX="-5" frameY="-6" frameWidth="628" frameHeight="561"/>
+	<SubTexture name="GF Startscreen0013" x="1302" y="1148" width="617" height="551" frameX="-7" frameY="0" frameWidth="628" frameHeight="561"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+function returnDescription()
+    return "Flips the strums around.";
+
+function eventFunction(params) {
+    PlayState.instance.flipStrums();
+}

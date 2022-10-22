@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Broken Note",
+        "price": 425,
+        "animName": "Broken Note instance 1",
+        "songUnlock": "Amusia",
+        "songDescription": "She can't sing...",
+        "unlockRequirements": [""],
+        "xOffset": -18,
+        "yOffset": 25,
+        "lane": 2,
+        "row": 1,
+        "scale": 1.0
+    }
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GOLD PASTA NIGHT.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GOLD PASTA NIGHT instance 10000" x="5" y="5" width="221" height="458" frameX="-1" frameY="0" frameWidth="222" frameHeight="459"/>
+	<SubTexture name="GOLD PASTA NIGHT instance 10001" x="5" y="5" width="221" height="458" frameX="-1" frameY="0" frameWidth="222" frameHeight="459"/>
+	<SubTexture name="GOLD PASTA NIGHT instance 10002" x="226" y="5" width="218" height="456" frameX="-1" frameY="-2" frameWidth="222" frameHeight="459"/>
+	<SubTexture name="GOLD PASTA NIGHT instance 10003" x="226" y="5" width="218" height="456" frameX="-1" frameY="-2" frameWidth="222" frameHeight="459"/>
+	<SubTexture name="GOLD PASTA NIGHT instance 10004" x="444" y="5" width="219" height="456" frameX="0" frameY="-2" frameWidth="222" frameHeight="459"/>
+	<SubTexture name="GOLD PASTA NIGHT instance 10005" x="444" y="5" width="219" height="456" frameX="0" frameY="-2" frameWidth="222" frameHeight="459"/>
+	<SubTexture name="GOLD PASTA NIGHT instance 10006" x="663" y="5" width="217" height="458" frameX="-1" frameY="-1" frameWidth="222" frameHeight="459"/>
+	<SubTexture name="GOLD PASTA NIGHT instance 10007" x="663" y="5" width="217" height="458" frameX="-1" frameY="-1" frameWidth="222" frameHeight="459"/>
+</TextureAtlas>

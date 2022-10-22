@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Ponyta",
+        "dex": 15,
+        "height": "3'03",
+        "weight": "66.1 lbs",
+        "offset": {"x": 240, "y": 160},
+	  "scale": 4,
+        "tagline": "The Fire Horse Pokémon",
+        "desc": "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
+    }
+}

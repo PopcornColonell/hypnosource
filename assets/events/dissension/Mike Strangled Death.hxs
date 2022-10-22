@@ -1,0 +1,6 @@
+function returnDescription()
+    return "Steven strangles mike to death.";
+
+function eventFunction(params) {
+	
+}

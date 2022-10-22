@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Shinto",
+        "dex": 19,
+        "height": "TALL",
+        "weight": "NOT FAT",
+        "offset": {"x": 310, "y": 150},
+	  "scale": 4,
+        "tagline": "The Bootleg Pokemon",
+        "desc": "SHINTO SO COOL!!!! SHINJTO NOT FROM BOOT LEG GAME BUT FROM REAL ONE!!!! PLAY WITH ME???"
+    }
+}

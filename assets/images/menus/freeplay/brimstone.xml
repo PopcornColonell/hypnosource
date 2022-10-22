@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Brimstone_Portrait.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="brimstone0000" x="5" y="5" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0001" x="485" y="5" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0002" x="485" y="5" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0003" x="965" y="5" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0004" x="965" y="5" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0005" x="1445" y="5" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0006" x="1925" y="5" width="475" height="617"/>
+	<SubTexture name="brimstone0007" x="1925" y="5" width="475" height="617"/>
+	<SubTexture name="brimstone0008" x="2405" y="5" width="475" height="602" frameX="0" frameY="-15" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0009" x="2405" y="5" width="475" height="602" frameX="0" frameY="-15" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0010" x="2885" y="5" width="475" height="557" frameX="0" frameY="-60" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0011" x="2885" y="5" width="475" height="557" frameX="0" frameY="-60" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0012" x="3365" y="5" width="475" height="549" frameX="0" frameY="-68" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0013" x="5" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0014" x="5" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0015" x="485" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0016" x="485" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0017" x="965" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0018" x="1445" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0019" x="1445" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0020" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0021" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0022" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0023" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0024" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0025" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0026" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0027" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0028" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0029" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0030" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0031" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0032" x="1925" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0033" x="2405" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0034" x="2405" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0035" x="2885" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0036" x="2885" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0037" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0038" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0039" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0040" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0041" x="5" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0042" x="5" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0043" x="5" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0044" x="5" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0045" x="485" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0046" x="485" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0047" x="485" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0048" x="485" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0049" x="965" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0050" x="965" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0051" x="965" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0052" x="965" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0053" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0054" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0055" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0056" x="3365" y="627" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0057" x="1445" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+	<SubTexture name="brimstone0058" x="1925" y="1135" width="475" height="503" frameX="0" frameY="-114" frameWidth="475" frameHeight="617"/>
+</TextureAtlas>

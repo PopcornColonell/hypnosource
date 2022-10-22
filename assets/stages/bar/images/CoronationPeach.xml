@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CoronationPeach.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CoronationPeach0000" x="3" y="3" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0001" x="3" y="3" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0002" x="115" y="3" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0003" x="115" y="3" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0004" x="227" y="3" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0005" x="227" y="3" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0006" x="3" y="218" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0007" x="3" y="218" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0008" x="115" y="218" width="109" height="212"/>
+	<SubTexture name="CoronationPeach0009" x="115" y="218" width="109" height="212"/>
+</TextureAtlas>

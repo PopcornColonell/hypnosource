@@ -1,0 +1,25 @@
+function returnDescription()
+    return "Changes the note's scoll speeds.";
+
+function eventFunction(params) {
+    var val1 = params[0];
+	if (Math.isNaN(val1) || val1 <= 0)
+		val1 = 1;
+	var val2 = params[1];
+	if (Math.isNaN(val2) || val2 <= 0)
+		val2 = 0;
+	//
+	var newValue:Float = PlayState.SONG.speed * val1;
+	if (val2 <= 0)
+		PlayState.instance.songSpeed = newValue;
+	else {
+		PlayState.instance.songSpeedTween = FlxTween.tween(PlayState.instance, {songSpeed: newValue}, val2 * (Conductor.stepCrochet / 1000), {
+            ease: FlxEase.linear,
+            onComplete: function(twn:FlxTween) 
+            {
+                PlayState.instance.songSpeedTween = null;
+            }
+        });
+	}
+	trace('changing scroll speed');
+}

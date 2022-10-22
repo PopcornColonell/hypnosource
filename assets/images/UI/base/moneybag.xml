@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="moneybag.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Moneybag final0000" x="5" y="5" width="36" height="138" frameX="-36" frameY="-664" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0001" x="46" y="5" width="30" height="138" frameX="-39" frameY="-606" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0002" x="81" y="5" width="92" height="61" frameX="-6" frameY="-662" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0003" x="178" y="5" width="96" height="57" frameX="-4" frameY="-662" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0004" x="178" y="5" width="96" height="57" frameX="-4" frameY="-662" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0005" x="279" y="5" width="70" height="90" frameX="-17" frameY="-662" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0006" x="354" y="5" width="68" height="91" frameX="-18" frameY="-662" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0007" x="354" y="5" width="68" height="91" frameX="-18" frameY="-662" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0008" x="427" y="5" width="75" height="83" frameX="-15" frameY="-657" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0009" x="427" y="5" width="75" height="83" frameX="-15" frameY="-657" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0010" x="507" y="5" width="75" height="84" frameX="-15" frameY="-658" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0011" x="587" y="5" width="75" height="742" frameX="-15" frameY="0" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0012" x="667" y="5" width="75" height="447" frameX="-15" frameY="-295" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0013" x="747" y="5" width="96" height="120" frameX="-5" frameY="-625" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0014" x="848" y="5" width="98" height="120" frameX="-5" frameY="-625" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0015" x="5" y="752" width="102" height="117" frameX="-4" frameY="-627" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0016" x="112" y="752" width="95" height="114" frameX="-6" frameY="-631" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0017" x="212" y="752" width="95" height="111" frameX="-6" frameY="-634" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0018" x="312" y="752" width="103" height="101" frameX="0" frameY="-643" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0019" x="420" y="752" width="103" height="99" frameX="0" frameY="-645" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0020" x="528" y="752" width="92" height="104" frameX="-2" frameY="-638" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0021" x="625" y="752" width="92" height="104" frameX="-2" frameY="-638" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0022" x="507" y="5" width="75" height="84" frameX="-15" frameY="-658" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0023" x="507" y="5" width="75" height="84" frameX="-15" frameY="-658" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0024" x="507" y="5" width="75" height="84" frameX="-15" frameY="-658" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0025" x="507" y="5" width="75" height="84" frameX="-15" frameY="-658" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0026" x="507" y="5" width="75" height="84" frameX="-15" frameY="-658" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0027" x="507" y="5" width="75" height="84" frameX="-15" frameY="-656" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0028" x="722" y="752" width="77" height="84" frameX="-14" frameY="-654" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0029" x="722" y="752" width="77" height="84" frameX="-14" frameY="-654" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0030" x="722" y="752" width="77" height="84" frameX="-14" frameY="-654" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0031" x="722" y="752" width="77" height="84" frameX="-14" frameY="-654" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0032" x="804" y="752" width="60" height="104" frameX="-23" frameY="-659" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0033" x="869" y="752" width="40" height="132" frameX="-33" frameY="-675" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0034" x="914" y="752" width="22" height="154" frameX="-43" frameY="-712" frameWidth="106" frameHeight="866"/>
+	<SubTexture name="Moneybag final0035" x="941" y="752" width="0" height="0" frameX="1166" frameY="-15" frameWidth="106" frameHeight="866"/>
+</TextureAtlas>

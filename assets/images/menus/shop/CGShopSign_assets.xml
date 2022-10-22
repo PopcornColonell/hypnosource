@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CGShopSign_assets.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ShopSign0000" x="3" y="3" width="483" height="186"/>
+	<SubTexture name="ShopSign0001" x="3" y="3" width="483" height="186"/>
+	<SubTexture name="ShopSign0002" x="489" y="3" width="483" height="186"/>
+	<SubTexture name="ShopSign0003" x="975" y="3" width="483" height="186"/>
+	<SubTexture name="ShopSign0004" x="1461" y="3" width="483" height="186"/>
+	<SubTexture name="ShopSign0005" x="1461" y="3" width="483" height="186"/>
+	<SubTexture name="ShopSign0006" x="3" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0007" x="3" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0008" x="489" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0009" x="489" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0010" x="975" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0011" x="975" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0012" x="1461" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0013" x="1461" y="192" width="483" height="186"/>
+	<SubTexture name="ShopSign0014" x="3" y="381" width="483" height="186"/>
+	<SubTexture name="ShopSign0015" x="3" y="381" width="483" height="186"/>
+	<SubTexture name="ShopSign0016" x="489" y="381" width="483" height="186"/>
+	<SubTexture name="ShopSign0017" x="489" y="381" width="483" height="186"/>
+	<SubTexture name="ShopSign0018" x="975" y="381" width="483" height="186"/>
+	<SubTexture name="ShopSign0019" x="1461" y="381" width="483" height="186"/>
+	<SubTexture name="ShopSign0020" x="1461" y="381" width="483" height="186"/>
+	<SubTexture name="ShopSign0021" x="3" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0022" x="3" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0023" x="489" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0024" x="489" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0025" x="975" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0026" x="975" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0027" x="1461" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0028" x="1461" y="570" width="483" height="186"/>
+	<SubTexture name="ShopSign0029" x="3" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0030" x="3" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0031" x="489" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0032" x="489" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0033" x="975" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0034" x="975" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0035" x="1461" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0036" x="1461" y="759" width="483" height="186"/>
+	<SubTexture name="ShopSign0037" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0038" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0039" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0040" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0041" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0042" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0043" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0044" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0045" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0046" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0047" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0048" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0049" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0050" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0051" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0052" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0053" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0054" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0055" x="3" y="948" width="483" height="186"/>
+	<SubTexture name="ShopSign0056" x="3" y="948" width="483" height="186"/>
+</TextureAtlas>

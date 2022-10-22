@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Hypno (Safety Lullaby)",
+        "dex": 1,
+        "height": "6'05”",
+        "weight": "26.5 lbs",
+	  "scale": 2.5,
+        "offset": {"x": 225, "y": 140},
+        "tagline": "The Hypnosis Pokemon",
+        "desc": "Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum."
+    }
+}

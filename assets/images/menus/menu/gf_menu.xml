@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FreeplayGF.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf menu instance 10000" x="20" y="20" width="689" height="765" frameX="0" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10001" x="20" y="20" width="689" height="765" frameX="0" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10002" x="20" y="20" width="689" height="765" frameX="0" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10003" x="729" y="20" width="685" height="736" frameX="-3" frameY="0" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10004" x="729" y="20" width="685" height="736" frameX="-3" frameY="0" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10005" x="729" y="20" width="685" height="736" frameX="-3" frameY="0" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10006" x="20" y="805" width="692" height="728" frameX="-2" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10007" x="20" y="805" width="692" height="728" frameX="-2" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10008" x="20" y="805" width="692" height="728" frameX="-2" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10009" x="732" y="805" width="685" height="735" frameX="-3" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10010" x="732" y="805" width="685" height="735" frameX="-3" frameY="-1" frameWidth="694" frameHeight="766"/>
+	<SubTexture name="gf menu instance 10011" x="732" y="805" width="685" height="735" frameX="-3" frameY="-1" frameWidth="694" frameHeight="766"/>
+</TextureAtlas>

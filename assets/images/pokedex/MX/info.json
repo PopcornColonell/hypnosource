@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "MX",
+        "dex": 24,
+        "height": "???",
+        "weight": "???",
+        "offset": {"x": 290, "y": 190},
+	  "scale": 2,
+        "tagline": "",
+        "desc": "This maniac version of Mario resides within an NES Mario cartridge with the sole purpose of torturing the soul of an innocent child. Although today he's just here to play some cards."
+    }
+}

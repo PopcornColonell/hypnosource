@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MrWidemouth.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MrWidemouth instance 10000" x="5" y="5" width="74" height="61" frameX="0" frameY="-3" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10001" x="5" y="5" width="74" height="61" frameX="0" frameY="-3" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10002" x="84" y="5" width="71" height="61" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10003" x="160" y="5" width="71" height="62" frameX="-3" frameY="0" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10004" x="236" y="5" width="71" height="61" frameX="-3" frameY="0" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10005" x="312" y="5" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10006" x="388" y="5" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10007" x="5" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10008" x="5" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10009" x="81" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10010" x="81" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10011" x="157" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10012" x="157" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10013" x="388" y="5" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10014" x="388" y="5" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10015" x="5" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10016" x="5" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10017" x="233" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10018" x="233" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10019" x="309" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10020" x="385" y="72" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+	<SubTexture name="MrWidemouth instance 10021" x="5" y="137" width="71" height="60" frameX="-3" frameY="-1" frameWidth="74" frameHeight="64"/>
+</TextureAtlas>

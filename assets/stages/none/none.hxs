@@ -1,0 +1,10 @@
+function onCreate() {
+    PlayState.defaultCamZoom = 0.85;	
+}
+
+function onCreatePost() {
+	PlayState.instance.camZooming = false;
+	dadOpponent.visible = false;
+	dadOpponent.setPosition(dadOpponent.width / 2, dadOpponent.height / 4);
+	PlayState.instance.fpSong();
+}

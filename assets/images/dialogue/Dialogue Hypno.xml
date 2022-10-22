@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dialogue Hypno.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hypno Sprite 10000" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10001" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10002" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10003" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10004" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10005" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10006" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10007" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10008" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10009" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10010" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10011" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10012" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10013" x="20" y="20" width="1070" height="982"/>
+	<SubTexture name="Hypno Sprite 10014" x="20" y="20" width="1070" height="982"/>
+</TextureAtlas>

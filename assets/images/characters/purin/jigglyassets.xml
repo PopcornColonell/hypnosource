@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jigglyassets.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jigglypuff idle main0000" x="3975" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0001" x="4465" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0002" x="4955" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0003" x="4955" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0004" x="5445" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0005" x="5445" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0006" x="5935" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0007" x="5935" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0008" x="6425" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0009" x="6425" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0010" x="6915" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0011" x="7405" y="20" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0012" x="20" y="646" width="470" height="554"/>
+	<SubTexture name="Jigglypuff idle main0013" x="20" y="646" width="470" height="554"/>
+	<SubTexture name="jigglydown0000" x="510" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0001" x="1023" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0002" x="1536" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0003" x="2049" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0004" x="2562" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0005" x="3075" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0006" x="3588" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0007" x="3588" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0008" x="4101" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0009" x="4101" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0010" x="4614" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0011" x="4614" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0012" x="5127" y="646" width="493" height="528"/>
+	<SubTexture name="jigglydown0013" x="5640" y="646" width="493" height="528"/>
+	<SubTexture name="jigglyleft0000" x="6153" y="646" width="664" height="636"/>
+	<SubTexture name="jigglyleft0001" x="6153" y="646" width="664" height="636"/>
+	<SubTexture name="jigglyleft0002" x="6837" y="646" width="664" height="636"/>
+	<SubTexture name="jigglyleft0003" x="20" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0004" x="704" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0005" x="1388" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0006" x="2072" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0007" x="2756" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0008" x="3440" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0009" x="3440" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0010" x="4124" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0011" x="4808" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0012" x="5492" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0013" x="6176" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyleft0014" x="6860" y="1302" width="664" height="636"/>
+	<SubTexture name="jigglyright0000" x="20" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0001" x="20" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0002" x="585" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0003" x="585" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0004" x="1150" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0005" x="1150" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0006" x="1715" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0007" x="1715" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0008" x="2280" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0009" x="2280" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0010" x="2845" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0011" x="2845" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0012" x="3410" y="20" width="545" height="606"/>
+	<SubTexture name="jigglyright0013" x="3410" y="20" width="545" height="606"/>
+	<SubTexture name="jigglysing0000" x="20" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0001" x="931" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0002" x="1842" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0003" x="1842" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0004" x="2753" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0005" x="2753" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0006" x="3664" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0007" x="3664" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0008" x="4575" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0009" x="4575" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0010" x="5486" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0011" x="5486" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0012" x="6397" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0013" x="6397" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0014" x="20" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0015" x="20" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0016" x="931" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0017" x="931" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0018" x="1842" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0019" x="1842" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0020" x="2753" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0021" x="2753" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0022" x="3664" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0023" x="3664" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0024" x="4575" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0025" x="4575" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0026" x="5486" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0027" x="5486" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0028" x="6397" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0029" x="6397" y="2538" width="891" height="560"/>
+	<SubTexture name="jigglysing0030" x="1842" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0031" x="1842" y="1958" width="891" height="560"/>
+	<SubTexture name="jigglysing0032" x="20" y="3118" width="891" height="560"/>
+	<SubTexture name="jigglysing0033" x="20" y="3118" width="891" height="560"/>
+	<SubTexture name="jigglysing0034" x="20" y="3118" width="891" height="560"/>
+	<SubTexture name="jigglysing0035" x="20" y="3118" width="891" height="560"/>
+	<SubTexture name="jigglyturn0000" x="931" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0001" x="931" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0002" x="931" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0003" x="931" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0004" x="931" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0005" x="931" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0006" x="1466" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0007" x="1466" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0008" x="2001" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0009" x="2001" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0010" x="2536" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0011" x="2536" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0012" x="3071" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0013" x="3071" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0014" x="3606" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0015" x="3606" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0016" x="4141" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0017" x="4141" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0018" x="4676" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0019" x="4676" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0020" x="5211" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyturn0021" x="5211" y="3118" width="515" height="563"/>
+	<SubTexture name="jigglyup0000" x="5746" y="3118" width="562" height="652"/>
+	<SubTexture name="jigglyup0001" x="6328" y="3118" width="562" height="652"/>
+	<SubTexture name="jigglyup0002" x="6910" y="3118" width="562" height="652"/>
+	<SubTexture name="jigglyup0003" x="7492" y="3118" width="562" height="652"/>
+	<SubTexture name="jigglyup0004" x="20" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0005" x="602" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0006" x="1184" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0007" x="1766" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0008" x="2348" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0009" x="2930" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0010" x="3512" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0011" x="4094" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0012" x="4676" y="3790" width="562" height="652"/>
+	<SubTexture name="jigglyup0013" x="5258" y="3790" width="562" height="652"/>
+</TextureAtlas>

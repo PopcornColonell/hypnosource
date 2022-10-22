@@ -1,0 +1,36 @@
+{
+    "lyrics": [
+        {
+            "steps": [1872, 1875, 1879, 1885, 1888],
+            "curString": "They /took /everything /from /me..."
+        },
+        {
+            "steps": [1895, 1900],
+            "curString": "My /VOICE,"
+        },
+        {
+            "steps": [1912, 1918],
+            "curString": "My /FREEDOM,"
+        },
+        {
+            "steps": [1932, 1939],
+            "curString": "My /LEGACY,"
+        },
+        {
+            "steps": [1952, 1955, 1957, 1963, 1965, 1969],
+            "curString": "And/ they /replaced /me /with /some"
+        },
+        {
+            "steps": [1978],
+            "curString": "blue..."
+        },
+        {
+            "steps": [1984],
+            "curString": "haired..."
+        },
+        {
+            "steps": [1991, 2000],
+            "curString": "KID."
+        }
+    ]
+}

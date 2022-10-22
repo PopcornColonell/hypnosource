@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TOAD WITH A TRUMPET.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TOAD0000" x="5" y="5" width="275" height="312" frameX="0" frameY="0" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0001" x="5" y="5" width="275" height="312" frameX="0" frameY="0" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0002" x="280" y="5" width="271" height="289" frameX="-7" frameY="-20" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0003" x="280" y="5" width="271" height="289" frameX="-7" frameY="-20" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0004" x="551" y="5" width="264" height="265" frameX="-17" frameY="-39" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0005" x="551" y="5" width="264" height="265" frameX="-17" frameY="-39" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0006" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0007" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0008" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0009" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0010" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0011" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0012" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+	<SubTexture name="TOAD0013" x="5" y="317" width="262" height="258" frameX="-21" frameY="-44" frameWidth="283" frameHeight="312"/>
+</TextureAtlas>

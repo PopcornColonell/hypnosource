@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="glowleft.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="glowleft0000" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0001" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0002" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0003" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0004" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0005" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0006" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0007" x="20" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0008" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0009" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0010" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0011" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0012" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0013" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0014" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0015" x="2599" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0016" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0017" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0018" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0019" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0020" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0021" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0022" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0023" x="5178" y="20" width="2559" height="1247"/>
+	<SubTexture name="glowleft0024" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0025" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0026" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0027" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0028" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0029" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0030" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0031" x="20" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0032" x="2599" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0033" x="2599" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0034" x="2599" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0035" x="2599" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0036" x="2599" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0037" x="2599" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0038" x="2599" y="1287" width="2559" height="1247"/>
+	<SubTexture name="glowleft0039" x="2599" y="1287" width="2559" height="1247"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cold gold menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cold gold menu instance 10000" x="0" y="0" width="613" height="647" frameX="-11" frameY="0" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10001" x="0" y="0" width="613" height="647" frameX="-11" frameY="0" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10002" x="0" y="0" width="613" height="647" frameX="-11" frameY="0" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10003" x="663" y="0" width="625" height="654" frameX="0" frameY="-3" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10004" x="663" y="0" width="625" height="654" frameX="0" frameY="-3" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10005" x="663" y="0" width="625" height="654" frameX="0" frameY="-3" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10006" x="1338" y="0" width="611" height="651" frameX="-12" frameY="-7" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10007" x="1338" y="0" width="611" height="651" frameX="-12" frameY="-7" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10008" x="1338" y="0" width="611" height="651" frameX="-12" frameY="-7" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10009" x="0" y="704" width="617" height="649" frameX="-8" frameY="-5" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10010" x="0" y="704" width="617" height="649" frameX="-8" frameY="-5" frameWidth="625" frameHeight="658"/>
+	<SubTexture name="cold gold menu instance 10011" x="0" y="704" width="617" height="649" frameX="-8" frameY="-5" frameWidth="625" frameHeight="658"/>
+</TextureAtlas>

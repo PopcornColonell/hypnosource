@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Loading Screen Pendelum.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Loading Pendelum Finished0000" x="20" y="20" width="95" height="129" frameX="-1" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0001" x="135" y="20" width="84" height="135" frameX="-12" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0002" x="239" y="20" width="69" height="142" frameX="-30" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0003" x="328" y="20" width="69" height="146" frameX="-39" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0004" x="417" y="20" width="66" height="148" frameX="-74" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0005" x="503" y="20" width="67" height="144" frameX="-89" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0006" x="590" y="20" width="82" height="136" frameX="-92" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0007" x="692" y="20" width="94" height="129" frameX="-92" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0008" x="806" y="20" width="94" height="129" frameX="-92" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0009" x="20" y="188" width="95" height="129" frameX="-92" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0010" x="135" y="188" width="93" height="130" frameX="-92" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0011" x="248" y="188" width="86" height="134" frameX="-92" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0012" x="354" y="188" width="81" height="136" frameX="-92" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0013" x="455" y="188" width="69" height="146" frameX="-75" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0014" x="544" y="188" width="67" height="148" frameX="-56" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0015" x="631" y="188" width="67" height="144" frameX="-36" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0016" x="718" y="188" width="83" height="136" frameX="-13" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0017" x="20" y="20" width="95" height="129" frameX="-1" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0018" x="821" y="188" width="95" height="128" frameX="-1" frameY="0" frameWidth="187" frameHeight="148"/>
+	<SubTexture name="Loading Pendelum Finished0019" x="20" y="356" width="96" height="128" frameX="0" frameY="0" frameWidth="187" frameHeight="148"/>
+</TextureAtlas>

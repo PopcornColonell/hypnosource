@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GOLD NO MORE.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="No More instance 10000" x="5" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10001" x="5" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10002" x="393" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10003" x="393" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10004" x="781" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10005" x="781" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10006" x="1169" y="5" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10007" x="1169" y="5" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10008" x="1555" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10009" x="1555" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10010" x="1943" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10011" x="1943" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10012" x="2331" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10013" x="2331" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10014" x="2719" y="5" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10015" x="3105" y="5" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10016" x="3491" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10017" x="3491" y="5" width="388" height="578"/>
+	<SubTexture name="No More instance 10018" x="5" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10019" x="5" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10020" x="393" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10021" x="393" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10022" x="781" y="583" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10023" x="781" y="583" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10024" x="1167" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10025" x="1167" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10026" x="1555" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10027" x="1555" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10028" x="1943" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10029" x="1943" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10030" x="2331" y="583" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10031" x="2331" y="583" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10032" x="2717" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10033" x="2717" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10034" x="3105" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10035" x="3105" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10036" x="3493" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10037" x="3493" y="583" width="388" height="578"/>
+	<SubTexture name="No More instance 10038" x="5" y="1161" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10039" x="5" y="1161" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10040" x="391" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10041" x="391" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10042" x="779" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10043" x="779" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10044" x="1167" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10045" x="1167" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10046" x="1555" y="1161" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10047" x="1555" y="1161" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10048" x="1941" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10049" x="1941" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10050" x="2329" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10051" x="2329" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10052" x="2717" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10053" x="2717" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10054" x="1555" y="1161" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10055" x="1555" y="1161" width="386" height="578" frameX="0" frameY="0" frameWidth="388" frameHeight="578"/>
+	<SubTexture name="No More instance 10056" x="1941" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10057" x="1941" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10058" x="3105" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10059" x="3105" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10060" x="3493" y="1161" width="388" height="578"/>
+	<SubTexture name="No More instance 10061" x="3493" y="1161" width="388" height="578"/>
+</TextureAtlas>

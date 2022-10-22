@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shitno_pokeball.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shitno_pokeballend0000" x="3" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0001" x="3" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0002" x="122" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0003" x="122" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0004" x="241" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0005" x="241" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0006" x="360" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0007" x="360" y="3" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0008" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0009" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0010" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0011" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0012" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0013" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0014" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0015" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0016" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0017" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0018" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0019" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0020" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0021" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0022" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0023" x="3" y="91" width="116" height="85"/>
+	<SubTexture name="shitno_pokeballend0024" x="3" y="91" width="116" height="85"/>
+</TextureAtlas>

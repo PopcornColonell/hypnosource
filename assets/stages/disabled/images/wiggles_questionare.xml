@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wiggles_questionare.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Give me your sing0000" x="2" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0001" x="2" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0002" x="248" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0003" x="248" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0004" x="494" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0005" x="494" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0006" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0007" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0008" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0009" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0010" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0011" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0012" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0013" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="Give me your sing0014" x="740" y="2" width="244" height="230"/>
+	<SubTexture name="angry0000" x="986" y="2" width="244" height="230"/>
+	<SubTexture name="angry0001" x="1232" y="2" width="244" height="230"/>
+	<SubTexture name="angry0002" x="1478" y="2" width="244" height="230"/>
+	<SubTexture name="angry0003" x="1724" y="2" width="244" height="230"/>
+	<SubTexture name="angry0004" x="2" y="234" width="244" height="230"/>
+	<SubTexture name="angry0005" x="248" y="234" width="244" height="230"/>
+	<SubTexture name="angry0006" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0007" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0008" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0009" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0010" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0011" x="740" y="234" width="244" height="230"/>
+	<SubTexture name="angry0012" x="986" y="234" width="244" height="230"/>
+	<SubTexture name="angry0013" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0014" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0015" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0016" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0017" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0018" x="1478" y="2" width="244" height="230"/>
+	<SubTexture name="angry0019" x="1724" y="2" width="244" height="230"/>
+	<SubTexture name="angry0020" x="2" y="234" width="244" height="230"/>
+	<SubTexture name="angry0021" x="248" y="234" width="244" height="230"/>
+	<SubTexture name="angry0022" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0023" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0024" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0025" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="angry0026" x="494" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0000" x="1232" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0001" x="1232" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0002" x="1232" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0003" x="1478" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0004" x="1478" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0005" x="1478" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0006" x="1724" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0007" x="1724" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0008" x="1724" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0009" x="2" y="466" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0010" x="2" y="466" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0011" x="2" y="466" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0012" x="1478" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0013" x="1478" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0014" x="1478" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0015" x="1724" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0016" x="1724" y="234" width="244" height="230"/>
+	<SubTexture name="questionnaire idle0017" x="1724" y="234" width="244" height="230"/>
+</TextureAtlas>

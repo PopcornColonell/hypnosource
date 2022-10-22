@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JeffArm.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Only the arm shit instance 10000" x="0" y="0" width="225" height="114" frameX="0" frameY="-2" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10001" x="225" y="0" width="226" height="116" frameX="0" frameY="-1" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10002" x="225" y="0" width="226" height="116" frameX="0" frameY="-1" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10003" x="0" y="116" width="225" height="117" frameX="-1" frameY="0" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10004" x="0" y="116" width="225" height="117" frameX="-1" frameY="0" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10005" x="225" y="116" width="224" height="117" frameX="-1" frameY="0" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10006" x="225" y="116" width="224" height="117" frameX="-1" frameY="0" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10007" x="0" y="233" width="225" height="117" frameX="-1" frameY="0" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10008" x="0" y="233" width="225" height="117" frameX="-1" frameY="0" frameWidth="226" frameHeight="117"/>
+	<SubTexture name="Only the arm shit instance 10009" x="225" y="233" width="225" height="117" frameX="-1" frameY="0" frameWidth="226" frameHeight="117"/>
+</TextureAtlas>

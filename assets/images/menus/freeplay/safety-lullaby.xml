@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="safety-lullaby.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="safety-lullaby0000" x="5" y="5" width="498" height="581" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0001" x="5" y="5" width="498" height="581" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0002" x="508" y="5" width="514" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0003" x="508" y="5" width="514" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0004" x="1027" y="5" width="590" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0005" x="1622" y="5" width="609" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0006" x="2236" y="5" width="615" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0007" x="2236" y="5" width="615" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0008" x="2856" y="5" width="618" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0009" x="2856" y="5" width="618" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0010" x="5" y="591" width="619" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0011" x="5" y="591" width="619" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0012" x="5" y="591" width="619" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0013" x="629" y="591" width="618" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0014" x="629" y="591" width="618" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0015" x="1252" y="591" width="615" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0016" x="1252" y="591" width="615" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0017" x="1872" y="591" width="609" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0018" x="2486" y="591" width="590" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0019" x="508" y="5" width="514" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0020" x="3081" y="591" width="498" height="581" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0021" x="3081" y="591" width="498" height="581" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0022" x="3584" y="591" width="498" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0023" x="3584" y="591" width="498" height="577" frameX="-84" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0024" x="5" y="1177" width="511" height="577" frameX="-71" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0025" x="521" y="1177" width="564" height="577" frameX="-18" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0026" x="1090" y="1177" width="570" height="577" frameX="-12" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0027" x="1665" y="1177" width="570" height="577" frameX="-12" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0028" x="2240" y="1177" width="575" height="577" frameX="-7" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0029" x="2820" y="1177" width="575" height="577" frameX="-7" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0030" x="3400" y="1177" width="580" height="577" frameX="-2" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0031" x="3400" y="1177" width="580" height="577" frameX="-2" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0032" x="5" y="1759" width="582" height="577" frameX="0" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0033" x="592" y="1759" width="582" height="577" frameX="0" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0034" x="1179" y="1759" width="582" height="577" frameX="0" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0035" x="1766" y="1759" width="580" height="577" frameX="-2" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0036" x="1766" y="1759" width="580" height="577" frameX="-2" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0037" x="2351" y="1759" width="575" height="577" frameX="-7" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0038" x="2351" y="1759" width="575" height="577" frameX="-7" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0039" x="1090" y="1177" width="570" height="577" frameX="-12" frameY="0" frameWidth="703" frameHeight="581"/>
+	<SubTexture name="safety-lullaby0040" x="521" y="1177" width="564" height="577" frameX="-18" frameY="0" frameWidth="703" frameHeight="581"/>
+</TextureAtlas>

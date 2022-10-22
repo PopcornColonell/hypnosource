@@ -1,0 +1,6 @@
+function returnDescription()
+    return "Hides the opponent's Health Icon.";
+
+function eventFunction(params) {
+	if (PlayState.instance.iconP2 != null) PlayState.instance.iconP2.visible = false;
+}

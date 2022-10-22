@@ -1,0 +1,92 @@
+{
+    "lyrics": [
+        {
+            "steps": [0],
+            "curString": ""
+        },
+        {
+            "steps": [64, 68, 72, 76],
+            "curString": "Come, /little /Girl/friend..."
+        },
+        {
+            "steps": [80, 84, 88, 94],
+            "curString": "Come /with/ me..."
+        },
+        {
+            "steps": [95, 98, 101, 104, 107, 111, 115, 119, 126],
+            "curString": "Boy/friend /is /wai/ting /stea/di/ly!" 
+        },
+        {
+            "steps": [190, 192, 196, 200, 204, 208, 210, 216],
+            "curString": "A/lone /at /night, /now /let /us /run..." 
+        },
+        {
+            "steps": [222, 224, 228, 232, 236, 240, 244, 248, 256],
+            "curString": "With/ Hyp/no,/ you'll/ have/ so/ much/ fun!" 
+        },
+        {
+            "steps": [320, 324, 328, 332, 336, 340, 344],
+            "curString": "Oh/ little/ Girl/friend,/ please/ don't/ cry!" 
+        },
+        {
+            "steps": [352, 356, 360, 367, 373, 376, 384],
+            "curString": "Hyp/no/ wouldn't/ hurt/ a/ fly!" 
+        },
+        {
+            "steps": [446, 448, 452, 455, 460, 464, 470],
+            "curString": "Your/ fath/er/ clear/ly/ doesn't/ get..."
+        },
+        {
+            "steps": [480, 484, 486, 488, 492, 496, 500, 504, 512],
+            "curString": "Deep/ in/ the/ fore/st,/ BF/ I/ met!" 
+        },
+        {
+            "steps": [576, 580, 583, 587, 592, 596, 600],
+            "curString": "Oh/ little/ Girl/friend,/ please/ don't/ squirm!" 
+        },
+        {
+            "steps": [606, 608, 612, 614, 620, 624, 628, 632],
+            "curString": "Those/ ropes/ I/ know/ will/ hold/ you/ firm..." 
+        },
+        {
+            "steps": [640, 644, 648, 652, 656, 658, 663],
+            "curString": "Hyp/no/ tells/ you/ this/ is/ true..." 
+        },
+        {
+            "steps": [670, 672, 676, 680, 685, 688, 694, 696],
+            "curString": "But/ sadly,/ Hyp/no/ lied/ to/ you!" 
+        },
+        {
+            "steps": [832, 836, 840, 844, 846, 848, 852, 855],
+            "curString": "Oh/ little/ Girl/friend,/ you/ shall/ not/ leave..." 
+        },
+        {
+            "steps": [862, 864, 867, 869, 872, 877, 880, 886, 896],
+            "curString": "Your/ fath/er/ for/ you/ will/ never/ grieve!" 
+        },
+        {
+            "steps": [958, 960, 964, 968, 976, 978, 982],
+            "curString": "And/ minds/ un/ravel/ at/ the/ seams..." 
+        },
+        {
+            "steps": [990, 999, 1004, 1006, 1012, 1016, 1024],
+            "curString": "Allowing/ me/ to/ haunt/ their/ dreams!" 
+        },
+        {
+            "steps": [1088, 1094, 1096, 1103, 1107, 1111],
+            "curString": "Sure/ly/ now,/ you/ must/ know..." 
+        },
+        {
+            "steps": [1119, 1121, 1123, 1126, 1132, 1136, 1140, 1144, 1152],
+            "curString": "That/ it/ is/ time/ for/ you/ to/ go!" 
+        },
+        {
+            "steps": [1216, 1222, 1225, 1229, 1231, 1233, 1240],
+            "curString": "Oh/ little/ Girl/friend,/ you/ weren't/ clever..." 
+        },
+        {
+            "steps": [1248, 1250, 1253, 1258, 1263, 1267, 1271, 1275, 1286],
+            "curString": "Re/sist/ing/ me,/ only/ MAKES/ ME/ BITTER." 
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NEW ABOMINATION HYPNO ICON.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ABOMINATION HYPNO ICON instance 10000" x="0" y="0" width="327" height="438"/>
+	<SubTexture name="ABOMINATION HYPNO ICON instance 10001" x="327" y="0" width="327" height="438"/>
+	<SubTexture name="ABOMINATION HYPNO ICON instance 10002" x="654" y="0" width="327" height="438"/>
+</TextureAtlas>

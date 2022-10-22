@@ -1,0 +1,23 @@
+function returnDescription()
+    return 'Value 1: snowflake amount (default 100)\nValue 2: time in steps until then';
+
+function eventFunction(params) {
+	var newAmount = params[0];
+	if (Math.isNaN(newAmount))
+		newAmount = 0;
+	var timestep = params[1];
+	if (Math.isNaN(timestep) || timestep <= 0)
+		timestep = 1;
+	var myTween:FlxTween = PlayState.instance.snowAmountTween;
+	if (myTween != null && myTween.active && !myTween.finished) {
+		myTween.active = false;
+		myTween = null;
+	}
+	var onCompleteRiser:FlxTween->Void = function(tween:FlxTween) {
+		PlayState.instance.canChangeAmount = false;
+	};
+	PlayState.instance.canChangeAmount = true;
+	myTween = FlxTween.tween(PlayState.instance, {snowAmount: newAmount}, (timestep * Conductor.stepCrochet) / 1000,
+		{ease: FlxEase.linear, onComplete: onCompleteRiser});
+}
+

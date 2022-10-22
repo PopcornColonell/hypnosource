@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Switch the Singing Character to Apparition (Opponent Side)";
+
+function returnDelay()
+	return 0;

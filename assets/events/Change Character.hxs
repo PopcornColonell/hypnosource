@@ -1,0 +1,13 @@
+function eventFunction(params) {
+    var prevFlipX = PlayState.dadOpponent.flipX;
+	PlayState.dadOpponent.x -= PlayState.dadOpponent.characterData.offsetX;
+	PlayState.dadOpponent.y -= (PlayState.dadOpponent.characterData.offsetY - (PlayState.dadOpponent.frameHeight * PlayState.dadOpponent.scale.y));
+
+    PlayState.dadOpponent.setCharacter(PlayState.dadOpponent.x, PlayState.dadOpponent.y, params[0]);
+    if (PlayState.dadOpponent.flipX != prevFlipX) 
+        PlayState.dadOpponent.flipLeftRight();
+}
+
+function initFunction(params) {
+    var characterPreload:Character = new Character().setCharacter(0, 0, params[0]);
+}

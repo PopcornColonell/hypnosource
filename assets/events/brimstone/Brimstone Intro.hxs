@@ -1,0 +1,11 @@
+function returnDescription()
+    return "";
+
+function returnDelay()
+	return 0;
+
+function eventFunction(params) {
+	PlayState.instance.brimstoneIntro();
+
+	if (PlayState.instance.buriedIntroInterval == 5) PlayState.instance.pausePortraitRevealed[1] = true;
+}

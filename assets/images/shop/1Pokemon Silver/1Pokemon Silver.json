@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Pokemon Silver",
+        "price": 0,
+        "animName": "Monochrome Cartridge instance 1",
+        "songUnlock": "",
+        "songDescription": "Oh now you want it? Make up your mind, you freak.",
+        "unlockRequirements": [""],
+        "xOffset": 10,
+        "yOffset": 15,
+        "lane": 0,
+        "row": 0,
+        "scale": 1.0
+    }
+}

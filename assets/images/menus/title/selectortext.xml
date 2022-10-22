@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="selectortext.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="continuetext0000" x="20" y="20" width="239" height="84"/>
+	<SubTexture name="pussytext0000" x="279" y="20" width="239" height="84"/>
+	<SubTexture name="selectcontinuetext0000" x="538" y="20" width="254" height="121"/>
+	<SubTexture name="selectpussytext0000" x="20" y="161" width="257" height="122"/>
+	<SubTexture name="warningtext0000" x="297" y="161" width="478" height="148"/>
+</TextureAtlas>

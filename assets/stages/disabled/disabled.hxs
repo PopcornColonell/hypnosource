@@ -1,0 +1,419 @@
+var black:FlxSprite;
+var white:FlxSprite;
+
+var plateL:FlxSprite;
+var plateR:FlxSprite;
+
+var background:FlxSprite;
+var background2:FlxSprite;
+var selectedBackground:Int = 0;
+var glitchPincushion:FlxGraphicsShader;
+
+var intensity:Float = 0.0125;
+
+var staticSprite:FlxSprite;
+var staticOverlay:FlxSprite;
+
+var flippedCharactersNow:Bool = false;
+
+var questionareBackground:FlxSprite;
+var questionareWiggles:FNFSprite;
+var questionareWigglesClose:FlxSprite;
+
+var hoverFactor:Float = 0;
+var hoverNotes:Bool = false;
+var originalNoteY:Float = 0;
+var originalNoteX = [];
+var iTotal:Int = 0;
+var finishedRotating:Bool = false;
+var horizontalFactor:Float = 0;
+
+var runningAway:Bool = false;
+var amusiaStageCaught:Int = 0;
+var wigglesJumpscare:FlxSprite;
+
+function onCreate() {
+    background = new FlxSprite().loadGraphic(Paths.image('background'));
+    background.screenCenter();
+    background.setGraphicSize(Std.int(background.width * 1.5));
+    background.scrollFactor.set(0.125, 0.5);
+    add(background);
+
+    background2 = new FlxSprite().loadGraphic(Paths.image('background2'));
+    background2.screenCenter();
+    background2.setGraphicSize(Std.int(background2.width * 1.5));
+    background2.scrollFactor.set(0.125, 0.5);
+    add(background2);
+    background2.visible = false;
+
+    questionareBackground = new FlxSprite().loadGraphic(Paths.image('questionare'));
+    questionareBackground.screenCenter();
+    questionareBackground.setGraphicSize(Std.int(questionareBackground.width * 0.25));
+    questionareBackground.x += 16;
+    questionareBackground.scrollFactor.set();
+    questionareBackground.visible = false;
+    questionareBackground.antialiasing = true;
+    add(questionareBackground);
+
+    plateL = new FlxSprite().loadGraphic(Paths.image('Purple_place'));
+    // plateL.setGraphicSize(Std.int(plateL.width / 1.75));
+    plateL.offset.y -= 64;
+    plateL.antialiasing = true;
+    add(plateL);
+
+    plateR = new FlxSprite().loadGraphic(Paths.image('Purple_place'));
+    plateR.setGraphicSize(Std.int(plateR.width / 1.75));
+    plateR.antialiasing = true;
+    plateR.offset.x -= 32;
+    plateR.offset.y -= 16;
+    add(plateR);
+        
+    black = new FlxSprite().makeGraphic(1, 1, FlxColor.fromRGB(0, 0, 0));
+    black.setGraphicSize(Std.int(FlxG.width), Std.int(FlxG.height));
+    black.screenCenter();
+    black.scrollFactor.set();
+    // black.cameras = [PlayState.dialogueHUD];
+
+    white = new FlxSprite().makeGraphic(1, 1, FlxColor.fromRGB(255, 255, 255));
+    white.setGraphicSize(Std.int(FlxG.width), Std.int(FlxG.height));
+    white.screenCenter();
+    white.scrollFactor.set();
+    // white.cameras = [PlayState.dialogueHUD];
+
+    dadOpponent.x += 128;
+    dadOpponent.y -= 128;
+
+    boyfriend.y -= 416;
+    boyfriend.characterData.zoomOffset = 0.05;
+    PlayState.defaultCamZoom = 1.1;
+    dadOpponent.characterData.zoomOffset = -0.15;
+    boyfriend.scale.set(0.8, 0.8);
+	boyfriend.resizeOffsets();
+
+    plateR.setGraphicSize(Std.int(plateR.width * 0.6));
+    // plateR.updateHitbox();
+
+    PlayState.ratingPosition.x -= 256;
+    PlayState.ratingPosition.y -= 128;
+
+    add(white);
+    add(black);
+
+    staticSprite = new FlxSprite();
+    staticSprite.frames = Paths.getSparrowAtlas('static');
+    staticSprite.animation.addByPrefix('idle', 'static', 8, true);
+    staticSprite.animation.play('idle');
+
+    staticOverlay = new FlxSprite();
+    staticOverlay.frames = Paths.getSparrowAtlas('static-overlay');
+    staticOverlay.animation.addByPrefix('idle', 'static-overlay', 8, true);
+    staticOverlay.animation.play('idle');
+
+    // set up the distortion
+    glitchPincushion = new FlxGraphicsShader("", Paths.shader('pincushion'));
+	background.shader = glitchPincushion;
+    background2.shader = glitchPincushion;
+    glitchPincushion.data.distort.value = [1.5];
+
+    questionareWiggles = new FlxSprite();
+    questionareWiggles.frames = Paths.getSparrowAtlas('wiggles_questionare');
+    questionareWiggles.animation.addByPrefix('idle', 'questionnaire idle', 24, true);
+    questionareWiggles.animation.addByPrefix('give', 'Give me your sing', 24, false);
+    questionareWiggles.animation.addByPrefix('angry', 'angry', 24, true);
+    questionareWiggles.animation.play('idle');
+    questionareWiggles.scrollFactor.set();
+    questionareWiggles.screenCenter();
+    questionareWiggles.antialiasing = true;
+    questionareWiggles.x += 7;
+    questionareWiggles.y -= 15;
+
+    questionareWigglesClose = new FlxSprite();
+    questionareWigglesClose.frames = Paths.getSparrowAtlas('Givemeyoursing');
+    questionareWigglesClose.animation.addByPrefix('glitch', 'Upfront', 24, false);
+    questionareWigglesClose.animation.addByPrefix('loop', 'stareLoop', 24, true);
+    questionareWigglesClose.animation.play('glitch');
+    questionareWigglesClose.scrollFactor.set();
+    questionareWigglesClose.screenCenter();
+    questionareWigglesClose.antialiasing = true;
+    questionareWigglesClose.visible = false;
+    questionareWigglesClose.y -= 15;
+    questionareWigglesClose.x += 50;
+    
+    wigglesJumpscare = new FlxSprite().loadGraphic(Paths.image('jumpscare'));
+    wigglesJumpscare.antialiasing = true;
+    add(wigglesJumpscare);
+    wigglesJumpscare.visible = false;
+}
+
+function onCreatePost() {
+    PlayState.instance.staticCamera = true;
+    PlayState.instance.manualCameraPosition.set(FlxG.width / 2, FlxG.height / 2);
+    PlayState.instance.camPos.set(PlayState.instance.manualCameraPosition.x, PlayState.instance.manualCameraPosition.y);
+
+    PlayState.boyfriend.x -= FlxG.width;
+    PlayState.dadOpponent.x += FlxG.width;
+
+    var whitecolor = FlxColor.fromRGB(0,0,0);
+    PlayState.dadOpponent.color = whitecolor;
+    PlayState.boyfriend.color = whitecolor;
+
+    // temp characters
+    var char:Character = new Character().setCharacter(0, 0, 'ponyta-perspective');
+    var char:Character = new Character().setCharacter(0, 0, 'wiggles-death-stare');
+    var char:Character = new Character().setCharacter(0, 0, 'wiggles-terror');
+    //
+
+    staticSprite.cameras = [PlayState.vignetteCam];
+    staticSprite.setGraphicSize(Std.int(FlxG.width * 1.01), Std.int(FlxG.height * 1.01));
+    staticSprite.screenCenter();
+    staticSprite.scrollFactor.set();
+    staticSprite.alpha = 0.25;
+
+    staticOverlay.cameras = [PlayState.vignetteCam];
+    staticOverlay.setGraphicSize(Std.int(FlxG.width * 1.01), Std.int(FlxG.height * 1.01));
+    staticOverlay.screenCenter();
+    staticOverlay.scrollFactor.set();
+    staticOverlay.alpha = 0.6;
+    staticOverlay.blend = 9;
+
+    PlayState.vignetteCam.alpha = 0;
+
+    add(staticSprite);
+    add(staticOverlay);
+}
+
+function onUpdate(elapsed) {
+    plateL.setPosition(PlayState.dadOpponent.x + (PlayState.dadOpponent.width / 2) - (plateL.width / 2), PlayState.dadOpponent.y + PlayState.dadOpponent.height - (plateL.height / 2));
+    if (!runningAway)
+        plateR.setPosition(PlayState.boyfriend.x + (PlayState.boyfriend.width / 2) - (plateR.width / 2), PlayState.boyfriend.y + PlayState.boyfriend.height - (plateR.height / 2));
+    else
+        PlayState.boyfriend.x -= (elapsed / (1 / 60)) * 16;
+
+    glitchPincushion.data.prob.value = [intensity];
+    glitchPincushion.data.time.value = [Conductor.songPosition / (Conductor.stepCrochet * 8)];
+
+    var curStep = Std.int(Conductor.songPosition / Conductor.stepCrochet);
+    if (curStep < 32 && curStep > 0) 
+        black.alpha = 1 - Math.abs(Math.sin(((Conductor.songPosition) / (Conductor.stepCrochet * 8)) * Math.PI) * 0.5);
+
+    if (hoverNotes) {
+        if (hoverFactor < 24)
+            hoverFactor += (elapsed / (1 / 60));
+        for (i in PlayState.strumLines) {
+            for (j in 0...i.receptors.members.length) {
+                i.receptors.members[j].y = originalNoteY + (hoverFactor / 2) + -Math.sin((Conductor.songPosition / ((Conductor.stepCrochet * 8) - j)) * Math.PI) * hoverFactor;
+            }
+        }
+
+        if (finishedRotating) {
+            var currenti:Int = 0;
+            if (horizontalFactor < 64)
+                horizontalFactor += (elapsed / (1 / 60));
+            for (i in PlayState.strumLines) {
+                for (j in 0...i.receptors.members.length) {
+                    i.receptors.members[j].x = originalNoteX[currenti] + -Math.cos((Conductor.songPosition / ((Conductor.stepCrochet * 16))) * Math.PI) * horizontalFactor;
+                    currenti++;
+                }
+            }
+        }
+        //
+    }
+}
+
+function onStep(curStep) {
+    switch (curStep) {
+        case 16:
+            FlxTween.tween(PlayState.boyfriend, {x: PlayState.boyfriend.x + FlxG.width}, (Conductor.stepCrochet / 1000) * 8, {startDelay: ((Conductor.stepCrochet / 1000) * 8), ease: FlxEase.circOut});
+            FlxTween.tween(PlayState.dadOpponent, {x: PlayState.dadOpponent.x - FlxG.width}, (Conductor.stepCrochet / 1000) * 8, {startDelay: ((Conductor.stepCrochet / 1000) * 4), ease: FlxEase.circOut});
+        case 32:
+            PlayState.dialogueHUD.flash(FlxColor.fromRGB(255,255,255), (Conductor.stepCrochet / 1000) * 8);
+            PlayState.instance.stageBuild.remove(black);
+            PlayState.instance.stageBuild.remove(white);
+
+            var whitecolor = FlxColor.fromRGB(255, 255, 255);
+            PlayState.dadOpponent.color = whitecolor;
+            PlayState.boyfriend.color = whitecolor;
+    }
+
+    if (!runningAway) {
+        if (PlayState.dadOpponent.curCharacter == 'wiggles-terror' && curStep % 32 == 0) {
+            finishedRotating = true;
+            for (i in PlayState.strumLines) {
+                for (j in 0...i.receptors.members.length) {
+                    FlxTween.tween(i.receptors.members[j], {angle: 360}, (Conductor.stepCrochet / 1000) * 8, {onComplete: function(tween:FlxTween){
+                        i.receptors.members[j].angle = 0;
+                    }, ease: FlxEase.cubeInOut});
+                }
+                //
+            }
+        }
+    }
+    //
+}
+
+function onEvent(eventName) {
+    trace(eventName);
+    switch (eventName) {
+        case 'HUD Fade':
+            PlayState.instance.staticCamera = false;
+        case 'Amusia Background Change':
+            FlxTween.tween(PlayState.vignetteCam, {alpha: 1}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circIn, onComplete:function(tween:FlxTween){
+                background.visible = false;
+                background2.visible = true;
+                intensity = 0.75;
+                FlxTween.tween(PlayState.vignetteCam, {alpha: 0.25}, (Conductor.stepCrochet / 1000) * 4, {ease: FlxEase.circOut});
+            }});
+        
+        case 'Wiggles Change':
+            if (background.visible) {
+                switch (PlayState.dadOpponent.wigglyState) {
+                    default:
+                        intensity = 0.0125;
+                    case 1:
+                        intensity = 0.05;
+                    case 2:
+                        intensity = 0.125;
+                    case 3:
+                        intensity = 0.5;
+                }
+            }
+
+        case 'Amusia Transition':
+            PlayState.instance.staticCamera = true;
+            FlxTween.tween(PlayState.boyfriend, {x: PlayState.boyfriend.x - FlxG.width}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circIn});
+            FlxTween.tween(PlayState.dadOpponent, {x: PlayState.dadOpponent.x + FlxG.width}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circIn});
+            FlxTween.tween(PlayState.vignetteCam, {alpha: 0.4}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circIn});
+            FlxTween.tween(staticOverlay, {alpha: 1}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circIn, onComplete: function(tween:FlxTween){
+                intensity = 1.25;
+                for (i in PlayState.strumLines) {
+                    for (j in 0...i.receptors.members.length) {
+                        FlxTween.tween(i.receptors.members[j], {angle: 360}, (Conductor.stepCrochet / 1000) * 16, {onComplete: function(tween:FlxTween){
+                            i.receptors.members[j].angle = 0;
+                        }, ease: FlxEase.cubeInOut});
+                    }
+                }
+                hoverNotes = true;
+
+                if (!Init.trueSettings.get('Centered Notefield')) {
+                    flipStrum(-(FlxG.width / 4), PlayState.instance.boyfriendStrums);
+                    flipStrum((FlxG.width / 4), PlayState.instance.dadStrums);
+                }
+
+                for (i in PlayState.strumLines) {
+                    for (j in 0...i.receptors.members.length) {
+                        originalNoteX[iTotal] = i.receptors.members[j].x;
+                        iTotal++;
+                    }
+                }
+
+                    FlxTween.tween(PlayState.camHUD, {alpha: 0}, (Conductor.stepCrochet / 1000) * 4, {onComplete:function(complete:FlxTween){
+                        // do the characters now
+                        PlayState.instance.flipCharacters();
+                        PlayState.boyfriend.setCharacter(PlayState.boyfriend.x, PlayState.dadOpponent.y, 'ponyta-perspective');
+                        PlayState.dadOpponent.setCharacter(PlayState.dadOpponent.x, PlayState.boyfriend.y, 'wiggles-death-stare');
+                        PlayState.dadOpponent.scale.set(0.6, 0.6);
+                        PlayState.dadOpponent.resizeOffsets();
+
+                        PlayState.dadOpponent.characterData.zoomOffset = 0.15;
+
+                        PlayState.boyfriend.y += 384;
+                        PlayState.boyfriend.scale.set(1.25, 1.25);
+                        PlayState.boyfriend.resizeOffsets();
+
+                        PlayState.ratingPosition.y += 256;
+                        PlayState.ratingPosition.x -= 64;
+
+                        plateL.loadGraphic(Paths.image('Purple_place'));
+                        plateL.setGraphicSize(Std.int(plateL.width / 1.75));
+                        plateL.offset.y += 128;
+
+                        plateR.loadGraphic(Paths.image('Purple_place'));
+                        plateR.setGraphicSize(Std.int(plateR.width));
+                        plateR.offset.y += 96;
+
+                        PlayState.dadOpponent.y += 160;
+                        PlayState.dadOpponent.flipLeftRight();
+                        PlayState.dadOpponent.flipX = !PlayState.dadOpponent.flipX;
+                        PlayState.boyfriend.flipLeftRight();
+                        PlayState.boyfriend.flipX = !PlayState.boyfriend.flipX;
+                        //
+                        FlxTween.tween(PlayState.boyfriend, {x: PlayState.boyfriend.x - FlxG.width}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circOut});
+                        FlxTween.tween(PlayState.dadOpponent, {x: PlayState.dadOpponent.x + FlxG.width + 150}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circOut, onComplete:function(tween:FlxTween){
+                            PlayState.instance.staticCamera = false;
+
+                            PlayState.boyfriend.characterData.camOffsetX = -250;
+                            PlayState.boyfriend.characterData.camOffsetY = -100;
+
+                            PlayState.dadOpponent.characterData.camOffsetX = -350;
+                            PlayState.dadOpponent.characterData.camOffsetY = 100;
+                        }});
+                        FlxTween.tween(PlayState.camHUD, {alpha: 1}, (Conductor.stepCrochet / 1000) * 4);
+                    }});
+            }});
+
+        case 'Change Character':
+            if (PlayState.dadOpponent.curCharacter == 'wiggles-terror') {
+                // PlayState.instance.staticCamera = true;
+                PlayState.dadOpponent.x -= 400;
+                PlayState.dadOpponent.y -= 288;
+                PlayState.dadOpponent.characterData.zoomOffset = 0.25;
+                PlayState.dadOpponent.characterData.camOffsetX = -100;
+                PlayState.dadOpponent.characterData.camOffsetY = 150;
+                plateL.offset.y += 32;
+            }
+        
+        case 'Amusia Run Away':
+            // /*
+            FlxTween.tween(staticOverlay, {alpha: 1}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.linear});
+            FlxTween.tween(staticSprite, {alpha: 1}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.linear});
+
+            PlayState.instance.staticCamera = true;
+            runningAway = true;
+            // */
+        
+        case 'Amusia Music Box':
+            // /*
+            PlayState.dadOpponent.visible = false;
+            PlayState.boyfriend.visible = false;
+
+            background.visible = false;
+            background2.visible = false;
+
+            plateL.visible = false;
+            plateR.visible = false;
+
+            PlayState.instance.camZooming = false;
+            PlayState.camHUD.visible = false;
+            for (i in PlayState.strumHUD) 
+                i.visible = false;
+        
+            FlxTween.cancelTweensOf(staticOverlay);
+            FlxTween.cancelTweensOf(staticSprite);
+            FlxTween.tween(staticOverlay, {alpha: 0}, (Conductor.stepCrochet / 1000) * 64, {ease: FlxEase.linear});
+            FlxTween.tween(staticSprite, {alpha: 0}, (Conductor.stepCrochet / 1000) * 64, {ease: FlxEase.linear});
+
+            questionareBackground.visible = true;
+            PlayState.instance.add(questionareWiggles);
+            PlayState.instance.add(questionareWigglesClose);
+            // */
+        case 'Progress Dialogue':
+    }
+}
+
+function flipStrum(separation:Float, strumline:Strumline) {
+    var midPoint:Float = (FlxG.width / 2) + separation;
+    for (i in 0...strumline.receptors.members.length) {
+        originalNoteY = strumline.receptors.members[i].y;
+        var realX:Float = midPoint - ((strumline.keyAmount / 2) * strumline.noteWidth) + (strumline.noteWidth * i);
+        FlxTween.tween(strumline.receptors.members[i], {x: realX - 16}, (Conductor.stepCrochet / 1000) * 16, {ease: FlxEase.circInOut, onComplete: function(tweener:FlxTween){
+            iTotal = 0;
+            for (i in PlayState.strumLines) {
+                for (j in 0...i.receptors.members.length) {
+                    originalNoteX[iTotal] = i.receptors.members[j].x;
+                    iTotal++;
+                }
+            }
+        }});
+        //
+    }
+}

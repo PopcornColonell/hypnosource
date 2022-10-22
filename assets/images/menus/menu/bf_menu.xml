@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf menu instance 10000" x="0" y="0" width="619" height="588"/>
+	<SubTexture name="bf menu instance 10001" x="0" y="0" width="619" height="588"/>
+	<SubTexture name="bf menu instance 10002" x="0" y="0" width="619" height="588"/>
+	<SubTexture name="bf menu instance 10003" x="669" y="0" width="616" height="581" frameX="-1" frameY="-2" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10004" x="669" y="0" width="616" height="581" frameX="-1" frameY="-2" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10005" x="669" y="0" width="616" height="581" frameX="-1" frameY="-2" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10006" x="1335" y="0" width="618" height="581" frameX="0" frameY="-5" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10007" x="1335" y="0" width="618" height="581" frameX="0" frameY="-5" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10008" x="1335" y="0" width="618" height="581" frameX="0" frameY="-5" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10009" x="0" y="638" width="618" height="584" frameX="-1" frameY="-4" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10010" x="0" y="638" width="618" height="584" frameX="-1" frameY="-4" frameWidth="619" frameHeight="588"/>
+	<SubTexture name="bf menu instance 10011" x="0" y="638" width="618" height="584" frameX="-1" frameY="-4" frameWidth="619" frameHeight="588"/>
+</TextureAtlas>

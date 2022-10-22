@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Event used in the end of Frostbite.";
+
+function returnDelay()
+	return 0;

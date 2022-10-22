@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf_gameover.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gameover_concept instance 10000" x="5" y="5" width="631" height="329" frameX="-9" frameY="-9" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10001" x="5" y="5" width="631" height="329" frameX="-9" frameY="-9" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10002" x="641" y="5" width="632" height="330" frameX="-8" frameY="-9" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10003" x="1278" y="5" width="634" height="331" frameX="-7" frameY="-8" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10004" x="1917" y="5" width="638" height="334" frameX="-5" frameY="-6" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10005" x="2560" y="5" width="643" height="338" frameX="-3" frameY="-3" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10006" x="3208" y="5" width="647" height="340" frameX="-1" frameY="-2" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10007" x="5" y="350" width="648" height="342" frameX="0" frameY="-1" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10008" x="658" y="350" width="649" height="343"/>
+	<SubTexture name="gameover_concept instance 10009" x="1312" y="350" width="649" height="343"/>
+	<SubTexture name="gameover_concept instance 10010" x="1966" y="350" width="649" height="343"/>
+	<SubTexture name="gameover_concept instance 10011" x="2620" y="350" width="648" height="342" frameX="0" frameY="-1" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10012" x="3273" y="350" width="647" height="341" frameX="-1" frameY="-1" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10013" x="5" y="698" width="644" height="339" frameX="-2" frameY="-3" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10014" x="654" y="698" width="640" height="336" frameX="-4" frameY="-5" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10015" x="1299" y="698" width="636" height="333" frameX="-6" frameY="-7" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10016" x="1940" y="698" width="633" height="331" frameX="-8" frameY="-8" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10017" x="2578" y="698" width="632" height="330" frameX="-8" frameY="-9" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_concept instance 10018" x="5" y="5" width="631" height="329" frameX="-9" frameY="-9" frameWidth="649" frameHeight="343"/>
+	<SubTexture name="gameover_over instance 10000" x="3215" y="698" width="729" height="421" frameX="-98" frameY="0" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10001" x="3215" y="698" width="729" height="421" frameX="-98" frameY="0" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10002" x="5" y="1124" width="925" height="381" frameX="0" frameY="-3" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10003" x="5" y="1124" width="925" height="381" frameX="0" frameY="-3" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10004" x="935" y="1124" width="646" height="348" frameX="-149" frameY="-20" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10005" x="935" y="1124" width="646" height="348" frameX="-149" frameY="-20" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10006" x="1586" y="1124" width="779" height="355" frameX="-82" frameY="-16" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10007" x="1586" y="1124" width="779" height="355" frameX="-82" frameY="-16" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10008" x="2370" y="1124" width="869" height="355" frameX="-37" frameY="-16" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10009" x="2370" y="1124" width="869" height="355" frameX="-37" frameY="-16" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10010" x="3244" y="1124" width="607" height="355" frameX="-168" frameY="-16" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_over instance 10011" x="3244" y="1124" width="607" height="355" frameX="-168" frameY="-16" frameWidth="925" frameHeight="421"/>
+	<SubTexture name="gameover_start' instance 10000" x="3856" y="1124" width="18" height="41" frameX="-358" frameY="-193" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10001" x="3879" y="1124" width="106" height="173" frameX="-326" frameY="-114" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10002" x="5" y="1510" width="244" height="254" frameX="-248" frameY="-65" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10003" x="254" y="1510" width="442" height="437" frameX="-144" frameY="0" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10004" x="701" y="1510" width="729" height="310" frameX="0" frameY="-41" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10005" x="1435" y="1510" width="615" height="350" frameX="-57" frameY="-42" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10006" x="2055" y="1510" width="631" height="334" frameX="-49" frameY="-46" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10007" x="2691" y="1510" width="631" height="332" frameX="-49" frameY="-48" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10008" x="3327" y="1510" width="631" height="330" frameX="-49" frameY="-50" frameWidth="729" frameHeight="437"/>
+	<SubTexture name="gameover_start' instance 10009" x="5" y="5" width="631" height="329" frameX="-49" frameY="-50" frameWidth="649" frameHeight="343"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Mysterious Letter",
+        "price": 666,
+        "animName": "Death Toll Item Final instance 1",
+        "songUnlock": "Death-Toll",
+        "songDescription": "This envelope has your name on it.",
+        "unlockRequirements": [""],
+        "xOffset": 0,
+        "yOffset": 15,
+        "lane": 1,
+        "row": 1,
+        "scale": 1.25
+    }
+}

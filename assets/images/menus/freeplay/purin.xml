@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="purin.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="purin0000" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="purin0001" x="485" y="5" width="475" height="503"/>
+	<SubTexture name="purin0002" x="965" y="5" width="475" height="503"/>
+	<SubTexture name="purin0003" x="1445" y="5" width="475" height="503"/>
+	<SubTexture name="purin0004" x="5" y="513" width="475" height="503"/>
+	<SubTexture name="purin0005" x="485" y="513" width="475" height="503"/>
+	<SubTexture name="purin0006" x="965" y="513" width="475" height="503"/>
+	<SubTexture name="purin0007" x="1445" y="513" width="475" height="503"/>
+	<SubTexture name="purin0008" x="5" y="5" width="475" height="503"/>
+	<SubTexture name="purin0009" x="485" y="5" width="475" height="503"/>
+	<SubTexture name="purin0010" x="965" y="5" width="475" height="503"/>
+	<SubTexture name="purin0011" x="1445" y="5" width="475" height="503"/>
+	<SubTexture name="purin0012" x="5" y="513" width="475" height="503"/>
+	<SubTexture name="purin0013" x="485" y="513" width="475" height="503"/>
+	<SubTexture name="purin0014" x="5" y="1021" width="475" height="503"/>
+	<SubTexture name="purin0015" x="485" y="1021" width="475" height="503"/>
+	<SubTexture name="purin0016" x="965" y="1021" width="475" height="503"/>
+	<SubTexture name="purin0017" x="1445" y="1021" width="475" height="503"/>
+	<SubTexture name="purin0018" x="5" y="1529" width="475" height="503"/>
+</TextureAtlas>

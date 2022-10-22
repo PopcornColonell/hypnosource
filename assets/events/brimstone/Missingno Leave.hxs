@@ -1,0 +1,5 @@
+function returnDescription()
+    return "GET THE FUCK OUT";
+
+function returnDelay()
+	return 0;

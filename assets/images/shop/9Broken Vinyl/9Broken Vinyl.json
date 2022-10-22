@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Broken Vinyl",
+        "price": 999,
+        "animName": "BrokenVinyl instance 1",
+        "songUnlock": "Shinto",
+        "songDescription": "I don't want this. But it's funny to make you pay for it.",
+        "unlockRequirements": [""],
+        "xOffset": 5,
+        "yOffset": 8,
+        "lane": 2,
+        "row": 2,
+        "scale": 1.25
+    }
+}

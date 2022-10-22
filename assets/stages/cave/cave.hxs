@@ -1,0 +1,156 @@
+var hypnoEntrance:FlxSprite;
+var hypnoJumpscare:FlxSprite;
+
+function onCreate() {
+    PlayState.defaultCamZoom = 0.8;
+	var resizeBG:Float = 1;
+	var background:FlxSprite = new FlxSprite(-450, -400);
+	background.loadGraphic(Paths.image('cave'));
+	background.setGraphicSize(Std.int(background.width * resizeBG));
+	background.updateHitbox();
+	background.antialiasing = true;
+	add(background);
+
+	PlayState.ratingPosition.set(-150, 400);
+}
+
+function onCreatePost() {
+	PlayState.instance.iconP2.visible = false;
+	PlayState.instance.iconBfhypno = new HealthIcon('bfhypno', false);
+	PlayState.instance.iconBfhypno.y = PlayState.uiHUD.healthBar.y - (PlayState.instance.iconBfhypno.height / 2) + PlayState.instance.iconBfhypno.offsetY + 3;
+	PlayState.uiHUD.iconGroup.add(PlayState.instance.iconBfhypno);
+	PlayState.instance.iconBfhypno.cameras = [PlayState.camHUD];
+	PlayState.instance.dadStrums.visible = false;
+	PlayState.instance.tranceActive = true;
+	PlayState.instance.tranceNotActiveYet = true;				
+	PlayState.instance.flipCharacters();
+	PlayState.instance.flipHealthbar();
+				// beatInterval = 0.5;
+
+	PlayState.boyfriend.x += 250;
+	PlayState.boyfriend.y += 250;
+	if (PlayState.boyfriend.atlasCharacter != null) {
+		PlayState.boyfriend.atlasCharacter.x -= 565;
+		PlayState.boyfriend.atlasCharacter.y -= 420;
+	}
+	PlayState.dadOpponent.x -= 100;
+	PlayState.dadOpponent.y -= 80;
+
+	PlayState.dadOpponent.visible = false;
+
+	hypnoEntrance = new FlxSprite(585, -155);
+	hypnoEntrance.frames = Paths.getSparrowAtlas('characters/hypno/ABOMINATION_HYPNO_ENTRANCE');
+	hypnoEntrance.animation.addByPrefix('Entrance instance', "Entrance instance", 24, false);		
+	PlayState.instance.add(hypnoEntrance);
+	hypnoEntrance.visible = false;	
+
+	hypnoJumpscare = new FlxSprite(75, -400);
+	hypnoJumpscare.frames = Paths.getSparrowAtlas('characters/hypno/hypno_ending_sequence');
+	hypnoJumpscare.animation.addByPrefix('ending', "Ending instance 1", 24, false);	
+	hypnoJumpscare.setGraphicSize(Std.int(hypnoJumpscare.width * 0.67));	
+	PlayState.instance.add(hypnoJumpscare);
+	hypnoJumpscare.visible = false;	
+
+	PlayState.instance.gfStand = new Boyfriend();
+	PlayState.instance.gfStand.setCharacter(PlayState.boyfriend.x + 170, PlayState.boyfriend.y + 360, 'gf-stand');
+	PlayState.instance.gfStand.flipLeftRight();
+	PlayState.instance.boyfriendStrums.character.push(PlayState.instance.gfStand);
+	PlayState.instance.add(PlayState.instance.gfStand);
+	PlayState.instance.lcBar1();
+
+	if (PlayState.instance.gfStand.atlasCharacter != null) {
+		PlayState.instance.gfStand.atlasCharacter.visible = false;
+		add(PlayState.instance.gfStand.atlasCharacter);
+		PlayState.instance.gfStand.atlasCharacter.x -= 1130;
+		PlayState.instance.gfStand.atlasCharacter.y -= 700;
+		PlayState.instance.gfStand.characterData.camOffsetX += 150;
+		PlayState.instance.gfStand.characterData.camOffsetY += 50;
+	} else 
+		PlayState.instance.gfStand.visible = false;
+	trace('the added');
+}
+
+function onEvent(eventName) {
+	switch (eventName) {
+		// hey popcorn heres my attempt at porting your code to hscript
+		case 'GF Stands Up':
+			// gf stands up in lost cause
+			PlayState.instance.gfStand.visible = false;
+			PlayState.instance.camZooming = false;
+			PlayState.instance.tranceNotActiveYet = false;
+			trace('she stand');
+			hypnoEntrance.visible = true;
+			hypnoEntrance.animation.play('Entrance instance');	
+			hypnoEntrance.animation.finishCallback = function(name:String) {
+				if (name == 'Entrance instance') {
+					PlayState.instance.remove(hypnoEntrance);
+					PlayState.dadOpponent.visible = true;
+				}
+			}
+			FlxTween.tween(FlxG.camera, {zoom: 0.52}, 0.3);	
+			FlxTween.tween(PlayState.camHUD, {alpha: 0}, 0.2);	
+			FlxTween.tween(PlayState.uiHUD, {alpha: 0}, 0.2);
+			for (i in 0...PlayState.strumHUD.length) 
+				FlxTween.tween(PlayState.strumHUD[i], {alpha: 0}, 0.2);
+
+			new FlxTimer().start(1.5, function(tmr:FlxTimer)
+				{				
+					PlayState.instance.flipHealthbar();
+					PlayState.instance.lcBar2();		
+					PlayState.instance.pendulum.alpha = 1;
+					PlayState.instance.camZooming = true;						
+					FlxTween.tween(PlayState.camHUD, {alpha: 1}, 0.2);	
+					FlxTween.tween(PlayState.uiHUD, {alpha: 1}, 0.2);
+					if (PlayState.instance.iconBfhypno != null)
+						PlayState.instance.iconBfhypno.visible = false;
+					PlayState.instance.iconP2.visible = true;
+					if (!Init.trueSettings.get("Centered Notefield"))
+						PlayState.instance.dadStrums.visible = true;
+					for (i in 0...PlayState.strumHUD.length) 
+						FlxTween.tween(PlayState.strumHUD[i], {alpha: 1}, 0.2);								
+				});
+
+			new FlxTimer().start(2, function(tmr:FlxTimer)
+				{						
+					PlayState.boyfriend.playAnim('bfdrop');	
+					PlayState.instance.newgfcam = true;								
+				});
+
+			// lol
+			if (PlayState.boyfriend.atlasCharacter != null) {
+				PlayState.boyfriend.atlasCharacter.anim.onComplete = function() {
+					if (PlayState.boyfriend.atlasAnimation == 'bfdrop') {		
+						PlayState.boyfriend.atlasCharacter.visible = false;
+						if (PlayState.instance.gfStand.atlasCharacter != null)
+							PlayState.instance.gfStand.atlasCharacter.visible = true;
+						else
+							PlayState.instance.gfStand.visible = true;
+						PlayState.instance.gfStand.characterData.camOffsetY -= 100;
+						PlayState.instance.gfStand.dance();
+	
+						var bfdeadlol:FlxSprite = new FlxSprite().loadGraphic(Paths.image('characters/bf/dead_ass_bitch_LMAOOOO'));
+						bfdeadlol.setGraphicSize(Std.int(bfdeadlol.width * 0.72));
+						bfdeadlol.x -= 95;
+						bfdeadlol.y += 935;
+						bfdeadlol.antialiasing = true;
+						PlayState.instance.add(bfdeadlol);										
+					}
+					else {
+						//DO NOTHING
+					}
+				}
+			}
+
+			// switch characters
+			if (PlayState.instance.boyfriendStrums.singingCharacters.contains(PlayState.boyfriend))
+				PlayState.instance.boyfriendStrums.singingCharacters = [PlayState.instance.gfStand];
+			else if (PlayState.instance.boyfriendStrums.singingCharacters.contains(PlayState.instance.gfStand))
+				PlayState.instance.boyfriendStrums.singingCharacters = [PlayState.boyfriend];	
+		case 'Lost Cause Ending':	
+			PlayState.dadOpponent.visible = false;
+			hypnoJumpscare.visible = true;
+			hypnoJumpscare.animation.play('ending');
+			
+					
+	}
+}

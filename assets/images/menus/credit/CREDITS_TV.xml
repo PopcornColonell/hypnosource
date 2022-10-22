@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CREDITS TV.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CREDITS TV0000" x="5" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0001" x="5" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0002" x="5" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0003" x="1239" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0004" x="1239" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0005" x="1239" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0006" x="2473" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0007" x="2473" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0008" x="2473" y="5" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0009" x="5" y="738" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0010" x="5" y="738" width="1234" height="733"/>
+	<SubTexture name="CREDITS TV0011" x="5" y="738" width="1234" height="733"/>
+</TextureAtlas>

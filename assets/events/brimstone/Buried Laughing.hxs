@@ -1,0 +1,14 @@
+function returnDescription()
+    return "he laughs at you (you're a pussy)";
+
+function eventFunction(params) {
+    PlayState.dadOpponent.playAnim('laugh');
+	PlayState.dadOpponent.canAnimate = false;
+	new FlxTimer().start((Conductor.stepCrochet * 16) / 1000, function(timer:FlxTimer){
+	    PlayState.dadOpponent.canAnimate = true;
+		PlayState.dadOpponent.dance(true);
+	});
+}
+
+function returnDelay()
+	return 0;

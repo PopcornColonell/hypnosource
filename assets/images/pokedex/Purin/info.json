@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Purin",
+        "dex": 17,
+        "height": "1'08”",
+        "weight": "12.1 lbs",
+        "offset": {"x": 300, "y": 225},
+	  "scale": 4,
+        "tagline": "The Balloon Pokemon",
+        "desc": "This unknown form of Jigglypuff appears to have a far deadlier Sing ability than usual, be cautious."
+    }
+}

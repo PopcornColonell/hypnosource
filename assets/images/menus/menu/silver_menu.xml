@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="silver menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="silver menu instance 10000" x="0" y="0" width="553" height="621" frameX="-2" frameY="0" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10001" x="0" y="0" width="553" height="621" frameX="-2" frameY="0" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10002" x="0" y="0" width="553" height="621" frameX="-2" frameY="0" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10003" x="603" y="0" width="555" height="617" frameX="0" frameY="-4" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10004" x="603" y="0" width="555" height="617" frameX="0" frameY="-4" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10005" x="603" y="0" width="555" height="617" frameX="0" frameY="-4" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10006" x="1208" y="0" width="554" height="614" frameX="-2" frameY="-5" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10007" x="1208" y="0" width="554" height="614" frameX="-2" frameY="-5" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10008" x="1208" y="0" width="554" height="614" frameX="-2" frameY="-5" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10009" x="0" y="671" width="555" height="616" frameX="0" frameY="-5" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10010" x="0" y="671" width="555" height="616" frameX="0" frameY="-5" frameWidth="556" frameHeight="621"/>
+	<SubTexture name="silver menu instance 10011" x="0" y="671" width="555" height="616" frameX="0" frameY="-5" frameWidth="556" frameHeight="621"/>
+</TextureAtlas>

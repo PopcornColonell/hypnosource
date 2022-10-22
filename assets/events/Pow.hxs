@@ -1,0 +1,114 @@
+var startReverse = 0;
+var doReverse = false;
+
+function returnDescription()
+    return 'Makes MX hit the pow block\nReversing the scroll direction.';
+
+function eventFunction(params) {
+    startReverse = 0;
+    doReverse = false;
+    var him:Boyfriend = PlayState.instance.mx;
+    PlayState.instance.mxMechanic = true;
+    if (him != null) {
+        if (PlayState.playerLane == 0) { 
+            // dont fucking do that!!!!
+            dispose();
+        } else {
+            var hand:Boyfriend = PlayState.instance.mxHand;
+            him.playAnim("hit1");
+            hand.playAnim("hit1");
+            FlxG.sound.play(Paths.sound('HandUp'));
+            him.animation.finishCallback = function(name:String) {
+                dropStart();
+                him.playAnim("hit2");
+                hand.playAnim("hit2");
+                him.animation.finishCallback = function(names:String) {
+                    him.animation.finishCallback = null;
+                    him.playAnim("idle");
+                    hand.playAnim("idle");
+                }
+            }
+        }
+    } else 
+        dropStart();
+}
+
+function dropStart() {
+    FlxG.sound.play(Paths.sound('POW'));
+    FlxG.camera.shake();
+    doReverse = true;
+}
+
+// https://easings.net/#easeOutBounce
+function easeOutBounce(x:Int):Int {
+	var n1 = 7.5625;
+	var d1 = 2.75;
+	
+	if (x < 1 / d1) {
+		return n1 * x * x;
+	} else if (x < 2 / d1) {
+		return n1 * (x -= 1.5 / d1) * x + 0.75;
+	} else if (x < 2.5 / d1) {
+		return n1 * (x -= 2.25 / d1) * x + 0.9375;
+	} else {
+		return n1 * (x -= 2.625 / d1) * x + 0.984375;
+	}
+}
+
+function lerp(a:Float, b:Float, t:Float)
+{
+	return a + t * (b - a);
+}
+
+
+function onUpdate(elapsed) {
+    if (doReverse)
+		{
+            var frog:Strumline = PlayState.strumLines.members[PlayState.playerLane];
+            
+            var realbeats = (Conductor.songPosition / 1000) * (Conductor.bpm / 60);
+
+			if (startReverse == 0)
+            {
+				startReverse = realbeats;
+                frog.downscroll = !frog.downscroll;
+                // do this as a way to fix downscroll dying after the first pow
+                PlayState.defaultDownscroll = false;
+            }
+
+			var perc = easeOutBounce(((realbeats - startReverse) / 2.5));
+
+			if (perc < 1)
+			{
+
+				for (i in 0...4) {
+                    var speed = PlayState.SONG.speed;
+                    if (frog.downscroll)
+					    PlayState.laneSpeed[i] = lerp(speed, -speed, perc);
+                    else
+                        PlayState.laneSpeed[i] = lerp(-speed, speed, perc);
+				}
+				
+                var multi = 1;
+				for (i in 0...frog.receptors.members.length) {
+					var arrow:UIStaticArrow = frog.receptors.members[i];
+					
+					var localPerc = perc * multi;
+
+					if (localPerc > 1)
+						localPerc = 1;
+                    
+					if (frog.downscroll)
+						arrow.y = lerp(25, 26 + FlxG.height - 200, localPerc);
+					else
+						arrow.y = lerp(26 + FlxG.height - 200, 25, localPerc);
+                    multi += 0.05;
+				}
+
+                frog.allNotes.forEachAlive(function(daNote:Note)
+                {
+                    daNote.endHoldOffset = Math.NEGATIVE_INFINITY;
+                });
+			}
+		}
+}

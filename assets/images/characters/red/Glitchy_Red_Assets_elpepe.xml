@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Glitchy_Red_Assets_elpepe.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RedDown0000" x="0" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0001" x="453" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0002" x="453" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0003" x="906" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0004" x="906" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0005" x="1359" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0006" x="1359" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0007" x="1359" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0008" x="1359" y="0" width="443" height="719"/>
+	<SubTexture name="RedDown0009" x="1359" y="0" width="443" height="719"/>
+	<SubTexture name="RedIdle0000" x="1812" y="0" width="391" height="732"/>
+	<SubTexture name="RedIdle0001" x="2213" y="0" width="391" height="732"/>
+	<SubTexture name="RedIdle0002" x="2614" y="0" width="391" height="732"/>
+	<SubTexture name="RedIdle0003" x="3015" y="0" width="391" height="732"/>
+	<SubTexture name="RedIdle0004" x="3416" y="0" width="391" height="732"/>
+	<SubTexture name="RedIdle0005" x="0" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0006" x="401" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0007" x="401" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0008" x="802" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0009" x="1203" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0010" x="1203" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0011" x="1604" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0012" x="2005" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0013" x="2005" y="742" width="391" height="732"/>
+	<SubTexture name="RedIdle0014" x="2005" y="742" width="391" height="732"/>
+	<SubTexture name="RedLeft0000" x="2406" y="742" width="491" height="740"/>
+	<SubTexture name="RedLeft0001" x="2907" y="742" width="491" height="740"/>
+	<SubTexture name="RedLeft0002" x="2907" y="742" width="491" height="740"/>
+	<SubTexture name="RedLeft0003" x="3408" y="742" width="491" height="740"/>
+	<SubTexture name="RedLeft0004" x="3408" y="742" width="491" height="740"/>
+	<SubTexture name="RedLeft0005" x="0" y="1492" width="491" height="740"/>
+	<SubTexture name="RedLeft0006" x="0" y="1492" width="491" height="740"/>
+	<SubTexture name="RedLeft0007" x="0" y="1492" width="491" height="740"/>
+	<SubTexture name="RedLeft0008" x="0" y="1492" width="491" height="740"/>
+	<SubTexture name="RedLeft0009" x="0" y="1492" width="491" height="740"/>
+	<SubTexture name="RedRight0000" x="501" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0001" x="1074" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0002" x="1074" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0003" x="1647" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0004" x="1647" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0005" x="2220" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0006" x="2220" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0007" x="2220" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0008" x="2220" y="1492" width="563" height="754"/>
+	<SubTexture name="RedRight0009" x="2220" y="1492" width="563" height="754"/>
+	<SubTexture name="RedUp0000" x="2793" y="1492" width="537" height="761"/>
+	<SubTexture name="RedUp0001" x="3340" y="1492" width="537" height="761"/>
+	<SubTexture name="RedUp0002" x="3340" y="1492" width="537" height="761"/>
+	<SubTexture name="RedUp0003" x="0" y="2263" width="537" height="761"/>
+	<SubTexture name="RedUp0004" x="0" y="2263" width="537" height="761"/>
+	<SubTexture name="RedUp0005" x="547" y="2263" width="537" height="761"/>
+	<SubTexture name="RedUp0006" x="547" y="2263" width="537" height="761"/>
+	<SubTexture name="RedUp0007" x="547" y="2263" width="537" height="761"/>
+	<SubTexture name="RedUp0008" x="547" y="2263" width="537" height="761"/>
+	<SubTexture name="RedUp0009" x="547" y="2263" width="537" height="761"/>
+</TextureAtlas>

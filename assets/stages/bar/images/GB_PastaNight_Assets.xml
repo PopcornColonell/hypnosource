@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GB_PastaNight_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GBWalkPioladepana0000" x="0" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0001" x="292" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0002" x="292" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0003" x="584" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0004" x="584" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0005" x="876" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0006" x="876" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0007" x="1168" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0008" x="1168" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0009" x="1460" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0010" x="1460" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0011" x="1752" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0012" x="1752" y="0" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0013" x="0" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0014" x="292" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0015" x="292" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0016" x="584" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0017" x="584" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0018" x="876" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0019" x="876" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0020" x="1168" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0021" x="1168" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0022" x="1460" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0023" x="1460" y="443" width="268" height="419"/>
+	<SubTexture name="GBWalkPioladepana0024" x="1752" y="443" width="268" height="419"/>
+</TextureAtlas>

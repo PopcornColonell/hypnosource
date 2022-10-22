@@ -1,0 +1,12 @@
+function returnDescription()
+    return 'Fades the Vignette\nVal 1 alpha\nVal 2 time (in steps)';
+
+function eventFunction(params) {
+	var val1 = params[0];
+	var val2 = params[1];
+	if (Math.isNaN(val2) || val2 < 0)
+		val2 = 1;
+
+	FlxTween.tween(PlayState.vignetteCam, {alpha: val1}, 
+		val2 * (Conductor.stepCrochet / 1000), {ease: FlxEase.linear});
+}

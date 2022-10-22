@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jigglypuff menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="jigglypuff menu instance 10000" x="0" y="0" width="598" height="612" frameX="0" frameY="0" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10001" x="0" y="0" width="598" height="612" frameX="0" frameY="0" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10002" x="0" y="0" width="598" height="612" frameX="0" frameY="0" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10003" x="648" y="0" width="597" height="615" frameX="-2" frameY="-2" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10004" x="648" y="0" width="597" height="615" frameX="-2" frameY="-2" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10005" x="648" y="0" width="597" height="615" frameX="-2" frameY="-2" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10006" x="1295" y="0" width="595" height="614" frameX="-2" frameY="-1" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10007" x="1295" y="0" width="595" height="614" frameX="-2" frameY="-1" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10008" x="1295" y="0" width="595" height="614" frameX="-2" frameY="-1" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10009" x="0" y="665" width="600" height="615" frameX="0" frameY="-2" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10010" x="0" y="665" width="600" height="615" frameX="0" frameY="-2" frameWidth="600" frameHeight="617"/>
+	<SubTexture name="jigglypuff menu instance 10011" x="0" y="665" width="600" height="615" frameX="0" frameY="-2" frameWidth="600" frameHeight="617"/>
+</TextureAtlas>

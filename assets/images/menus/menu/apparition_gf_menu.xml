@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="apparition gf menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="apparition gf menu instance 10000" x="0" y="0" width="730" height="662" frameX="0" frameY="0" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10001" x="0" y="0" width="730" height="662" frameX="0" frameY="0" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10002" x="0" y="0" width="730" height="662" frameX="0" frameY="0" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10003" x="780" y="0" width="730" height="659" frameX="-1" frameY="-2" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10004" x="780" y="0" width="730" height="659" frameX="-1" frameY="-2" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10005" x="780" y="0" width="730" height="659" frameX="-1" frameY="-2" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10006" x="0" y="712" width="729" height="661" frameX="0" frameY="-2" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10007" x="0" y="712" width="729" height="661" frameX="0" frameY="-2" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10008" x="0" y="712" width="729" height="661" frameX="0" frameY="-2" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10009" x="779" y="712" width="728" height="663" frameX="-1" frameY="-1" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10010" x="779" y="712" width="728" height="663" frameX="-1" frameY="-1" frameWidth="731" frameHeight="664"/>
+	<SubTexture name="apparition gf menu instance 10011" x="779" y="712" width="728" height="663" frameX="-1" frameY="-1" frameWidth="731" frameHeight="664"/>
+</TextureAtlas>

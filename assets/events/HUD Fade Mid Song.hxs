@@ -1,0 +1,19 @@
+function returnDescription()
+    return 'Fades the HUD (Mid song)\nVal 1 alpha\nVal 2 time (in steps)';
+
+// kade and I were too lazy to like, fix hud fade so he made a new one and I have yet to change it as of 7/13/2022
+
+function eventFunction(params) {
+	var val1 = params[0];
+	var val2 = params[1];
+	if (Math.isNaN(val2) || val2 <= 0)
+		val2 = 1;
+
+	FlxTween.tween(PlayState.camHUD, {alpha: val1}, 
+		val2 * (Conductor.stepCrochet / 1000), {ease: FlxEase.linear});
+	FlxTween.tween(PlayState.uiHUD, {alpha: val1 * 0.6}, 
+		val2 * (Conductor.stepCrochet / 1000), {ease: FlxEase.linear});
+	for (i in PlayState.strumHUD)
+		FlxTween.tween(i, {alpha: val1 * .8}, 
+			val2 * (Conductor.stepCrochet / 1000), {ease: FlxEase.linear});
+}

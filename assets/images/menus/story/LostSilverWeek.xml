@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LostSilverWeek.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LostSilverWeek0000" x="5" y="5" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0001" x="5" y="5" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0002" x="5" y="5" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0003" x="5" y="5" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0004" x="343" y="5" width="332" height="365" frameX="-1" frameY="-2" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0005" x="343" y="5" width="332" height="365" frameX="-1" frameY="-2" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0006" x="343" y="5" width="332" height="365" frameX="-1" frameY="-2" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0007" x="343" y="5" width="332" height="365" frameX="-1" frameY="-2" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0008" x="680" y="5" width="333" height="366" frameX="0" frameY="-1" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0009" x="680" y="5" width="333" height="366" frameX="0" frameY="-1" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0010" x="680" y="5" width="333" height="366" frameX="0" frameY="-1" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0011" x="680" y="5" width="333" height="366" frameX="0" frameY="-1" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0012" x="5" y="377" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0013" x="5" y="377" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0014" x="5" y="377" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeek0015" x="5" y="377" width="333" height="367" frameX="-1" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0000" x="5" y="5" width="333" height="367" frameX="0" frameY="-11" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0001" x="5" y="5" width="333" height="367" frameX="0" frameY="-3" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0002" x="5" y="5" width="333" height="367" frameX="0" frameY="-3" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0003" x="5" y="5" width="333" height="367" frameX="0" frameY="0" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0004" x="343" y="5" width="332" height="365" frameX="-1" frameY="-5" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0005" x="343" y="5" width="332" height="365" frameX="-1" frameY="-8" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0006" x="343" y="5" width="332" height="365" frameX="-1" frameY="-3" frameWidth="334" frameHeight="367"/>
+	<SubTexture name="LostSilverWeekConfirm0007" x="343" y="377" width="236" height="500" frameX="-45" frameY="-127" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0008" x="584" y="377" width="141" height="502" frameX="-99" frameY="-509" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0009" x="730" y="377" width="0" height="0" frameX="210" frameY="12" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0010" x="730" y="377" width="0" height="0" frameX="210" frameY="12" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0011" x="730" y="377" width="0" height="0" frameX="210" frameY="12" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0012" x="730" y="377" width="0" height="0" frameX="210" frameY="12" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0013" x="730" y="377" width="0" height="0" frameX="210" frameY="12" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0014" x="730" y="377" width="0" height="0" frameX="210" frameY="12" frameWidth="333" frameHeight="1011"/>
+	<SubTexture name="LostSilverWeekConfirm0015" x="730" y="377" width="0" height="0" frameX="210" frameY="12" frameWidth="333" frameHeight="1011"/>
+</TextureAtlas>

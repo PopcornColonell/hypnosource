@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Gold (Monochrome)",
+        "dex": 4,
+        "height": "5'06”",
+        "weight": "114 lbs",
+        "offset": {"x": 356, "y": 165},
+	  "scale": 5,
+        "tagline": "The Tortured Trainer",
+        "desc": "With Unowns as his puppeteer, his groans are pitiful sparks of hope that Gold is possibly still alive."
+    }
+}

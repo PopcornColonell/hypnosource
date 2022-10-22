@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Pasta Night Mushroom",
+        "price": 500,
+        "animName": "Pasta Night Shroom instance 1",
+        "songUnlock": "Pasta-Night",
+        "songDescription": "Even monsters sometimes need some time to relax.",
+        "unlockRequirements": [""],
+        "xOffset": 5,
+        "yOffset": -5,
+        "lane": 0,
+        "row": 2,
+        "scale": 1.0
+    }
+}

@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wiggles_gitchy.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DECAY 1 down0000" x="5" y="5" width="202" height="243" frameX="0" frameY="-6" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0001" x="5" y="5" width="202" height="243" frameX="0" frameY="-6" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0002" x="212" y="5" width="217" height="234" frameX="-2" frameY="-16" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0003" x="212" y="5" width="217" height="234" frameX="-2" frameY="-16" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0004" x="434" y="5" width="213" height="248" frameX="-2" frameY="-2" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0005" x="434" y="5" width="213" height="248" frameX="-2" frameY="-2" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0006" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0007" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0008" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0009" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0010" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0011" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0012" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0013" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 down0014" x="652" y="5" width="212" height="249" frameX="-2" frameY="0" frameWidth="219" frameHeight="250"/>
+	<SubTexture name="DECAY 1 left0000" x="869" y="5" width="205" height="245" frameX="0" frameY="-6" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0001" x="869" y="5" width="205" height="245" frameX="0" frameY="-6" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0002" x="1079" y="5" width="201" height="248" frameX="-6" frameY="-3" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0003" x="1079" y="5" width="201" height="248" frameX="-6" frameY="-3" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0004" x="1285" y="5" width="206" height="251" frameX="-9" frameY="0" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0005" x="1285" y="5" width="206" height="251" frameX="-9" frameY="0" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0006" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0007" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0008" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0009" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0010" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0011" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0012" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0013" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 left0014" x="1496" y="5" width="212" height="250" frameX="-10" frameY="-1" frameWidth="222" frameHeight="251"/>
+	<SubTexture name="DECAY 1 right0000" x="1713" y="5" width="224" height="259" frameX="-5" frameY="0" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0001" x="1713" y="5" width="224" height="259" frameX="-5" frameY="0" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0002" x="1942" y="5" width="222" height="248" frameX="-2" frameY="-11" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0003" x="1942" y="5" width="222" height="248" frameX="-2" frameY="-11" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0004" x="2169" y="5" width="213" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0005" x="2169" y="5" width="213" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0006" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0007" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0008" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0009" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0010" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0011" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0012" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0013" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 right0014" x="2387" y="5" width="211" height="248" frameX="0" frameY="-10" frameWidth="229" frameHeight="259"/>
+	<SubTexture name="DECAY 1 up0000" x="2603" y="5" width="217" height="268" frameX="-2" frameY="0" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0001" x="2603" y="5" width="217" height="268" frameX="-2" frameY="0" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0002" x="2825" y="5" width="216" height="267" frameX="0" frameY="-1" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0003" x="2825" y="5" width="216" height="267" frameX="0" frameY="-1" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0004" x="3046" y="5" width="213" height="254" frameX="-1" frameY="-14" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0005" x="3046" y="5" width="213" height="254" frameX="-1" frameY="-14" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0006" x="3264" y="5" width="213" height="252" frameX="-1" frameY="-16" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0007" x="3264" y="5" width="213" height="252" frameX="-1" frameY="-16" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0008" x="3482" y="5" width="214" height="251" frameX="-1" frameY="-17" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0009" x="3482" y="5" width="214" height="251" frameX="-1" frameY="-17" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0010" x="3482" y="5" width="214" height="251" frameX="-1" frameY="-17" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0011" x="3482" y="5" width="214" height="251" frameX="-1" frameY="-17" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0012" x="3482" y="5" width="214" height="251" frameX="-1" frameY="-17" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0013" x="3482" y="5" width="214" height="251" frameX="-1" frameY="-17" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 1 up0014" x="3482" y="5" width="214" height="251" frameX="-1" frameY="-17" frameWidth="219" frameHeight="268"/>
+	<SubTexture name="DECAY 2 right0000" x="3701" y="5" width="217" height="255" frameX="-3" frameY="0" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0001" x="3701" y="5" width="217" height="255" frameX="-3" frameY="0" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0002" x="5" y="278" width="224" height="245" frameX="-2" frameY="-10" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0003" x="5" y="278" width="224" height="245" frameX="-2" frameY="-10" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0004" x="234" y="278" width="220" height="247" frameX="-1" frameY="-8" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0005" x="234" y="278" width="220" height="247" frameX="-1" frameY="-8" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0006" x="459" y="278" width="217" height="248" frameX="0" frameY="-7" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0007" x="459" y="278" width="217" height="248" frameX="0" frameY="-7" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0008" x="681" y="278" width="216" height="249" frameX="0" frameY="-6" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0009" x="681" y="278" width="216" height="249" frameX="0" frameY="-6" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0010" x="681" y="278" width="216" height="249" frameX="0" frameY="-6" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0011" x="681" y="278" width="216" height="249" frameX="0" frameY="-6" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0012" x="681" y="278" width="216" height="249" frameX="0" frameY="-6" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0013" x="681" y="278" width="216" height="249" frameX="0" frameY="-6" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 right0014" x="681" y="278" width="216" height="249" frameX="0" frameY="-6" frameWidth="226" frameHeight="255"/>
+	<SubTexture name="DECAY 2 left0000" x="902" y="278" width="211" height="242" frameX="0" frameY="-10" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0001" x="902" y="278" width="211" height="242" frameX="0" frameY="-10" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0002" x="1118" y="278" width="202" height="251" frameX="-1" frameY="0" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0003" x="1118" y="278" width="202" height="251" frameX="-1" frameY="0" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0004" x="1325" y="278" width="211" height="250" frameX="-3" frameY="-1" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0005" x="1325" y="278" width="211" height="250" frameX="-3" frameY="-1" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0006" x="1541" y="278" width="216" height="248" frameX="-3" frameY="-3" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0007" x="1541" y="278" width="216" height="248" frameX="-3" frameY="-3" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0008" x="1762" y="278" width="218" height="247" frameX="-3" frameY="-4" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0009" x="1762" y="278" width="218" height="247" frameX="-3" frameY="-4" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0010" x="1762" y="278" width="218" height="247" frameX="-3" frameY="-4" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0011" x="1762" y="278" width="218" height="247" frameX="-3" frameY="-4" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0012" x="1762" y="278" width="218" height="247" frameX="-3" frameY="-4" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0013" x="1762" y="278" width="218" height="247" frameX="-3" frameY="-4" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 left0014" x="1762" y="278" width="218" height="247" frameX="-3" frameY="-4" frameWidth="221" frameHeight="252"/>
+	<SubTexture name="DECAY 2 up0000" x="1985" y="278" width="231" height="240" frameX="-1" frameY="-21" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0001" x="1985" y="278" width="231" height="240" frameX="-1" frameY="-21" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0002" x="2221" y="278" width="213" height="261" frameX="-1" frameY="0" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0003" x="2221" y="278" width="213" height="261" frameX="-1" frameY="0" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0004" x="2439" y="278" width="215" height="253" frameX="0" frameY="-8" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0005" x="2439" y="278" width="215" height="253" frameX="0" frameY="-8" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0006" x="2659" y="278" width="217" height="248" frameX="0" frameY="-13" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0007" x="2659" y="278" width="217" height="248" frameX="0" frameY="-13" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0008" x="2881" y="278" width="219" height="246" frameX="0" frameY="-15" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0009" x="2881" y="278" width="219" height="246" frameX="0" frameY="-15" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0010" x="2881" y="278" width="219" height="246" frameX="0" frameY="-15" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0011" x="2881" y="278" width="219" height="246" frameX="0" frameY="-15" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0012" x="2881" y="278" width="219" height="246" frameX="0" frameY="-15" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0013" x="2881" y="278" width="219" height="246" frameX="0" frameY="-15" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 up0014" x="2881" y="278" width="219" height="246" frameX="0" frameY="-15" frameWidth="232" frameHeight="261"/>
+	<SubTexture name="DECAY 2 down0000" x="3105" y="278" width="212" height="244" frameX="0" frameY="-6" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0001" x="3105" y="278" width="212" height="244" frameX="0" frameY="-6" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0002" x="3322" y="278" width="220" height="242" frameX="-1" frameY="-7" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0003" x="3322" y="278" width="220" height="242" frameX="-1" frameY="-7" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0004" x="3547" y="278" width="216" height="247" frameX="-1" frameY="-2" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0005" x="3547" y="278" width="216" height="247" frameX="-1" frameY="-2" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0006" x="3768" y="278" width="216" height="248" frameX="-1" frameY="-1" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0007" x="3768" y="278" width="216" height="248" frameX="-1" frameY="-1" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0008" x="5" y="544" width="216" height="249" frameX="-1" frameY="0" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0009" x="5" y="544" width="216" height="249" frameX="-1" frameY="0" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0010" x="5" y="544" width="216" height="249" frameX="-1" frameY="0" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0011" x="5" y="544" width="216" height="249" frameX="-1" frameY="0" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0012" x="5" y="544" width="216" height="249" frameX="-1" frameY="0" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0013" x="5" y="544" width="216" height="249" frameX="-1" frameY="0" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="DECAY 2 down0014" x="5" y="544" width="216" height="249" frameX="-1" frameY="0" frameWidth="221" frameHeight="250"/>
+	<SubTexture name="STARE up0000" x="226" y="544" width="208" height="323" frameX="0" frameY="0" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0001" x="439" y="544" width="250" height="320" frameX="-1" frameY="-3" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0002" x="694" y="544" width="198" height="293" frameX="-33" frameY="-30" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0003" x="897" y="544" width="206" height="269" frameX="-23" frameY="-54" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0004" x="1108" y="544" width="202" height="269" frameX="-38" frameY="-54" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0005" x="1315" y="544" width="205" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0006" x="1525" y="544" width="202" height="263" frameX="-35" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0007" x="1732" y="544" width="204" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0008" x="1941" y="544" width="204" height="263" frameX="-35" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0009" x="2150" y="544" width="204" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0010" x="2150" y="544" width="204" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0011" x="2150" y="544" width="204" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0012" x="2150" y="544" width="204" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0013" x="2150" y="544" width="204" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE up0014" x="2150" y="544" width="204" height="263" frameX="-36" frameY="-60" frameWidth="251" frameHeight="323"/>
+	<SubTexture name="STARE left0000" x="2359" y="544" width="297" height="242" frameX="0" frameY="-15" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0001" x="2661" y="544" width="224" height="257" frameX="-83" frameY="0" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0002" x="2890" y="544" width="197" height="242" frameX="-120" frameY="-15" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0003" x="3092" y="544" width="193" height="257" frameX="-143" frameY="0" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0004" x="3290" y="544" width="196" height="254" frameX="-136" frameY="-3" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0005" x="3491" y="544" width="201" height="255" frameX="-147" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0006" x="3697" y="544" width="199" height="255" frameX="-142" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0007" x="5" y="872" width="204" height="255" frameX="-151" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0008" x="214" y="872" width="203" height="255" frameX="-150" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0009" x="422" y="872" width="204" height="255" frameX="-152" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0010" x="422" y="872" width="204" height="255" frameX="-152" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0011" x="422" y="872" width="204" height="255" frameX="-152" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0012" x="422" y="872" width="204" height="255" frameX="-152" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0013" x="422" y="872" width="204" height="255" frameX="-152" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE left0014" x="422" y="872" width="204" height="255" frameX="-152" frameY="-2" frameWidth="356" frameHeight="257"/>
+	<SubTexture name="STARE down0000" x="631" y="872" width="309" height="206" frameX="0" frameY="-19" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0001" x="945" y="872" width="264" height="212" frameX="-31" frameY="-13" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0002" x="1214" y="872" width="234" height="213" frameX="-61" frameY="-12" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0003" x="1453" y="872" width="241" height="216" frameX="-53" frameY="-9" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0004" x="1699" y="872" width="226" height="219" frameX="-69" frameY="-6" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0005" x="1930" y="872" width="227" height="217" frameX="-70" frameY="-8" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0006" x="2162" y="872" width="222" height="223" frameX="-71" frameY="-2" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0007" x="2389" y="872" width="224" height="223" frameX="-71" frameY="-2" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0008" x="2618" y="872" width="223" height="223" frameX="-71" frameY="-2" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0009" x="2846" y="872" width="223" height="225" frameX="-71" frameY="0" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0010" x="2846" y="872" width="223" height="225" frameX="-71" frameY="0" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0011" x="2846" y="872" width="223" height="225" frameX="-71" frameY="0" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0012" x="2846" y="872" width="223" height="225" frameX="-71" frameY="0" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0013" x="2846" y="872" width="223" height="225" frameX="-71" frameY="0" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE down0014" x="2846" y="872" width="223" height="225" frameX="-71" frameY="0" frameWidth="309" frameHeight="225"/>
+	<SubTexture name="STARE right0000" x="3074" y="872" width="268" height="268" frameX="-22" frameY="0" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0001" x="3347" y="872" width="234" height="251" frameX="-16" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0002" x="3586" y="872" width="228" height="256" frameX="-25" frameY="-12" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0003" x="3819" y="872" width="261" height="251" frameX="0" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0004" x="5" y="1145" width="220" height="255" frameX="-27" frameY="-13" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0005" x="230" y="1145" width="225" height="251" frameX="-22" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0006" x="460" y="1145" width="221" height="251" frameX="-32" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0007" x="686" y="1145" width="208" height="251" frameX="-28" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0008" x="899" y="1145" width="210" height="251" frameX="-29" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0009" x="1114" y="1145" width="207" height="251" frameX="-28" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0010" x="1114" y="1145" width="207" height="251" frameX="-28" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0011" x="1114" y="1145" width="207" height="251" frameX="-28" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0012" x="1114" y="1145" width="207" height="251" frameX="-28" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0013" x="1114" y="1145" width="207" height="251" frameX="-28" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="STARE right0014" x="1114" y="1145" width="207" height="251" frameX="-28" frameY="-17" frameWidth="290" frameHeight="268"/>
+	<SubTexture name="DECAY 1 idle0000" x="1326" y="1145" width="208" height="255" frameX="0" frameY="0" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0001" x="1326" y="1145" width="208" height="255" frameX="0" frameY="0" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0002" x="1539" y="1145" width="210" height="252" frameX="0" frameY="-3" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0003" x="1539" y="1145" width="210" height="252" frameX="0" frameY="-3" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0004" x="1754" y="1145" width="211" height="251" frameX="0" frameY="-4" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0005" x="1754" y="1145" width="211" height="251" frameX="0" frameY="-4" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0006" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0007" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0008" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0009" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0010" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0011" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0012" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0013" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 1 idle0014" x="1970" y="1145" width="211" height="249" frameX="0" frameY="-6" frameWidth="211" frameHeight="255"/>
+	<SubTexture name="DECAY 2 idle0000" x="2186" y="1145" width="217" height="249"/>
+	<SubTexture name="DECAY 2 idle0001" x="2408" y="1145" width="217" height="247" frameX="0" frameY="-2" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0002" x="2630" y="1145" width="216" height="249" frameX="0" frameY="0" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0003" x="2851" y="1145" width="217" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0004" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0005" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0006" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0007" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0008" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0009" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0010" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0011" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0012" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0013" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="DECAY 2 idle0014" x="3073" y="1145" width="216" height="248" frameX="0" frameY="-1" frameWidth="217" frameHeight="249"/>
+	<SubTexture name="STARE idle 0000" x="3294" y="1145" width="204" height="251" frameX="-34" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0001" x="3503" y="1145" width="197" height="253" frameX="-34" frameY="0" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0002" x="3705" y="1145" width="201" height="251" frameX="-35" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0003" x="5" y="1405" width="198" height="253" frameX="-34" frameY="0" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0004" x="208" y="1405" width="206" height="251" frameX="-35" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0005" x="419" y="1405" width="268" height="252" frameX="0" frameY="-1" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0006" x="692" y="1405" width="200" height="251" frameX="-32" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0007" x="897" y="1405" width="205" height="253" frameX="-28" frameY="0" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0008" x="1107" y="1405" width="199" height="251" frameX="-35" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0009" x="1311" y="1405" width="199" height="253" frameX="-35" frameY="0" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0010" x="1515" y="1405" width="198" height="251" frameX="-35" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0011" x="1718" y="1405" width="210" height="251" frameX="-28" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0012" x="1933" y="1405" width="195" height="253" frameX="-34" frameY="0" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0013" x="2133" y="1405" width="199" height="251" frameX="-35" frameY="-2" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="STARE idle 0014" x="5" y="1405" width="198" height="253" frameX="-34" frameY="0" frameWidth="268" frameHeight="253"/>
+	<SubTexture name="wigglytuff right0000" x="2337" y="1405" width="284" height="345" frameX="0" frameY="-4" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0001" x="2337" y="1405" width="284" height="345" frameX="0" frameY="-4" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0002" x="2626" y="1405" width="284" height="349"/>
+	<SubTexture name="wigglytuff right0003" x="2626" y="1405" width="284" height="349"/>
+	<SubTexture name="wigglytuff right0004" x="2915" y="1405" width="278" height="339" frameX="-6" frameY="-10" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0005" x="2915" y="1405" width="278" height="339" frameX="-6" frameY="-10" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0006" x="3198" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0007" x="3198" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0008" x="3481" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0009" x="3481" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0010" x="3481" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0011" x="3481" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0012" x="3481" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0013" x="3481" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff right0014" x="3481" y="1405" width="278" height="335" frameX="-6" frameY="-14" frameWidth="284" frameHeight="349"/>
+	<SubTexture name="wigglytuff down0000" x="3764" y="1405" width="255" height="307" frameX="0" frameY="-18" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0001" x="3764" y="1405" width="255" height="307" frameX="0" frameY="-18" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0002" x="5" y="1759" width="255" height="305" frameX="0" frameY="-20" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0003" x="5" y="1759" width="255" height="305" frameX="0" frameY="-20" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0004" x="265" y="1759" width="255" height="304" frameX="0" frameY="-21" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0005" x="265" y="1759" width="255" height="304" frameX="0" frameY="-21" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0006" x="525" y="1759" width="255" height="321" frameX="0" frameY="-4" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0007" x="525" y="1759" width="255" height="321" frameX="0" frameY="-4" frameWidth="255" frameHeight="325"/>
+	<SubTexture name="wigglytuff down0008" x="785" y="1759" width="255" height="325"/>
+	<SubTexture name="wigglytuff down0009" x="785" y="1759" width="255" height="325"/>
+	<SubTexture name="wigglytuff down0010" x="785" y="1759" width="255" height="325"/>
+	<SubTexture name="wigglytuff down0011" x="785" y="1759" width="255" height="325"/>
+	<SubTexture name="wigglytuff down0012" x="785" y="1759" width="255" height="325"/>
+	<SubTexture name="wigglytuff down0013" x="785" y="1759" width="255" height="325"/>
+	<SubTexture name="wigglytuff down0014" x="785" y="1759" width="255" height="325"/>
+	<SubTexture name="wigglytuff idle0000" x="1045" y="1759" width="278" height="331" frameX="-1" frameY="-8" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0001" x="1045" y="1759" width="278" height="331" frameX="-1" frameY="-8" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0002" x="1328" y="1759" width="278" height="334" frameX="-1" frameY="-5" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0003" x="1328" y="1759" width="278" height="334" frameX="-1" frameY="-5" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0004" x="1611" y="1759" width="278" height="339" frameX="-1" frameY="0" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0005" x="1611" y="1759" width="278" height="339" frameX="-1" frameY="0" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0006" x="1894" y="1759" width="278" height="338" frameX="-1" frameY="-1" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0007" x="1894" y="1759" width="278" height="338" frameX="-1" frameY="-1" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0008" x="2177" y="1759" width="278" height="335" frameX="-1" frameY="-4" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0009" x="2177" y="1759" width="278" height="335" frameX="-1" frameY="-4" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0010" x="2177" y="1759" width="278" height="335" frameX="-1" frameY="-4" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0011" x="2177" y="1759" width="278" height="335" frameX="-1" frameY="-4" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0012" x="2460" y="1759" width="278" height="335" frameX="-1" frameY="-4" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0013" x="2460" y="1759" width="278" height="335" frameX="-1" frameY="-4" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff idle0014" x="2743" y="1759" width="279" height="336" frameX="0" frameY="-3" frameWidth="279" frameHeight="339"/>
+	<SubTexture name="wigglytuff left0000" x="3027" y="1759" width="270" height="326" frameX="0" frameY="-9" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0001" x="3027" y="1759" width="270" height="326" frameX="0" frameY="-9" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0002" x="3302" y="1759" width="269" height="324" frameX="-1" frameY="-11" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0003" x="3302" y="1759" width="269" height="324" frameX="-1" frameY="-11" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0004" x="3576" y="1759" width="269" height="331" frameX="-1" frameY="-4" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0005" x="3576" y="1759" width="269" height="331" frameX="-1" frameY="-4" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0006" x="5" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0007" x="5" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0008" x="279" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0009" x="279" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0010" x="553" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0011" x="553" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0012" x="553" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0013" x="553" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff left0014" x="553" y="2103" width="269" height="335" frameX="-1" frameY="0" frameWidth="270" frameHeight="335"/>
+	<SubTexture name="wigglytuff up0000" x="827" y="2103" width="288" height="350" frameX="0" frameY="-3" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0001" x="827" y="2103" width="288" height="350" frameX="0" frameY="-3" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0002" x="1120" y="2103" width="288" height="353"/>
+	<SubTexture name="wigglytuff up0003" x="1120" y="2103" width="288" height="353"/>
+	<SubTexture name="wigglytuff up0004" x="1413" y="2103" width="288" height="347" frameX="0" frameY="-6" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0005" x="1413" y="2103" width="288" height="347" frameX="0" frameY="-6" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0006" x="1706" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0007" x="1706" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0008" x="1999" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0009" x="1999" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0010" x="1999" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0011" x="1999" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0012" x="1999" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0013" x="1999" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+	<SubTexture name="wigglytuff up0014" x="1999" y="2103" width="288" height="343" frameX="0" frameY="-10" frameWidth="288" frameHeight="353"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Grey",
+        "dex": 20,
+        "height": "5'07”",
+        "weight": "116 lbs",
+        "offset": {"x": 335, "y": 130},
+	  "scale": 5,
+        "tagline": "The Bootleg Trainer",
+        "desc": "Rumors say the developers that created this character couldn't be bothered to code him, so they trapped the soul of a dead kid in it and called it a day."
+    }
+}

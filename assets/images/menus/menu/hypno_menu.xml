@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MainMenuHypno.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hypno menu instance 10000" x="20" y="20" width="1279" height="854" frameX="-6" frameY="-6" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10001" x="20" y="20" width="1279" height="854" frameX="-6" frameY="-6" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10002" x="20" y="20" width="1279" height="854" frameX="-6" frameY="-6" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10003" x="1319" y="20" width="1275" height="856" frameX="-11" frameY="-4" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10004" x="1319" y="20" width="1275" height="856" frameX="-11" frameY="-4" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10005" x="1319" y="20" width="1275" height="856" frameX="-11" frameY="-4" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10006" x="2614" y="20" width="1289" height="864"/>
+	<SubTexture name="hypno menu instance 10007" x="2614" y="20" width="1289" height="864"/>
+	<SubTexture name="hypno menu instance 10008" x="2614" y="20" width="1289" height="864"/>
+	<SubTexture name="hypno menu instance 10009" x="20" y="904" width="1273" height="856" frameX="-11" frameY="0" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10010" x="20" y="904" width="1273" height="856" frameX="-11" frameY="0" frameWidth="1289" frameHeight="864"/>
+	<SubTexture name="hypno menu instance 10011" x="20" y="904" width="1273" height="856" frameX="-11" frameY="0" frameWidth="1289" frameHeight="864"/>
+</TextureAtlas>

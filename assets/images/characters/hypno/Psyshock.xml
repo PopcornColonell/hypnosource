@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Psyshock.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Full Psyshock Particle0000" x="2" y="2" width="628" height="865"/>
+	<SubTexture name="Full Psyshock Particle0001" x="632" y="2" width="417" height="527" frameX="-1" frameY="-210" frameWidth="628" frameHeight="865"/>
+	<SubTexture name="Full Psyshock Particle0002" x="1051" y="2" width="342" height="503" frameX="-68" frameY="-224" frameWidth="628" frameHeight="865"/>
+	<SubTexture name="Full Psyshock Particle0003" x="1395" y="2" width="393" height="492" frameX="-40" frameY="-224" frameWidth="628" frameHeight="865"/>
+	<SubTexture name="Full Psyshock Particle0004" x="2" y="869" width="386" height="560" frameX="-81" frameY="-170" frameWidth="628" frameHeight="865"/>
+	<SubTexture name="Full Psyshock Particle0005" x="390" y="869" width="313" height="556" frameX="-127" frameY="-164" frameWidth="628" frameHeight="865"/>
+	<SubTexture name="Full Psyshock Particle0006" x="705" y="869" width="257" height="422" frameX="-153" frameY="-244" frameWidth="628" frameHeight="865"/>
+	<SubTexture name="Full Psyshock Particle0007" x="964" y="869" width="0" height="0" frameX="664" frameY="-153" frameWidth="628" frameHeight="865"/>
+	<SubTexture name="Full Psyshock Particle0008" x="964" y="869" width="0" height="0" frameX="664" frameY="-153" frameWidth="628" frameHeight="865"/>
+</TextureAtlas>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PONYTA.png">
+	<!-- Created with Adobe Animate version 20.0.2.22168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PONYTA DOWN0000" x="0" y="0" width="239" height="186" frameX="0" frameY="-2" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0001" x="0" y="0" width="239" height="186" frameX="0" frameY="-2" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0002" x="247" y="0" width="239" height="188" frameX="0" frameY="0" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0003" x="247" y="0" width="239" height="188" frameX="0" frameY="0" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0004" x="494" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0005" x="494" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0006" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0007" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0008" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0009" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0010" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0011" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0012" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0013" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA DOWN0014" x="742" y="0" width="240" height="187" frameX="0" frameY="-1" frameWidth="240" frameHeight="188"/>
+	<SubTexture name="PONYTA IDLE0000" x="990" y="0" width="253" height="246" frameX="-10" frameY="-3" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0001" x="990" y="0" width="253" height="246" frameX="-10" frameY="-3" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0002" x="1251" y="0" width="251" height="249" frameX="-13" frameY="0" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0003" x="1251" y="0" width="251" height="249" frameX="-13" frameY="0" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0004" x="1510" y="0" width="260" height="246" frameX="-6" frameY="-3" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0005" x="1510" y="0" width="260" height="246" frameX="-6" frameY="-3" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0006" x="1778" y="0" width="263" height="243" frameX="-2" frameY="-6" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0007" x="1778" y="0" width="263" height="243" frameX="-2" frameY="-6" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0008" x="0" y="257" width="258" height="240" frameX="-8" frameY="-9" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0009" x="0" y="257" width="258" height="240" frameX="-8" frameY="-9" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0010" x="266" y="257" width="262" height="238" frameX="-4" frameY="-11" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0011" x="266" y="257" width="262" height="238" frameX="-4" frameY="-11" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0012" x="536" y="257" width="266" height="236" frameX="0" frameY="-13" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0013" x="810" y="257" width="266" height="245" frameX="0" frameY="-4" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA IDLE0014" x="1084" y="257" width="262" height="245" frameX="-4" frameY="-4" frameWidth="266" frameHeight="249"/>
+	<SubTexture name="PONYTA LEFT0000" x="1354" y="257" width="250" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0001" x="1354" y="257" width="250" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0002" x="1612" y="257" width="252" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0003" x="1612" y="257" width="252" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0004" x="0" y="510" width="255" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0005" x="0" y="510" width="255" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0006" x="263" y="510" width="256" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0007" x="263" y="510" width="256" height="234" frameX="0" frameY="0" frameWidth="257" frameHeight="234"/>
+	<SubTexture name="PONYTA LEFT0008" x="527" y="510" width="257" height="234"/>
+	<SubTexture name="PONYTA LEFT0009" x="527" y="510" width="257" height="234"/>
+	<SubTexture name="PONYTA LEFT0010" x="527" y="510" width="257" height="234"/>
+	<SubTexture name="PONYTA LEFT0011" x="527" y="510" width="257" height="234"/>
+	<SubTexture name="PONYTA LEFT0012" x="527" y="510" width="257" height="234"/>
+	<SubTexture name="PONYTA LEFT0013" x="527" y="510" width="257" height="234"/>
+	<SubTexture name="PONYTA LEFT0014" x="527" y="510" width="257" height="234"/>
+	<SubTexture name="PONYTA MISS DOWN0000" x="792" y="510" width="236" height="175" frameX="0" frameY="-9" frameWidth="236" frameHeight="184"/>
+	<SubTexture name="PONYTA MISS DOWN0001" x="792" y="510" width="236" height="175" frameX="0" frameY="-9" frameWidth="236" frameHeight="184"/>
+	<SubTexture name="PONYTA MISS DOWN0002" x="1036" y="510" width="225" height="184" frameX="-5" frameY="0" frameWidth="236" frameHeight="184"/>
+	<SubTexture name="PONYTA MISS DOWN0003" x="1036" y="510" width="225" height="184" frameX="-5" frameY="0" frameWidth="236" frameHeight="184"/>
+	<SubTexture name="PONYTA MISS LEFT0000" x="1269" y="510" width="248" height="234" frameX="0" frameY="0" frameWidth="254" frameHeight="234"/>
+	<SubTexture name="PONYTA MISS LEFT0001" x="1269" y="510" width="248" height="234" frameX="0" frameY="0" frameWidth="254" frameHeight="234"/>
+	<SubTexture name="PONYTA MISS LEFT0002" x="1525" y="510" width="250" height="234" frameX="-4" frameY="0" frameWidth="254" frameHeight="234"/>
+	<SubTexture name="PONYTA MISS LEFT0003" x="1525" y="510" width="250" height="234" frameX="-4" frameY="0" frameWidth="254" frameHeight="234"/>
+	<SubTexture name="PONYTA Miss UP0000" x="1783" y="510" width="221" height="250" frameX="-5" frameY="0" frameWidth="231" frameHeight="250"/>
+	<SubTexture name="PONYTA Miss UP0001" x="1783" y="510" width="221" height="250" frameX="-5" frameY="0" frameWidth="231" frameHeight="250"/>
+	<SubTexture name="PONYTA Miss UP0002" x="0" y="768" width="231" height="240" frameX="0" frameY="-10" frameWidth="231" frameHeight="250"/>
+	<SubTexture name="PONYTA Miss UP0003" x="0" y="768" width="231" height="240" frameX="0" frameY="-10" frameWidth="231" frameHeight="250"/>
+	<SubTexture name="PONYTA RIGHT 0000" x="239" y="768" width="294" height="227"/>
+	<SubTexture name="PONYTA RIGHT 0001" x="239" y="768" width="294" height="227"/>
+	<SubTexture name="PONYTA RIGHT 0002" x="541" y="768" width="289" height="227" frameX="-1" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0003" x="541" y="768" width="289" height="227" frameX="-1" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0004" x="838" y="768" width="282" height="227" frameX="-4" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0005" x="838" y="768" width="282" height="227" frameX="-4" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0006" x="1128" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0007" x="1128" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0008" x="1417" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0009" x="1417" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0010" x="1417" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0011" x="1417" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0012" x="1417" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0013" x="1417" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA RIGHT 0014" x="1417" y="768" width="281" height="227" frameX="-5" frameY="0" frameWidth="294" frameHeight="227"/>
+	<SubTexture name="PONYTA MISS RIGHT0000" x="1706" y="768" width="287" height="227" frameX="-5" frameY="0" frameWidth="292" frameHeight="227"/>
+	<SubTexture name="PONYTA MISS RIGHT0001" x="1706" y="768" width="287" height="227" frameX="-5" frameY="0" frameWidth="292" frameHeight="227"/>
+	<SubTexture name="PONYTA MISS RIGHT0002" x="0" y="1016" width="287" height="227" frameX="0" frameY="0" frameWidth="292" frameHeight="227"/>
+	<SubTexture name="PONYTA MISS RIGHT0003" x="0" y="1016" width="287" height="227" frameX="0" frameY="0" frameWidth="292" frameHeight="227"/>
+	<SubTexture name="PONYTA UP0000" x="295" y="1016" width="231" height="241" frameX="0" frameY="0" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0001" x="295" y="1016" width="231" height="241" frameX="0" frameY="0" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0002" x="534" y="1016" width="230" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0003" x="534" y="1016" width="230" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0004" x="772" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0005" x="772" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0006" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0007" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0008" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0009" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0010" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0011" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0012" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0013" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+	<SubTexture name="PONYTA UP0014" x="1011" y="1016" width="231" height="239" frameX="-2" frameY="-2" frameWidth="233" frameHeight="241"/>
+</TextureAtlas>

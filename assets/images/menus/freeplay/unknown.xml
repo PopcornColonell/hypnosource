@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="First Play_ Portrait.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="unknown0000" x="5" y="5" width="475" height="503" frameX="-1" frameY="0" frameWidth="477" frameHeight="503"/>
+	<SubTexture name="unknown0001" x="485" y="5" width="476" height="502" frameX="0" frameY="-1" frameWidth="477" frameHeight="503"/>
+	<SubTexture name="unknown0002" x="5" y="5" width="475" height="503" frameX="-1" frameY="0" frameWidth="477" frameHeight="503"/>
+	<SubTexture name="unknown0003" x="5" y="5" width="475" height="503" frameX="-1" frameY="0" frameWidth="477" frameHeight="503"/>
+	<SubTexture name="unknown0004" x="485" y="5" width="476" height="502" frameX="0" frameY="-1" frameWidth="477" frameHeight="503"/>
+	<SubTexture name="unknown0005" x="5" y="5" width="475" height="503" frameX="-1" frameY="0" frameWidth="477" frameHeight="503"/>
+</TextureAtlas>

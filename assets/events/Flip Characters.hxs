@@ -1,0 +1,7 @@
+function returnDescription()
+    return "I added this for a joke";
+
+function eventFunction(params) {
+	PlayState.instance.flipCharacters();
+}
+

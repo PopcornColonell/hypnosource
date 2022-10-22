@@ -1,0 +1,5 @@
+function returnDescription()
+    return "Lost Cause GF gets up";
+
+function returnDelay()
+	return 0;

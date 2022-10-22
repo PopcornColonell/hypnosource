@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sky.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ocean0000" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0001" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0002" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0003" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0004" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0005" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0006" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0007" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0008" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0009" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0010" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0011" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0012" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0013" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0014" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0015" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0016" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0017" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0018" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0019" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0020" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0021" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0022" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0023" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0024" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0025" x="3" y="3" width="387" height="200"/>
+	<SubTexture name="ocean0026" x="3" y="3" width="387" height="200"/>
+</TextureAtlas>

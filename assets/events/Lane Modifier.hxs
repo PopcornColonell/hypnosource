@@ -1,0 +1,33 @@
+function returnDescription()
+    return 'Changes the lane speed.';
+
+function returnDelay()
+	return 0; //pleasedontbethispleasedontbethis
+
+function eventFunction(params) {
+    if (params[0] > 3 || Math.isNaN(params[0]))
+        params[0] = 3;
+    if (Math.isNaN(params[1]))
+        params[1] = 1;
+
+    // so this just stops the script from running properly?
+    // not gonna question it for now since if it works it works but when it's needed ill fix it
+
+    // -tk
+    
+    // switch(PlayState.gameplayMode)
+    // {
+    //     case HELL_MODE:
+    //         val2 *= 1.2;
+    //     case FUCK_YOU:
+    //         val2 *= 1.4;
+    //     case PUSSY_MODE:
+    //         val2 *= 0.9;
+    //     default:
+    //         val2 *= 1;
+    // }
+    trace('is detect ');
+
+    PlayState.laneSpeed[params[0]] = PlayState.SONG.speed * params[1];
+    PlayState.instance.setLaneSpeed(params[0]);
+}

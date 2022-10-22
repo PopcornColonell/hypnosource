@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<!-- _________________________ Application Settings _________________________ -->
+
+	<app title="Friday Night Funkin': Hypno's Lullaby" file="Hypnos Lullaby" packageName="com.ninjamuffin99.funkin" package="com.ninjamuffin99.funkin" main="Main" version="0.2.0" company="banbuds" />
+
+	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
+		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
+	<app preloader="flixel.system.FlxPreloader" />
+
+	<!--Minimum without FLX_NO_GAMEPAD: 11.8, without FLX_NO_NATIVE_CURSOR: 11.2-->
+	<set name="SWF_VERSION" value="11.8" />
+
+	<!-- ____________________________ Window Settings ___________________________ -->
+
+	<!--These window settings apply to all targets-->
+	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
+
+	<!--Desktop-specific-->
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" />
+
+	<!-- _____________________________ Path Settings ____________________________ -->
+
+	<set name="BUILD_DIR" value="export" />
+	<source path="source" />
+	<assets path="assets" />
+	<assets path="shitpost" library="shitpost" embed="true"/>
+	<assets path="dlls/" rename='' />
+	<assets path="plugins/" rename='' />
+	<assets path="FE-CrashDialog.exe" type="template" if="windows release" />
+	<define name="VIDEOS_ALLOWED" if="web || windows" unless="32bits"/>
+	<!--<assets path="mods" />-->
+
+	<!-- _______________________________ Libraries ______________________________ -->
+
+	<haxelib name="flixel" />
+	<haxedev set='webgl' />
+
+	<haxelib name="flixel-addons" />
+	<haxelib name="hscript" />
+	<haxelib name="flixel-ui"/>
+	<haxelib name="polymod"/>
+ 	<haxelib name="discord_rpc"/>
+	<haxelib name="hxCodec" if="VIDEOS_ALLOWED"/>
+
+	<!-- ______________________________ Haxedefines _____________________________ -->
+
+	<set name="BUILD_DIR" value="export/debug" if="debug" />
+	<set name="BUILD_DIR" value="export/release" unless="debug" />
+	
+	<!--Enable the Flixel core recording system-->
+	<!--<haxedef name="FLX_RECORD" />-->
+
+	<!--Disable the right and middle mouse buttons-->
+	<!--<haxedef name="FLX_NO_MOUSE_ADVANCED" />-->
+
+	<!--Disable the native cursor API on Flash-->
+	<!--<haxedef name="FLX_NO_NATIVE_CURSOR" />-->
+
+	<!--Optimise inputs, be careful you will get null errors if you don't use conditionals in your game-->
+	<haxedef name="FLX_NO_MOUSE" if="mobile" />
+	<haxedef name="FLX_NO_KEYBOARD" if="mobile" />
+	<haxedef name="FLX_NO_TOUCH" if="desktop" />
+	<!--<haxedef name="FLX_NO_GAMEPAD" />-->
+
+	<!--Disable the Flixel core sound tray-->
+	<!--<haxedef name="FLX_NO_SOUND_TRAY" />-->
+
+	<!--Disable the Flixel sound management code-->
+	<!--<haxedef name="FLX_NO_SOUND_SYSTEM" />-->
+
+	<!--Disable the Flixel core focus lost screen-->
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+
+	<!--Disable the Flixel core debugger. Automatically gets set whenever you compile in release mode!-->
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+
+	<!--Enable this for Nape release builds for a serious peformance improvement-->
+	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+
+	<!-- Akways enable Null Object Reference check for crash dialog -->
+	<haxedef name="HXCPP_CHECK_POINTER" />
+	<haxedef name="HXCPP_STACK_LINE" />
+
+	<!-- _________________________________ Custom _______________________________ -->
+
+	<icon path="art/icon16.png" size='16'/>
+	<icon path="art/icon32.png" size='32'/>
+	<icon path="art/icon64.png" size='64'/>
+	<icon path="art/icon128.png" size='128'/>
+	<icon path="art/icon256.png" size='256'/>
+	<icon path="art/icon512.png" size='512'/>
+	<icon path="art/iconOG.png" />
+
+</project>

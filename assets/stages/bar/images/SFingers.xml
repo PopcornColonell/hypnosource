@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SFingers.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SFingers0000" x="5" y="5" width="71" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0001" x="81" y="5" width="71" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0002" x="157" y="5" width="71" height="91" frameX="0" frameY="0" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0003" x="233" y="5" width="71" height="91" frameX="0" frameY="0" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0004" x="309" y="5" width="71" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0005" x="309" y="5" width="71" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0006" x="385" y="5" width="72" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0007" x="385" y="5" width="72" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0008" x="5" y="101" width="74" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0009" x="84" y="101" width="74" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0010" x="163" y="101" width="74" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0011" x="163" y="101" width="74" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0012" x="242" y="101" width="75" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0013" x="322" y="101" width="75" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0014" x="402" y="101" width="75" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0015" x="5" y="196" width="75" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0016" x="85" y="196" width="75" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0017" x="165" y="196" width="74" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0018" x="244" y="196" width="74" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0019" x="323" y="196" width="74" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0020" x="402" y="196" width="72" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+	<SubTexture name="SFingers0021" x="402" y="196" width="72" height="90" frameX="0" frameY="-1" frameWidth="75" frameHeight="91"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Hypno (Lost Cause)",
+        "dex": 3,
+        "height": "6'05”",
+        "weight": "26.5 lbs",
+        "offset": {"x": 225, "y": 125},
+	  "scale": 2,
+        "tagline": "The Hypnosis Pokemon",
+        "desc": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum."
+    }
+}

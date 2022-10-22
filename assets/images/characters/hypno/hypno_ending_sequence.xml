@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hypno ending sequence.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ending instance 10000" x="5" y="5" width="1145" height="1216" frameX="-704" frameY="-186" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10001" x="1150" y="5" width="1169" height="1282" frameX="-680" frameY="-120" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10002" x="2319" y="5" width="1307" height="1399" frameX="-542" frameY="-6" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10003" x="3626" y="5" width="1416" height="1379" frameX="-433" frameY="-26" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10004" x="5042" y="5" width="1621" height="1355" frameX="-228" frameY="-50" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10005" x="5" y="1404" width="1637" height="1405" frameX="-212" frameY="0" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10006" x="1642" y="1404" width="1767" height="1347" frameX="-82" frameY="-58" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10007" x="3409" y="1404" width="1737" height="1366" frameX="-112" frameY="-39" frameWidth="1849" frameHeight="1405"/>
+	<SubTexture name="Ending instance 10008" x="5146" y="1404" width="1849" height="1293" frameX="0" frameY="-109" frameWidth="1849" frameHeight="1405"/>
+</TextureAtlas>

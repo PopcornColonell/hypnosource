@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Burried Alive (+ Co)",
+        "dex": 11,
+        "height": "???",
+        "weight": "???",
+        "offset": {"x": 190, "y": 175},
+	  "scale": 3,
+        "tagline": "The Imprisoned Half-Man",
+        "desc": "Buried at the top of Pokemon Tower, his attempts to break free from his grave causes subtle but noticeable rumbles throughout the whole tower with anyone inside."
+    }
+}

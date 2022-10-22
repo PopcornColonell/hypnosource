@@ -1,0 +1,13 @@
+function returnDescription()
+    return "Unown";
+
+function returnDelay()
+	return 0;
+
+function eventFunction(params) 
+{
+	var string:String = '';
+	if (params[1] != null || params[1] != '')
+		string = params[1];
+	PlayState.instance.startUnown(params[0], string);
+}

@@ -1,0 +1,45 @@
+
+
+function eventFunction(params) {
+    if (PlayState.gameplayMode != 'PUSSY_MODE') {
+        PlayState.instance.dadStrums.visible = false;
+        trace('the no 1');
+
+        if (PlayState.instance.shaderCatalog.length > 0) {
+            var newShader:ShaderFilter = PlayState.instance.shaderCatalog[0];
+            if (PlayState.staticValues.get('cantGlitch') == null 
+            || PlayState.staticValues.get('cantGlitch') == false) {
+                newShader.shader.data.prob.value = [0.25];
+            }
+            newShader.shader.data.time.value = [Conductor.songPosition / 1000];
+        }
+
+        var isDownscroll = FlxG.random.bool(50);
+        var boyfriendStrums:Strumline = PlayState.instance.boyfriendStrums;
+        boyfriendStrums.downscroll = isDownscroll;
+        for (i in 0...boyfriendStrums.receptors.length)
+        {
+            if (i == 0) {
+                boyfriendStrums.receptors.members[i].x = FlxG.random.int(100, Std.int(FlxG.width / 3)) - 25;
+                if (isDownscroll)
+                    boyfriendStrums.receptors.members[i].y = FlxG.random.int(Std.int(FlxG.height / 2), FlxG.height - 200);
+                else
+                    boyfriendStrums.receptors.members[i].y = FlxG.random.int(100, 300);
+            } else {
+                var futurex = FlxG.random.int(Std.int(boyfriendStrums.receptors.members[i - 1].x) + 80,
+                    Std.int(boyfriendStrums.receptors.members[i - 1].x) + 400);
+                if (futurex > FlxG.width - 100)
+                    futurex = FlxG.width - 100;
+                boyfriendStrums.receptors.members[i].x = futurex;
+                boyfriendStrums.receptors.members[i].y = FlxG.random.int(Std.int(boyfriendStrums.receptors.members[0].y - 100),
+                    Std.int(boyfriendStrums.receptors.members[0].y + 100));
+            }
+            //
+        }
+        
+    }
+}
+
+function initFunction(params) {
+	PlayState.instance.setupGlitchShader();
+}

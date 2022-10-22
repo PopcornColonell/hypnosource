@@ -1,0 +1,363 @@
+var lavabottom:FlxSprite;
+var lavatop:FlxSprite;
+var glowleft:FlxSprite;
+var glowright:FlxSprite;
+
+var hellbell:Character;
+var bellY:Float;
+var bellX:Float;
+var pillar:Character;
+var beelzewalk:Character;
+var beelzescary:Character;
+var contract:FlxSprite;
+var contractY:Float;
+var contractStep:Float;
+
+var dawn:Boyfriend;
+var bf:Boyfriend;
+
+var lavamod:Float;
+var lavafloating:Float;
+var lavabtmY:Float;
+var lavatopY:Float;
+var glowLY:Float;
+var glowRY:Float;
+
+var gaussian:ShaderFilter;
+//var blurAmount:Float = 0;
+
+function onCreate() {
+    PlayState.defaultCamZoom = 0.65;
+	var resizeBG:Float = 0.75;
+	var wall:FlxSprite = new FlxSprite(0, 0);
+	wall.loadGraphic(Paths.image('wall'));
+	wall.setGraphicSize(Std.int(wall.width * resizeBG * 2));
+	wall.updateHitbox();
+	wall.antialiasing = true;
+	add(wall);
+
+	lavabottom = new FlxSprite();
+	lavabottom.frames = Paths.getSparrowAtlas('lavabottom');
+	lavabottom.animation.addByPrefix('lavabottom', 'lavabottom', 24, true);
+	lavabottom.animation.play('lavabottom');				
+	lavabottom.setGraphicSize(Std.int(lavabottom.width * resizeBG));
+	lavabottom.updateHitbox();
+	lavabottom.antialiasing = true;
+	lavabottom.x -= 2;
+	lavabottom.y += 1074;
+	add(lavabottom);
+			
+	var rocks:FlxSprite = new FlxSprite(109, 1140);
+	rocks.loadGraphic(Paths.image('rocks'));
+	rocks.setGraphicSize(Std.int(rocks.width * resizeBG * 2));
+	rocks.updateHitbox();
+	rocks.antialiasing = true;
+	add(rocks);
+
+	var floorbot:FlxSprite = new FlxSprite(1070, 1135);
+	floorbot.loadGraphic(Paths.image('floorbot'));
+	floorbot.setGraphicSize(Std.int(floorbot.width * resizeBG * 2));
+	floorbot.updateHitbox();
+	floorbot.antialiasing = true;
+	add(floorbot);
+
+	lavatop = new FlxSprite();
+	lavatop.frames = Paths.getSparrowAtlas('lavatop');
+	lavatop.animation.addByPrefix('lavatop', 'lavatop', 24, true);
+	lavatop.animation.play('lavatop');			
+	lavatop.setGraphicSize(Std.int(lavatop.width * resizeBG));
+	lavatop.updateHitbox();
+	lavatop.antialiasing = true;
+	lavatop.x -= 10;
+	lavatop.y += 1067;
+	add(lavatop);
+
+	glowleft = new FlxSprite();
+	glowleft.frames = Paths.getSparrowAtlas('glowleft');
+	glowleft.animation.addByPrefix('glowleft', 'glowleft', 24, true);
+	glowleft.animation.play('glowleft');			
+	glowleft.setGraphicSize(Std.int(glowleft.width * resizeBG));
+	glowleft.updateHitbox();
+	glowleft.antialiasing = true;
+	glowleft.x -= 403;
+	glowleft.y += 780;
+	add(glowleft);
+
+	glowright = new FlxSprite();
+	glowright.frames = Paths.getSparrowAtlas('glowright');
+	glowright.animation.addByPrefix('glowright', 'glowright', 24, true);
+	glowright.animation.play('glowright');			
+	glowright.setGraphicSize(Std.int(glowright.width * resizeBG));
+	glowright.updateHitbox();
+	glowright.antialiasing = true;
+	glowright.x += 1823;
+	glowright.y += 653;
+	add(glowright);
+
+    var floor:FlxSprite = new FlxSprite(2, 931);
+	floor.loadGraphic(Paths.image('floor'));
+	floor.antialiasing = true;
+	floor.setGraphicSize(Std.int(floor.width * resizeBG * 2));
+	floor.updateHitbox();
+	add(floor);				
+
+	var roof:FlxSprite = new FlxSprite(130, 100);
+	roof.loadGraphic(Paths.image('roof'));
+	roof.scrollFactor.set(1.1, 1.1);
+	roof.setGraphicSize(Std.int(roof.width * resizeBG * 2));
+	roof.updateHitbox();
+	roof.antialiasing = true;
+	foreground.add(roof);
+
+	var pilfor:FlxSprite = new FlxSprite(2132, 1282);
+	pilfor.loadGraphic(Paths.image('pilfor'));
+	pilfor.scrollFactor.set(1.2, 1.2);
+	pilfor.setGraphicSize(Std.int(pilfor.width * resizeBG * 2));
+	pilfor.updateHitbox();
+	pilfor.antialiasing = true;
+	foreground.add(pilfor);
+
+	pillar = new FlxSprite().loadGraphic(Paths.image('pil'));
+	pillar.setPosition(840, 553);
+	pillar.setGraphicSize(Std.int(pillar.width * 0.75 * 2));
+	pillar.updateHitbox();
+
+	PlayState.ratingPosition.set(600, 800);
+	PlayState.bronzongMechanic = true;
+
+	gaussian = new ShaderFilter(new GraphicsShader("", Paths.shader('death-toll/gaussian')));
+	PlayState.camGame.setFilters([gaussian]);
+	PlayState.camHUD.setFilters([gaussian]);
+}
+
+function onCreatePost() {
+	PlayState.strumHUD[1].setFilters([gaussian]);
+
+	contractStep = 0;
+	lavamod = 60;
+	lavafloating = 0;
+	PlayState.instance.flipCharacters();	
+	PlayState.instance.camPos.set(2000, 900);		
+	boyfriend.x -= 20;
+	boyfriend.y += 370;
+	dadOpponent.x += 1550;
+	dadOpponent.y += 275;
+
+	lavabtmY = lavabottom.y;
+	lavatopY = lavatop.y;
+	glowLY = glowleft.y;
+	glowRY = glowright.y;
+
+	hellbell = new Character().setCharacter(0, 0, 'hellbell');
+	hellbell.scale.set(0.72, 0.72);
+	hellbell.setPosition(dadOpponent.x - 880, dadOpponent.y - 280);
+	hellbell.flipLeftRight();	
+	bellY = hellbell.y;
+	bellX = hellbell.x;
+
+	beelzewalk = new Character().setCharacter(0, 0, 'beelze');
+	beelzewalk.setPosition(dadOpponent.x, dadOpponent.y);
+	beelzewalk.flipLeftRight();
+	beelzewalk.visible = false;
+
+	beelzescary = new Character().setCharacter(0, 0, 'beelzescary');
+	beelzescary.setPosition(dadOpponent.x, dadOpponent.y);
+	beelzescary.flipLeftRight();
+	beelzescary.visible = false;
+	beelzescary.x += -100;
+	beelzescary.y += -20;
+	PlayState.instance.dadStrums.character.push(beelzescary);
+
+	contract = new FlxSprite();
+	contract.frames = Paths.getSparrowAtlas('characters/beelze/ContractBF');
+	contract.animation.addByPrefix('idle', 'ContractIdle', 24, false);
+	contract.animation.addByPrefix('B', 'Contract_BF_01', 24, false);
+	contract.animation.addByPrefix('O', 'Contract_BF_02', 24, false);
+	contract.animation.addByPrefix('Y', 'Contract_BF_03', 24, false);
+	contract.animation.addByPrefix('F', 'Contract_BF_04', 24, false);
+	contract.animation.addByPrefix('R', 'Contract_BF_05', 24, false);
+	contract.animation.addByPrefix('I', 'Contract_BF_06', 24, false);
+	contract.animation.addByPrefix('E', 'Contract_BF_07', 24, false);
+	contract.animation.addByPrefix('N', 'Contract_BF_08', 24, false);
+	contract.animation.addByPrefix('D', 'Contract_BF_09', 24, false);
+	contract.animation.play('idle');
+	contract.antialiasing = true;
+	contract.setPosition(dadOpponent.x - 232, dadOpponent.y + 115);
+	contract.scale.set(0.95, 0.95);
+	contractY = contract.y;
+	contract.visible = false;
+
+	add(hellbell);	
+	add(beelzewalk);
+	add(beelzescary);
+	add(pillar);
+	add(contract);
+
+	dawn = new Boyfriend();
+	dawn.setCharacter(boyfriend.x + 1350, boyfriend.y, 'dawn');
+	dawn.flipLeftRight();
+	// dawn.screenCenter();
+	
+	add(dawn);	
+	PlayState.instance.boyfriendStrums.character.push(dawn);
+	if (PlayState.instance.boyfriendStrums.singingCharacters.contains(PlayState.boyfriend))
+		PlayState.instance.boyfriendStrums.singingCharacters = [dawn];
+	PlayState.instance.dadStrums.visible = false;
+
+	bf = new Boyfriend();
+	bf.setCharacter(boyfriend.x + 1350, boyfriend.y, PlayState.SONG.player1);
+	bf.flipLeftRight();
+	add(bf);
+
+	PlayState.instance.boyfriendStrums.character.push(bf);
+	PlayState.instance.boyfriendStrums.singingCharacters.push(bf);
+}
+
+function onUpdate(elapsed) {
+	if (hellbell != null && hellbell.animation.curAnim.name == 'idle') {
+		hellbell.dance();
+	}
+	hellbell.y = bellY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / 72)) * 32;
+	hellbell.x = bellX + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / 96)) * 16;
+	if (contract != null && contractStep <= 9) {
+		contract.y = contractY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / 48)) * 16;
+	}
+
+	var percentage = ((contractStep * contractStep) / 100);
+	if (contractStep > 4) 
+		percentage += (Math.sin(((Conductor.songPosition) / (Conductor.stepCrochet * 16)) * Math.PI) * (contractStep / 10) * 0.25);
+	if (contractStep > 9)
+		percentage = 1;
+	bf.atlasCharacter.alpha = percentage;
+	dawn.atlasCharacter.alpha = 1 - percentage;
+
+	if (lavafloating == 1) {
+		lavabottom.y = lavabtmY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / lavamod)) * 8;
+		lavatop.y = lavatopY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / lavamod)) * 8;
+		glowleft.y = glowLY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / lavamod)) * 8;
+		glowright.y = glowRY + Math.sin((180 / Math.PI) * ((Conductor.songPosition / 1000) / lavamod)) * 8;
+	}
+
+	gaussian.shader.data.amount.value = [blurAmount];
+	blurAmount = FlxMath.lerp(blurAmount, 0.0, (elapsed / (1 / 120)) * 0.01);
+}
+
+function onEvent(eventName) {
+    switch (eventName) {
+        default:
+            trace('an event was called in death toll. woohoo');
+        case 'Bong':
+            hellbell.playAnim('bong', true);			
+            hellbell.animation.finishCallback = function(name:String){
+                if (name == 'bong') {
+					hellbell.dance();
+                    }
+                }
+			FlxG.camera.shake(0.015, 0.075);
+			new FlxTimer().start(0.075, function(tmr:FlxTimer){
+					FlxG.camera.shake(0.009, 0.15);
+					new FlxTimer().start(0.15, function(tmr:FlxTimer){
+						FlxG.camera.shake(0.005, 0.3);
+					});
+				});
+		case 'Beelze Walk':
+			PlayState.dadOpponent.visible = false;
+			beelzewalk.visible = true;
+			beelzewalk.playAnim('Walk');						
+            beelzewalk.animation.finishCallback = function(name:String){
+                if (name == 'Walk') {
+					PlayState.defaultCamZoom += 0.35;
+					beelzewalk.playAnim('Laugh');	
+					beelzewalk.animation.finishCallback = function(name:String){
+						if (name == 'Laugh') {								
+								contract.visible = true;		
+								beelzewalk.visible = false;												
+								beelzescary.visible = true;
+								PlayState.instance.dadStrums.singingCharacters = [beelzescary];
+								PlayState.instance.iconP2.changeIcon('beelzescary');
+								PlayState.defaultCamZoom -= 0.35;
+							}
+						}
+                    }
+                }
+		case 'Dawn Transform':
+			dawn.transformDawn();
+
+		case 'Contract Advance':
+			contractStep = contractStep + 1;
+			switch (contractStep)
+				{
+					case 1:
+						contract.animation.play('B');	
+					case 2:
+						contract.animation.play('O');
+					case 3:
+						contract.animation.play('Y');
+					case 4:
+						contract.animation.play('F');
+					case 5:
+						contract.animation.play('R');
+					case 6:
+						contract.animation.play('I');
+					case 7:
+						contract.animation.play('E');
+					case 8:
+						contract.animation.play('N');
+					case 9:
+						contract.animation.play('D');
+					case 10:
+						contract.color = 0xFF3131;
+						FlxTween.tween(contract.scale, {x: 0.3, y: 0.3}, 1.3, {ease: FlxEase.backIn});	
+						FlxTween.tween(contract, {alpha: 0}, 1.3, {ease: FlxEase.backIn});
+				}					
+		case 'HB Camera Flash':		
+			var camflash = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.WHITE);
+			camflash.scrollFactor.set();
+			camflash.screenCenter();
+			add(camflash);
+			
+			camflash.alpha = 0.6;
+			PlayState.defaultCamZoom += 0.08;
+			FlxTween.tween(camflash, {alpha: 0}, 0.5, {
+				ease: FlxEase.linear,		
+				onComplete: function(tween:FlxTween)
+					{
+						PlayState.defaultCamZoom += 0.08;
+						camflash.alpha = 0.7;							
+						FlxTween.tween(camflash, {alpha: 0}, 0.7, {
+							ease: FlxEase.linear,		
+							onComplete: function(tween:FlxTween)
+								{
+									PlayState.defaultCamZoom -= 0.16;
+									camflash.alpha = 1;							
+									FlxTween.tween(camflash, {alpha: 0}, 1.5, {
+										ease: FlxEase.linear,								
+									});	
+								}							
+						});
+					}							
+			});
+
+		case 'Toggle Lava':	
+			lavamod = 60;	
+			if (lavafloating == 0) {
+				lavafloating = 1;
+			}
+			else {
+				lavafloating = 0;
+			}
+		case 'Toggle Lava Fast':
+			lavamod = 30;		
+			if (lavafloating == 0) {
+				lavafloating = 1;
+			}
+			else {
+				lavafloating = 0;
+			}
+		case 'HB Ending':	
+			PlayState.instance.hbEnding();	
+		case 'Bf Icon Change':
+			PlayState.instance.iconP1.changeIcon('bf');
+			PlayState.instance.hbBar();		
+    }
+}

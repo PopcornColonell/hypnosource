@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="YOU_THEREa.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lmao0000" x="5" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0001" x="5" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0002" x="98" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0003" x="98" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0004" x="191" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0005" x="191" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0006" x="191" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0007" x="191" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0008" x="191" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0009" x="191" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0010" x="191" y="5" width="88" height="120"/>
+	<SubTexture name="Lmao0011" x="191" y="5" width="88" height="120"/>
+</TextureAtlas>

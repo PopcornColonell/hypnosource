@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PokeDollarSign.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PokeDollarSign instance 10000" x="5" y="5" width="104" height="123"/>
+	<SubTexture name="PokeDollarSign instance 10001" x="114" y="5" width="104" height="123"/>
+	<SubTexture name="PokeDollarSign instance 10002" x="223" y="5" width="96" height="120" frameX="-2" frameY="-3" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10003" x="324" y="5" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10004" x="415" y="5" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10005" x="415" y="5" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10006" x="5" y="133" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10007" x="5" y="133" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10008" x="96" y="133" width="87" height="113" frameX="-3" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10009" x="96" y="133" width="87" height="113" frameX="-3" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10010" x="324" y="5" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10011" x="324" y="5" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10012" x="415" y="5" width="86" height="113" frameX="-4" frameY="-7" frameWidth="104" frameHeight="123"/>
+	<SubTexture name="PokeDollarSign instance 10013" x="188" y="133" width="80" height="108" frameX="-6" frameY="-10" frameWidth="104" frameHeight="123"/>
+</TextureAtlas>

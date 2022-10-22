@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ponyta_perspective.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ponyta Idle0000" x="5" y="5" width="492" height="357" frameX="-5" frameY="-26" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0001" x="5" y="5" width="492" height="357" frameX="-5" frameY="-26" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0002" x="502" y="5" width="494" height="367" frameX="0" frameY="-24" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0003" x="502" y="5" width="494" height="367" frameX="0" frameY="-24" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0004" x="1001" y="5" width="486" height="371" frameX="-1" frameY="-8" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0005" x="1001" y="5" width="486" height="371" frameX="-1" frameY="-8" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0006" x="1492" y="5" width="490" height="357" frameX="-1" frameY="0" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0007" x="1492" y="5" width="490" height="357" frameX="-1" frameY="0" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0008" x="1987" y="5" width="473" height="350" frameX="-6" frameY="-7" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0009" x="1987" y="5" width="473" height="350" frameX="-6" frameY="-7" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0010" x="2465" y="5" width="475" height="348" frameX="-10" frameY="-5" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0011" x="2465" y="5" width="475" height="348" frameX="-10" frameY="-5" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0012" x="2945" y="5" width="470" height="348" frameX="-9" frameY="-6" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0013" x="2945" y="5" width="470" height="348" frameX="-9" frameY="-6" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0014" x="3420" y="5" width="478" height="371" frameX="-12" frameY="-12" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0015" x="3420" y="5" width="478" height="371" frameX="-12" frameY="-12" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0016" x="5" y="381" width="480" height="379" frameX="-7" frameY="-12" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0017" x="5" y="381" width="480" height="379" frameX="-7" frameY="-12" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0018" x="490" y="381" width="484" height="373" frameX="-2" frameY="-6" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0019" x="490" y="381" width="484" height="373" frameX="-2" frameY="-6" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0020" x="979" y="381" width="490" height="357" frameX="-1" frameY="0" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0021" x="979" y="381" width="490" height="357" frameX="-1" frameY="0" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0022" x="1474" y="381" width="473" height="350" frameX="-6" frameY="-7" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0023" x="1474" y="381" width="473" height="350" frameX="-6" frameY="-7" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0024" x="1952" y="381" width="475" height="348" frameX="-10" frameY="-5" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0025" x="1952" y="381" width="475" height="348" frameX="-10" frameY="-5" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta Idle0026" x="2432" y="381" width="470" height="348" frameX="-9" frameY="-6" frameWidth="497" frameHeight="391"/>
+	<SubTexture name="Ponyta down0000" x="2907" y="381" width="481" height="328" frameX="0" frameY="-8" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0001" x="2907" y="381" width="481" height="328" frameX="0" frameY="-8" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0002" x="3393" y="381" width="459" height="330" frameX="-9" frameY="-6" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0003" x="3393" y="381" width="459" height="330" frameX="-9" frameY="-6" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0004" x="5" y="765" width="461" height="327" frameX="-13" frameY="-4" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0005" x="5" y="765" width="461" height="327" frameX="-13" frameY="-4" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0006" x="471" y="765" width="454" height="327" frameX="-13" frameY="-6" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0007" x="471" y="765" width="454" height="327" frameX="-13" frameY="-6" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0008" x="930" y="765" width="460" height="349" frameX="-14" frameY="-11" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0009" x="930" y="765" width="460" height="349" frameX="-14" frameY="-11" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0010" x="1395" y="765" width="462" height="357" frameX="-9" frameY="-11" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0011" x="1395" y="765" width="462" height="357" frameX="-9" frameY="-11" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0012" x="1862" y="765" width="468" height="351" frameX="-5" frameY="-6" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0013" x="1862" y="765" width="468" height="351" frameX="-5" frameY="-6" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta down0014" x="2335" y="765" width="474" height="336" frameX="-4" frameY="0" frameWidth="481" frameHeight="368"/>
+	<SubTexture name="Ponyta left0000" x="2814" y="765" width="489" height="343" frameX="0" frameY="0" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0001" x="2814" y="765" width="489" height="343" frameX="0" frameY="0" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0002" x="3308" y="765" width="469" height="336" frameX="-8" frameY="-6" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0003" x="3308" y="765" width="469" height="336" frameX="-8" frameY="-6" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0004" x="5" y="1127" width="471" height="335" frameX="-11" frameY="-5" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0005" x="5" y="1127" width="471" height="335" frameX="-11" frameY="-5" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0006" x="481" y="1127" width="468" height="334" frameX="-9" frameY="-6" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0007" x="481" y="1127" width="468" height="334" frameX="-9" frameY="-6" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0008" x="954" y="1127" width="477" height="354" frameX="-14" frameY="-12" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0009" x="954" y="1127" width="477" height="354" frameX="-14" frameY="-12" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0010" x="1436" y="1127" width="479" height="362" frameX="-9" frameY="-12" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0011" x="1436" y="1127" width="479" height="362" frameX="-9" frameY="-12" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0012" x="1920" y="1127" width="479" height="358" frameX="-5" frameY="-6" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0013" x="1920" y="1127" width="479" height="358" frameX="-5" frameY="-6" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta left0014" x="2404" y="1127" width="486" height="343" frameX="-3" frameY="0" frameWidth="491" frameHeight="374"/>
+	<SubTexture name="Ponyta right0000" x="2895" y="1127" width="477" height="349" frameX="-6" frameY="0" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0001" x="2895" y="1127" width="477" height="349" frameX="-6" frameY="0" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0002" x="3377" y="1127" width="465" height="342" frameX="-5" frameY="-7" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0003" x="5" y="1494" width="465" height="342" frameX="-5" frameY="-7" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0004" x="475" y="1494" width="467" height="342" frameX="-9" frameY="-5" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0005" x="947" y="1494" width="467" height="342" frameX="-9" frameY="-5" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0006" x="1419" y="1494" width="461" height="341" frameX="-9" frameY="-6" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0007" x="1885" y="1494" width="461" height="341" frameX="-9" frameY="-6" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0008" x="2351" y="1494" width="470" height="363" frameX="-11" frameY="-12" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0009" x="2826" y="1494" width="470" height="363" frameX="-11" frameY="-12" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0010" x="3301" y="1494" width="472" height="371" frameX="-6" frameY="-12" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0011" x="5" y="1870" width="472" height="371" frameX="-6" frameY="-12" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0012" x="482" y="1870" width="475" height="365" frameX="-2" frameY="-6" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0013" x="962" y="1870" width="475" height="365" frameX="-2" frameY="-6" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta right0014" x="1442" y="1870" width="482" height="349" frameX="0" frameY="0" frameWidth="483" frameHeight="383"/>
+	<SubTexture name="Ponyta up0000" x="1929" y="1870" width="477" height="379" frameX="-5" frameY="-3" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0001" x="1929" y="1870" width="477" height="379" frameX="-5" frameY="-3" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0002" x="2411" y="1870" width="480" height="378" frameX="-3" frameY="-12" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0003" x="2411" y="1870" width="480" height="378" frameX="-3" frameY="-12" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0004" x="2896" y="1870" width="471" height="372" frameX="-4" frameY="-6" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0005" x="2896" y="1870" width="471" height="372" frameX="-4" frameY="-6" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0006" x="3372" y="1870" width="477" height="356" frameX="-2" frameY="0" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0007" x="3372" y="1870" width="477" height="356" frameX="-2" frameY="0" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0008" x="5" y="2254" width="461" height="348" frameX="-3" frameY="-7" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0009" x="5" y="2254" width="461" height="348" frameX="-3" frameY="-7" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0010" x="471" y="2254" width="468" height="350" frameX="0" frameY="-5" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0011" x="471" y="2254" width="468" height="350" frameX="0" frameY="-5" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0012" x="944" y="2254" width="465" height="349" frameX="-1" frameY="-6" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0013" x="944" y="2254" width="465" height="349" frameX="-1" frameY="-6" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="Ponyta up0014" x="1414" y="2254" width="483" height="370" frameX="-3" frameY="-12" frameWidth="486" frameHeight="390"/>
+	<SubTexture name="ponyta down miss0000" x="1902" y="2254" width="453" height="307" frameX="0" frameY="-5" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0001" x="1902" y="2254" width="453" height="307" frameX="0" frameY="-5" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0002" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0003" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0004" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0005" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0006" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0007" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0008" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0009" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0010" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0011" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0012" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta down miss0013" x="2360" y="2254" width="447" height="312" frameX="-3" frameY="0" frameWidth="453" frameHeight="312"/>
+	<SubTexture name="ponyta left miss0000" x="2812" y="2254" width="468" height="328" frameX="0" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0001" x="2812" y="2254" width="468" height="328" frameX="0" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0002" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0003" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0004" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0005" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0006" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0007" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0008" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0009" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0010" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0011" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0012" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta left miss0013" x="3285" y="2254" width="464" height="328" frameX="-5" frameY="0" frameWidth="469" frameHeight="328"/>
+	<SubTexture name="ponyta right miss0000" x="5" y="2629" width="440" height="342" frameX="-6" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0001" x="5" y="2629" width="440" height="342" frameX="-6" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0002" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0003" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0004" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0005" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0006" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0007" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0008" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0009" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0010" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0011" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0012" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta right miss0013" x="450" y="2629" width="445" height="342" frameX="0" frameY="0" frameWidth="446" frameHeight="342"/>
+	<SubTexture name="ponyta up mis0000" x="900" y="2629" width="431" height="361" frameX="-3" frameY="0" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0001" x="900" y="2629" width="431" height="361" frameX="-3" frameY="0" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0002" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0003" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0004" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0005" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0006" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0007" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0008" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0009" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0010" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0011" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0012" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+	<SubTexture name="ponyta up mis0013" x="1336" y="2629" width="437" height="354" frameX="0" frameY="-7" frameWidth="437" frameHeight="361"/>
+</TextureAtlas>

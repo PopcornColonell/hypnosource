@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lavabottom.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lavabottom0000" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0001" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0002" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0003" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0004" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0005" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0006" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0007" x="20" y="20" width="4103" height="850"/>
+	<SubTexture name="lavabottom0008" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0009" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0010" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0011" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0012" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0013" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0014" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0015" x="20" y="890" width="4103" height="850"/>
+	<SubTexture name="lavabottom0016" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0017" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0018" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0019" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0020" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0021" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0022" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0023" x="20" y="1760" width="4103" height="850"/>
+	<SubTexture name="lavabottom0024" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0025" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0026" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0027" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0028" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0029" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0030" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0031" x="20" y="2630" width="4103" height="850"/>
+	<SubTexture name="lavabottom0032" x="20" y="3500" width="4103" height="850"/>
+	<SubTexture name="lavabottom0033" x="20" y="3500" width="4103" height="850"/>
+	<SubTexture name="lavabottom0034" x="20" y="3500" width="4103" height="850"/>
+	<SubTexture name="lavabottom0035" x="20" y="3500" width="4103" height="850"/>
+	<SubTexture name="lavabottom0036" x="20" y="3500" width="4103" height="850"/>
+	<SubTexture name="lavabottom0037" x="20" y="3500" width="4103" height="850"/>
+	<SubTexture name="lavabottom0038" x="20" y="3500" width="4103" height="850"/>
+	<SubTexture name="lavabottom0039" x="20" y="3500" width="4103" height="850"/>
+</TextureAtlas>

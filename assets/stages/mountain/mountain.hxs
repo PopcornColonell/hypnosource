@@ -1,0 +1,368 @@
+var fog:FlxSprite;
+var showingGuide:Bool = false;
+var shownOnce:Bool = false;
+
+var summonFreak:FlxSprite;
+var freakachuJumpscare:FlxSprite;
+var imgScaleCur:Float = 0.65;
+var imgScaleTarget:Float = 0.65;
+
+var aberrationShader:GraphicsShader;
+var abbCur:Float = 0.75;
+var abbTarget:Float = 0.75;
+
+var freakachu:Character;
+var reddead:Character;
+
+var camZoomOverwrite:Bool = false;
+
+var camZoomTween:FlxTween;
+
+var fogVisible:Bool = true;
+
+var painSplitChance:Float = 0.1;
+var painSplitCooldown:Int = 30;
+var freakachuActive:Bool = false;
+
+var frostbiteGuide:FlxSprite;
+
+var introFog:FlxSprite;
+
+function onCreate() {
+    PlayState.defaultCamZoom = 0.8;
+	var consistentPosition:Array<Float> = [-800, -100];
+	var resizeBG:Float = 1;
+	var background:FlxSprite = new FlxSprite(-800, -300);
+	background.loadGraphic(Paths.image('bg'));
+	background.setGraphicSize(Std.int(background.width * resizeBG));
+	background.updateHitbox();
+	background.antialiasing = true;
+	background.scrollFactor.set(0.6, 0.6);
+	background.active = false;
+	add(background);
+	
+	var charizard:FlxSprite = new FlxSprite(-50, -50).loadGraphic(Paths.image('Charizard'));
+	charizard.setGraphicSize(Std.int(charizard.width * 0.5));
+	charizard.updateHitbox();
+	charizard.antialiasing = true;
+	charizard.scrollFactor.set(0.7, 0.7);
+	charizard.active = false;
+	add(charizard);
+
+	var blastoise:FlxSprite = new FlxSprite(-400, 100).loadGraphic(Paths.image('Blastoise'));
+	blastoise.setGraphicSize(Std.int(blastoise.width * 0.4));
+	blastoise.updateHitbox();
+	blastoise.antialiasing = true;
+	blastoise.scrollFactor.set(0.8, 0.8);
+	blastoise.active = false;
+	add(blastoise);
+
+	var pokemons:FlxSprite = new FlxSprite(300, 200).loadGraphic(Paths.image('Pokemons'));
+	pokemons.setGraphicSize(Std.int(pokemons.width * 0.25));
+	pokemons.updateHitbox();
+	pokemons.antialiasing = true;
+	pokemons.scrollFactor.set(0.9, 0.9);
+	pokemons.active = false;
+	add(pokemons);
+
+	fog = new FlxSprite().loadGraphic(Paths.image('fog'));	
+	fog.antialiasing = true;
+	fog.scrollFactor.set(0.0, 0.0);
+	//fog.setGraphicSize(FlxG.width * 1.4, FlxG.height * 1.4);
+	PlayState.instance.add(fog);
+	fog.screenCenter();
+	fog.visible = true;
+	fog.alpha = 0.25;
+
+	camZoomTween = FlxTween.tween(this, {}, 0);
+}
+
+function onCreatePost() {
+	trace('create post');
+	fog.cameras = [PlayState.dialogueHUD];
+
+	PlayState.instance.minHealth = 0.0;
+
+	PlayState.instance.flipCharacters();
+	PlayState.instance.firstPerson = true;
+	PlayState.cameraCentered = true;
+	PlayState.instance.camPos.x -= 250;
+	PlayState.instance.camPos.y -= 50;
+	//
+	dadOpponent.setGraphicSize(Std.int(dadOpponent.width * 0.6));
+	dadOpponent.resizeOffsets();
+
+	//FREAKACHU SUMMON ANIMATION
+	summonFreak = new FlxSprite(465, 275);
+	summonFreak.frames = Paths.getSparrowAtlas('characters/red/freakachu_entrance');
+	summonFreak.animation.addByPrefix('summon', "Freakachu entrance instance 1", 24, false);
+	PlayState.instance.add(summonFreak);
+	summonFreak.setGraphicSize(Std.int(summonFreak.width * 0.76));
+	summonFreak.flipX = false;
+	summonFreak.antialiasing = true;
+	summonFreak.visible = false;
+
+	//FREAKACHU
+	freakachu = new Character().setCharacter(0, 0, 'freakachu');
+	freakachu.adjustPos = false;
+	freakachu.setCharacter(dadOpponent.x - 159, dadOpponent.y + 338, 'freakachu');
+	freakachu.setGraphicSize(Std.int(freakachu.width * 1.18));
+	freakachu.updateHitbox();
+	add(freakachu);
+	freakachu.visible = false;
+	freakachu.playAnim('idle');
+
+	//RED DEAD
+	reddead = new Character().setCharacter(0, 0, 'red-dead');
+	reddead.adjustPos = false;
+	reddead.setCharacter(dadOpponent.x - 23, dadOpponent.y + 13, 'red-dead');
+	reddead.flipX = true;
+	reddead.flipLeftRight();
+	add(reddead);
+	reddead.setGraphicSize(Std.int(reddead.width * 0.6));
+	reddead.resizeOffsets();
+	reddead.updateHitbox();
+	reddead.visible = false;
+	reddead.playAnim('idle');
+
+	//FREAKACHU JUMPSCARE
+	freakachuJumpscare = new FlxSprite(0, 0).loadGraphic(Paths.image('jumpscares/Pikachu'));
+	freakachuJumpscare.scrollFactor.set(0.0, 0.0);
+	add(freakachuJumpscare);
+	freakachuJumpscare.screenCenter();
+	freakachuJumpscare.antialiasing = true;
+	freakachuJumpscare.visible = false;
+	freakachuJumpscare.cameras = [PlayState.dialogueHUD];
+
+	//FROSTBITE GUIDE
+	frostbiteGuide = new FlxSprite(530, 370);
+	frostbiteGuide.frames = Paths.getSparrowAtlas('UI/base/hypno/Extras');
+	frostbiteGuide.animation.addByPrefix('press', 'Spacebar', 24, true);
+	frostbiteGuide.animation.play('press');
+	frostbiteGuide.updateHitbox();
+	frostbiteGuide.antialiasing = true;
+	add(frostbiteGuide);
+	frostbiteGuide.cameras = [PlayState.camHUD];
+	frostbiteGuide.alpha = 0.0001;
+
+	PlayState.instance.useFrostbiteMechanic = true;
+
+	PlayState.instance.typhlosion = new Character().setCharacter(0, 0, 'typhlosion');
+	PlayState.instance.typhlosion.adjustPos = false;
+	PlayState.instance.typhlosion.setCharacter(boyfriend.x + 150, boyfriend.y + 200, 'typhlosion');
+	PlayState.instance.typhlosion.updateHitbox();
+	PlayState.instance.add(PlayState.instance.typhlosion);
+	PlayState.instance.typhlosion.playAnim('idle');
+
+	PlayState.instance.setupFrostbite();
+
+	introFog = new FlxSprite().makeGraphic(1280, 720, 0xFFF0E9FB);
+	introFog.setGraphicSize(Std.int(FlxG.width * 3), Std.int(FlxG.height * 3));
+	introFog.screenCenter();
+	introFog.scrollFactor.set();
+	introFog.alpha = 1.0;
+	add(introFog);
+}
+
+function onBeat(beat) {
+	if (PlayState.instance.useFrostbiteMechanic)
+		{
+			if (PlayState.instance.coldness < 1.0) 
+				PlayState.instance.coldness += PlayState.instance.coldnessRate;
+		}
+
+		if (freakachu != null && beat % 2 == 0 && freakachu.animation.curAnim.name != 'painsplit')
+			freakachu.playAnim('idle');
+
+		if (freakachuActive)
+			{
+				painSplitChance += 0.1;
+				painSplitCooldown -= 1;
+			}
+			
+		if (FlxG.random.bool(painSplitChance) && freakachuActive && painSplitCooldown <= 0 && PlayState.health >= 1.25) //feel free to change this
+			{
+				painSplitChance = 0.5;
+				painSplitCooldown = 30;
+				doPainSplit(0.5);
+			}
+		trace(painSplitChance);
+
+	}
+
+function onUpdate(elapsed)
+	{
+		if (PlayState.instance.coldness < 0.0) PlayState.instance.coldness = 0.0;
+
+		if (PlayState.instance.coldness != 0.0 && !PlayState.inCutscene && PlayState.camHUD.alpha == 1.0) PlayState.health -= (PlayState.instance.coldness * 0.00300) * ((elapsed) * 120);
+
+		if (PlayState.instance.coldness >= 1.0) PlayState.health = PlayState.minHealth;
+		
+		if (PlayState.instance.coldnessDisplay < 0.33) PlayState.instance.frostbiteTheromometer.animation.play('stage1'); //this code kinda lazy, i'll rewrite it?
+		if (PlayState.instance.coldnessDisplay >= 0.33) PlayState.instance.frostbiteTheromometer.animation.play('stage2');
+		if (PlayState.instance.coldnessDisplay >= 0.66) PlayState.instance.frostbiteTheromometer.animation.play('stage3');
+
+		if (PlayState.instance.coldness >= 0.35 && !shownOnce)
+			{
+				if (!shownOnce) FlxTween.tween(frostbiteGuide, {alpha: 1.0}, 0.5, {ease: FlxEase.cubeInOut});
+				shownOnce = true;
+				showingGuide = true;
+			}
+		
+		if (FlxG.keys.justPressed.SPACE)
+			{
+				shownOnce = true;
+				if (showingGuide) FlxTween.tween(frostbiteGuide, {alpha: 0.0001}, 0.5, {ease: FlxEase.cubeInOut});
+			}
+			
+		if (PlayState.strumLines.members[PlayState.playerLane].autoplay)
+			{
+				frostbiteGuide.alpha = 0.0001;
+			}
+
+		if (fogVisible)
+			{
+				fog.visible = true;
+				fog.alpha = 0.25 + (PlayState.instance.coldnessDisplay * 0.75);
+			}
+		else
+			{
+				fog.visible = false;
+			}
+
+		if (!camZoomOverwrite)
+			{
+				PlayState.defaultCamZoom = 0.8 + (PlayState.instance.coldnessDisplay * 0.15);
+				PlayState.boyfriend.characterData.camOffsetX = 0 + (PlayState.instance.coldnessDisplay * 300);
+				PlayState.boyfriend.characterData.camOffsetY = -160 + (PlayState.instance.coldnessDisplay * 150);
+			}
+
+		if (freakachuJumpscare != null)
+			{
+				imgScaleCur = FlxMath.lerp(imgScaleCur, imgScaleTarget, (elapsed / (1 / 120)) * 0.15);
+				freakachuJumpscare.scale.set(imgScaleCur, imgScaleCur);
+			}
+			
+		if (aberrationShader != null)
+			{
+				abbCur = FlxMath.lerp(abbCur, abbTarget, (elapsed / (1 / 120)) * 0.06);
+
+				aberrationShader.shader.data.aberration.value = [abbCur];
+				aberrationShader.shader.data.effectTime.value = [abbCur];
+				trace(abbCur);
+			}
+	}
+
+function onEvent(eventName) {
+	switch (eventName) {
+		case 'Hide Fog':
+			FlxTween.tween(introFog, {alpha: 0.0}, 5, {ease: FlxEase.quadIn});
+
+		case 'Typhlosion Cry':
+			PlayState.instance.typhlosion.playAnim('fire');
+			new FlxTimer().start(1.5, function(tmr:FlxTimer)
+				{
+					PlayState.instance.typhlosion.playAnim('idle');
+				});
+
+		case 'Start Freeze':
+			PlayState.instance.coldnessRate = 0.01;
+
+		case 'Freakachu Summon':
+			if (summonFreak != null)
+				{
+					camZoomOverwrite = true;
+					PlayState.boyfriend.characterData.camOffsetX = -215;
+					PlayState.boyfriend.characterData.camOffsetY = 15;
+					cameraTweenStuff(1.15, 0.6);
+
+					summonFreak.visible = true;
+					PlayState.dadOpponent.visible = false;
+					summonFreak.animation.play('summon', true);
+					summonFreak.animation.finishCallback = function(name:String) 
+					{
+						freakachu.visible = true;
+						PlayState.instance.remove(summonFreak);
+						camZoomOverwrite = false;
+						PlayState.defaultCamZoom = 0.8;
+					}
+
+					new FlxTimer().start(0.86, function(tmr:FlxTimer)
+						{
+							PlayState.boyfriend.characterData.camOffsetX = -275;
+							PlayState.boyfriend.characterData.camOffsetY = 15;
+							cameraTweenStuff(0.8, 0.03);
+							PlayState.camGame.shake(0.001,0.8);
+							reddead.visible = true;
+							PlayState.instance.iconP2.changeIcon('red-dead');
+							freakachuActive = true;
+						});
+
+					PlayState.instance.dadStrums.singingCharacters = [reddead];
+				}
+
+		case 'Frostbite End':
+			PlayState.songMusic.stop();
+			PlayState.vocals.stop();
+			FlxG.sound.play(Paths.sound('Frostbite_ending'));
+			PlayState.inCutscene = true;
+			PlayState.camGame.visible = false;
+			PlayState.camHUD.visible = false;
+			PlayState.strumHUD[0].visible = false;
+			PlayState.strumHUD[1].visible = false;
+			fogVisible = false;
+			PlayState.instance.coldnessRate = 0.00;
+			PlayState.instance.coldness = 0.00;
+			PlayState.instance.coldnessDisplay = 0.00;
+			PlayState.instance.canPause = false;
+			PlayState.instance.typhlosionUses = -1;
+			freakachuActive = false;
+			//blackScreenCover.visible = true;
+
+			aberrationShader = new ShaderFilter(new GraphicsShader("", Paths.shader('aberration')));
+			PlayState.dialogueHUD.setFilters([aberrationShader]);
+
+			new FlxTimer().start(10.12, function(tmr:FlxTimer)
+				{
+					imgScaleTarget = 0.35;
+					abbTarget = 0.35;
+					if (freakachuJumpscare != null) freakachuJumpscare.visible = true;
+					PlayState.dialogueHUD.shake(0.008, 3.08);
+				});
+			
+			new FlxTimer().start(13.20, function(tmr:FlxTimer)
+				{
+					if (freakachuJumpscare != null) freakachuJumpscare.visible = false;
+					PlayState.dialogueHUD.setFilters([]);
+					new FlxTimer().start(1.0, function(tmr:FlxTimer)
+						{
+							PlayState.instance.doMoneyBag();
+						});
+				});
+	}
+}
+
+function cameraTweenStuff(amount:Float, duration:Float)
+	{
+		camZoomTween = FlxTween.num(PlayState.defaultCamZoom, PlayState.defaultCamZoom + amount, duration, {ease: FlxEase.quadOut}, function(v:Float)
+			{
+				PlayState.defaultCamZoom = v;
+			});
+	}
+
+function doPainSplit(amount:Float)
+	{
+		trace('yum');
+		new FlxTimer().start(0.46, function(tmr:FlxTimer)
+			{
+				PlayState.health -= 0.2 + (PlayState.health / 2.856); //feel free to change this
+				PlayState.boyfriend.playAnim('singDOWNmiss');
+				FlxG.sound.play(Paths.sound('Frostbite_bite'));
+			});
+
+		freakachu.playAnim('painsplit');
+		freakachu.animation.finishCallback = function(name:String) 
+			{
+				freakachu.playAnim('idle');
+			}
+	}

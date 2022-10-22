@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Hypno (Left Unchecked)",
+        "dex": 2,
+        "height": "6'05”",
+        "weight": "26.5 lbs",
+        "offset": {"x": 178, "y": 180},
+	  "scale": 3,
+        "tagline": "The Hypnosis Pokemon",
+        "desc": "When it is very hungry, it puts humans it meets to sleep, then it feasts on their dreams."
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "info": {
+        "name": "Missingno",
+        "dex": 10,
+        "height": "10'0”",
+        "weight": "3507.2 lbs",
+        "offset": {"x": 220, "y": 150},
+	  "scale": 4,
+        "tagline": "???",
+        "desc": "MissingNo. is a glitch type Pokémon in Pokémon Red, Blue and Yellow. The glitch occurs due to a bug in the game's programming from the Old Man battle, and others."
+    }
+}

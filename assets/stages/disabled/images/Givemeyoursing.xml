@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Givemeyoursing.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Upfront0000" x="0" y="0" width="172" height="181" frameX="-435" frameY="-430" frameWidth="1133" frameHeight="980"/>
+	<SubTexture name="Upfront0001" x="172" y="0" width="172" height="213" frameX="-437" frameY="-398" frameWidth="1133" frameHeight="980"/>
+	<SubTexture name="Upfront0002" x="344" y="0" width="169" height="266" frameX="-435" frameY="-385" frameWidth="1133" frameHeight="980"/>
+	<SubTexture name="Upfront0003" x="513" y="0" width="16" height="358" frameX="-515" frameY="-339" frameWidth="1133" frameHeight="980"/>
+	<SubTexture name="Upfront0004" x="529" y="0" width="1133" height="980"/>
+	<SubTexture name="Upfront0005" x="1662" y="0" width="1007" height="980" frameX="0" frameY="0" frameWidth="1133" frameHeight="980"/>
+	<SubTexture name="Upfront0006" x="2669" y="0" width="1007" height="980" frameX="0" frameY="0" frameWidth="1133" frameHeight="980"/>
+	<SubTexture name="stareLoop0000" x="0" y="980" width="1007" height="980" frameX="0" frameY="0" frameWidth="1133" frameHeight="980"/>
+	<SubTexture name="stareLoop0001" x="1007" y="980" width="1007" height="980" frameX="0" frameY="0" frameWidth="1133" frameHeight="980"/>
+</TextureAtlas>

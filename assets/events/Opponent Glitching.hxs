@@ -1,0 +1,13 @@
+var oppGlitchShader:FlxGraphicsShader;
+function eventFunction(params) {
+    var newGlitch = params[0] / 4;
+    if (Math.isNaN(newGlitch))
+        newGlitch = 0;
+    PlayState.dadOpponent.shader.data.binaryIntensity.value = [newGlitch];
+}
+
+function initFunction(params) {
+    oppGlitchShader = new FlxGraphicsShader("", Paths.shader('missingno/individualGlitches'));
+    PlayState.dadOpponent.shader = oppGlitchShader;
+    PlayState.dadOpponent.shader.data.binaryIntensity.value = [0];
+}

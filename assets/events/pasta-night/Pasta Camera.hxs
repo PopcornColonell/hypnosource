@@ -1,0 +1,10 @@
+function eventFunction(params) {
+    var newPoint:FlxPoint = new FlxPoint(PlayState.instance.lordX.getMidpoint().x - 50, PlayState.instance.lordX.getMidpoint().y - 200);
+    switch (Std.parseInt(params[0])) {
+        case -1:
+            newPoint.x -= 200;
+        case 1:
+            newPoint.x += 200;
+    }
+    PlayState.instance.manualCameraPosition.set(newPoint.x, newPoint.y);
+}

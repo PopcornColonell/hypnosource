@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gold menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gold menu instance 10000" x="0" y="0" width="816" height="646" frameX="-3" frameY="0" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10001" x="0" y="0" width="816" height="646" frameX="-3" frameY="0" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10002" x="0" y="0" width="816" height="646" frameX="-3" frameY="0" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10003" x="866" y="0" width="820" height="645" frameX="-1" frameY="0" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10004" x="866" y="0" width="820" height="645" frameX="-1" frameY="0" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10005" x="866" y="0" width="820" height="645" frameX="-1" frameY="0" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10006" x="0" y="696" width="821" height="640" frameX="0" frameY="-4" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10007" x="0" y="696" width="821" height="640" frameX="0" frameY="-4" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10008" x="0" y="696" width="821" height="640" frameX="0" frameY="-4" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10009" x="871" y="696" width="815" height="641" frameX="-1" frameY="-3" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10010" x="871" y="696" width="815" height="641" frameX="-1" frameY="-3" frameWidth="821" frameHeight="646"/>
+	<SubTexture name="gold menu instance 10011" x="871" y="696" width="815" height="641" frameX="-1" frameY="-3" frameWidth="821" frameHeight="646"/>
+</TextureAtlas>

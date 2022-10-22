@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="red menu.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="red menu instance 10000" x="0" y="0" width="606" height="671" frameX="0" frameY="0" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10001" x="0" y="0" width="606" height="671" frameX="0" frameY="0" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10002" x="0" y="0" width="606" height="671" frameX="0" frameY="0" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10003" x="656" y="0" width="604" height="663" frameX="-1" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10004" x="656" y="0" width="604" height="663" frameX="-1" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10005" x="656" y="0" width="604" height="663" frameX="-1" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10006" x="1310" y="0" width="591" height="672" frameX="-6" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10007" x="1310" y="0" width="591" height="672" frameX="-6" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10008" x="1310" y="0" width="591" height="672" frameX="-6" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10009" x="0" y="722" width="595" height="666" frameX="-4" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10010" x="0" y="722" width="595" height="666" frameX="-4" frameY="-1" frameWidth="606" frameHeight="673"/>
+	<SubTexture name="red menu instance 10011" x="0" y="722" width="595" height="666" frameX="-4" frameY="-1" frameWidth="606" frameHeight="673"/>
+</TextureAtlas>

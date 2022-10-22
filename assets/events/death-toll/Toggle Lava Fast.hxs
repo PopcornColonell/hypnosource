@@ -1,0 +1,5 @@
+function returnDescription()
+    return "The funny";
+
+function returnDelay()
+	return 0;

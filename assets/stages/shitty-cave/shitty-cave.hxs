@@ -1,0 +1,79 @@
+var origDadY:Int;
+var explurson:FlxSprite;
+
+var pokeball:FlxSprite;
+
+function onCreate() {
+	PlayState.assetModifier = 'pixel';
+	PlayState.defaultCamZoom = 0.8;
+
+	var background:FlxSprite = new FlxSprite();
+	background.frames = Paths.getSparrowAtlas('BG_shitno');
+	background.animation.addByPrefix('bg', 'BG_shitno_01', 0);
+	background.animation.play('bg');
+	background.setGraphicSize(Std.int(background.width * 6));
+	add(background);
+
+	var background:FlxSprite = new FlxSprite();
+	background.frames = Paths.getSparrowAtlas('BG_shitno');
+	background.animation.addByPrefix('bg', 'BG_shitno_02', 0);
+	background.animation.play('bg');
+	background.setGraphicSize(Std.int(background.width * 6));
+	add(background);
+	background.y += 35;
+
+	explurson = new FlxSprite(450, 200).loadGraphic(Paths.image('BOO'), true, 241, 360);
+	explurson.animation.add('BOOM', [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], 20, false);
+	explurson.scale.set(1.5, 1.5);
+	explurson.cameras = [PlayState.camHUD];
+	add(explurson);
+
+	// boob
+	for (i in 0...boyfriendStrums.receptors.members.length) {
+		boyfriendStrums.receptors.members[i].x = 10;
+	}
+}
+
+function onCreatePost() {
+	PlayState.boyfriend.x = PlayState.dadOpponent.x - 60;
+	PlayState.boyfriend.y = PlayState.dadOpponent.y - 40;
+	PlayState.boyfriend.visible = false;
+	PlayState.instance.camPos.set(165, 85);
+
+	
+	PlayState.boyfriend.characterData.camOffsetX = 16;
+	PlayState.boyfriend.characterData.camOffsetY = -55;
+
+	pokeball = new FlxSprite(575, 300);
+	pokeball.frames = Paths.getSparrowAtlas('characters/shinto/shitno_pokeball');
+	pokeball.animation.addByPrefix('drawpokeball', 'shitno_pokeballend', 24, false);
+	pokeball.animation.play('drawpokeball');
+	pokeball.updateHitbox();
+	pokeball.antialiasing = false;
+	pokeball.visible = false;
+	pokeball.setGraphicSize(Std.int(pokeball.width * 5));
+	add(pokeball);
+}
+
+function onEvent(eventName) {
+	switch (eventName) {
+		case 'Shinto End':
+			pokeball.visible = true;
+			pokeball.animation.play('drawpokeball', true);
+			PlayState.dadOpponent.playAnim('end');
+
+			new FlxTimer().start(1.75, function(tmr:FlxTimer)
+				{
+					PlayState.camGame.visible = false;
+					PlayState.camHUD.visible = false;
+					PlayState.strumHUD[0].visible = false;
+					PlayState.strumHUD[1].visible = false;
+					//FlxG.sound.play(Paths.sound('shinto_throw'));
+				});
+	}
+}
+	
+function EXPLODE() { // never used but its really funny
+	explurson.animation.play('BOOM', true);
+	FlxG.sound.play(Paths.sound('BOOM'));
+}

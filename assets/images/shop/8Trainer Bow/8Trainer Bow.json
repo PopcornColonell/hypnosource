@@ -1,0 +1,16 @@
+{
+"itemDetail":  
+    {
+        "name": "Trainer Bow",
+        "price": 600,
+        "animName": "SlowpokeBow instance 1",
+        "songUnlock": "Bygone-Purpose",
+        "songDescription": "Dont feel bad for him. Bastard doesnt deserve an ounce of symphathy.",
+        "unlockRequirements": [""],
+        "xOffset": -15,
+        "yOffset": -15,
+        "lane": 1,
+        "row": 2,
+        "scale": 0.9
+    }
+}

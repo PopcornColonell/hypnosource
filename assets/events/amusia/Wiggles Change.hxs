@@ -1,0 +1,14 @@
+function returnDescription()
+    return "Change Wiggly Phase";
+
+function eventFunction(params) {
+	var wigglyState:Int = Std.parseInt(params[0]);
+	if (Math.isNaN(wigglyState) || wigglyState < 0)
+		wigglyState = 0;
+	PlayState.dadOpponent.adjustPos = false;
+	PlayState.dadOpponent.wigglyState = wigglyState;
+	PlayState.dadOpponent.setCharacter(PlayState.dadOpponent.x, PlayState.dadOpponent.y, 'wigglytuff');
+
+	var colorData:Array<Int> = PlayState.dadOpponent.characterData.healthbarColors;
+	PlayState.uiHUD.healthBar.createColoredEmptyBar(FlxColor.fromRGB(colorData[0], colorData[1], colorData[2]));		
+}

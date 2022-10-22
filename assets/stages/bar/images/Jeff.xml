@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Jeff.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mynamejeff instance 10000" x="0" y="0" width="256" height="241" frameX="0" frameY="-6" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10001" x="256" y="0" width="255" height="243" frameX="-3" frameY="-4" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10002" x="256" y="0" width="255" height="243" frameX="-3" frameY="-4" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10003" x="511" y="0" width="254" height="246" frameX="-5" frameY="-1" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10004" x="511" y="0" width="254" height="246" frameX="-5" frameY="-1" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10005" x="765" y="0" width="252" height="246" frameX="-4" frameY="-1" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10006" x="765" y="0" width="252" height="246" frameX="-4" frameY="-1" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10007" x="0" y="246" width="253" height="248" frameX="-5" frameY="0" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10008" x="0" y="246" width="253" height="248" frameX="-5" frameY="0" frameWidth="259" frameHeight="248"/>
+	<SubTexture name="mynamejeff instance 10009" x="253" y="246" width="253" height="247" frameX="-5" frameY="-1" frameWidth="259" frameHeight="248"/>
+</TextureAtlas>

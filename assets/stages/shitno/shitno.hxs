@@ -1,0 +1,105 @@
+
+var ground:FlxSprite;
+var greyhot:Boyfriend;
+var camZoomTween:FlxTween;
+
+function onCreate() {
+	PlayState.defaultCamZoom = 1.35; //1.05
+	PlayState.assetModifier = 'pixel';
+	stage.curStage = 'shitno';
+
+	ground = new FlxSprite(90, 400).loadGraphic(Paths.image('floor'));
+	ground.setGraphicSize(Std.int(ground.width * 0.9));
+	ground.updateHitbox();
+	ground.antialiasing = true;
+	ground.scrollFactor.set(0.95, 0.95);
+	add(ground);
+	ground.alpha = 0.0001;
+
+	camZoomTween = FlxTween.tween(this, {}, 0);
+}
+
+function onCreatePost() {
+	PlayState.instance.pausePortraitRevealed[1] = false;
+
+	PlayState.camGame.alpha = 0.0;
+
+	PlayState.instance.camPos.x += 150;
+	PlayState.instance.camPos.y -= 50;
+	PlayState.instance.dadStrums.visible = false;
+
+	PlayState.boyfriend.characterData.camOffsetY = -145;
+
+	PlayState.dadOpponent.alpha = 0.0001;
+	PlayState.dadOpponent.y -= 150;
+	PlayState.dadOpponent.characterData.camOffsetY = 125;
+	PlayState.dadOpponent.characterData.zoomOffset = 0.1;
+
+	PlayState.ratingPosition.set(-300, 0);
+
+	greyhot = new Boyfriend().setCharacter(boyfriend.x + 335, boyfriend.y + 522, 'grey');
+	greyhot.flipX = true;
+	greyhot.flipLeftRight();
+	greyhot.setGraphicSize(Std.int(greyhot.width * 1.15));
+	greyhot.updateHitbox();
+	greyhot.antialiasing = false;
+	add(greyhot);
+	greyhot.visible = false;
+}
+
+function onUpdate(elapsed) {
+    
+}
+
+function onEvent(eventName) {
+	switch (eventName) {
+		case 'Fade In Intro':
+			FlxTween.tween(PlayState.camGame, {alpha: 1.0}, 2.5, {ease: FlxEase.quadInOut});
+			cameraTweenStuff(-0.3, 5.0);
+		
+		case 'Grey Cold':
+			PlayState.boyfriend.playAnim('talk');
+
+		case 'Grey Freak':
+			greyhot.playAnim('talk');
+
+		case 'Grey Yell':
+			greyhot.playAnim('talk2');
+
+		case 'Grey Turn Around':
+			PlayState.boyfriend.playAnim('turn');
+
+			new FlxTimer().start(0.86, function(tmr:FlxTimer)
+				{
+					FlxTween.tween(PlayState.boyfriend, {x: boyfriend.x + 350}, 1.2, {ease: FlxEase.quadInOut});
+					PlayState.boyfriend.characterData.camOffsetX = 200;
+					PlayState.boyfriend.characterData.camOffsetY -= 50;
+				});
+
+			new FlxTimer().start(2.06, function(tmr:FlxTimer)
+				{
+					PlayState.boyfriend.visible = false;
+					greyhot.visible = true;
+					PlayState.ratingPosition.set(-50, 0);
+				});
+			
+			PlayState.instance.boyfriendStrums.character.push(greyhot);
+			PlayState.instance.boyfriendStrums.singingCharacters = [greyhot];
+
+		case 'Shitno Laugh':
+			ground.alpha += 0.15;
+			PlayState.dadOpponent.alpha += 0.15;
+			PlayState.instance.iconP2.visible = true;
+			if (PlayState.health > 1.01) 
+				PlayState.health = 1.0;
+			PlayState.instance.pausePortraitRevealed[1] = true;
+	}
+}
+
+function cameraTweenStuff(amount:Float, duration:Float)
+	{
+		camZoomTween = FlxTween.num(PlayState.defaultCamZoom, PlayState.defaultCamZoom + amount, duration, {ease: FlxEase.quadOut}, function(v:Float)
+			{
+				PlayState.defaultCamZoom = v;
+			});
+	}

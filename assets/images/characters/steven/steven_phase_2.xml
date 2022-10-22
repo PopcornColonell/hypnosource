@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="steven phase 2.png">
+	<!-- Created with Adobe Animate version 20.0.2.22168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SR DOWN0000" x="0" y="0" width="644" height="778"/>
+	<SubTexture name="SR DOWN0001" x="0" y="0" width="644" height="778"/>
+	<SubTexture name="SR DOWN0002" x="694" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0003" x="1388" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0004" x="2082" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0005" x="2776" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0006" x="3470" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0007" x="4164" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0008" x="4858" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0009" x="4858" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0010" x="5552" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0011" x="5552" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0012" x="6246" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR DOWN0013" x="4858" y="0" width="644" height="777" frameX="0" frameY="0" frameWidth="644" frameHeight="778"/>
+	<SubTexture name="SR IDLE0000" x="6940" y="0" width="644" height="777"/>
+	<SubTexture name="SR IDLE0001" x="6940" y="0" width="644" height="777"/>
+	<SubTexture name="SR IDLE0002" x="0" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0003" x="694" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0004" x="1388" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0005" x="2082" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0006" x="2082" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0007" x="2776" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0008" x="3470" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0009" x="4164" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0010" x="4858" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0011" x="4858" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0012" x="5552" y="828" width="644" height="777"/>
+	<SubTexture name="SR IDLE0013" x="5552" y="828" width="644" height="777"/>
+	<SubTexture name="SR LEFT0000" x="6246" y="828" width="713" height="777"/>
+	<SubTexture name="SR LEFT0001" x="6246" y="828" width="713" height="777"/>
+	<SubTexture name="SR LEFT0002" x="7009" y="828" width="713" height="777"/>
+	<SubTexture name="SR LEFT0003" x="0" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0004" x="763" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0005" x="1526" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0006" x="2289" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0007" x="3052" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0008" x="3815" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0009" x="3815" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0010" x="4578" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0011" x="4578" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0012" x="5341" y="1655" width="713" height="777"/>
+	<SubTexture name="SR LEFT0013" x="6104" y="1655" width="713" height="777"/>
+	<SubTexture name="SR RIGHT0000" x="6867" y="1655" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0001" x="6867" y="1655" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0002" x="0" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0003" x="694" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0004" x="1388" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0005" x="2082" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0006" x="2776" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0007" x="3470" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0008" x="4164" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0009" x="4164" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0010" x="4858" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0011" x="4858" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0012" x="5552" y="2482" width="644" height="777"/>
+	<SubTexture name="SR RIGHT0013" x="4164" y="2482" width="644" height="777"/>
+	<SubTexture name="SR UP0000" x="6246" y="2482" width="644" height="852" frameX="0" frameY="0" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0001" x="6246" y="2482" width="644" height="852" frameX="0" frameY="0" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0002" x="6940" y="2482" width="644" height="851" frameX="0" frameY="-19" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0003" x="0" y="3384" width="644" height="851" frameX="0" frameY="-19" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0004" x="694" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0005" x="1388" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0006" x="2082" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0007" x="2776" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0008" x="3470" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0009" x="3470" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0010" x="4164" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0011" x="4164" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0012" x="4858" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+	<SubTexture name="SR UP0013" x="5552" y="3384" width="644" height="849" frameX="0" frameY="-21" frameWidth="644" frameHeight="870"/>
+</TextureAtlas>
